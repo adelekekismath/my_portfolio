@@ -6,16 +6,14 @@
           <div class="col-lg-6 py-3 wow fadeInUp">
             <p
               class="text-green-600 hover:text-green-500 text-2xl lg:text-4xl font-medium lg:font-semibold mb-5 lg:leading-normal leading-snug">
-              HI, I'm ANASKHON
+              HI, I'm Kismath 
               <br />
-              Front-End Developer,
-              <br />
-              Blockchain Engineer
+              Full-stack Developer
             </p>
             <p
               class="hidden lg:block text-2xl mb-5">
-              I like to craft solid and scalable frontend products with great
-              user experiences.
+              Here, I present my varied and complex projects, 
+              demonstrating my versatility, rigor and ability to create captivating user experiences.
             </p>
 
             <router-link
@@ -26,7 +24,7 @@
             </router-link>
             <a
               href="#"
-              class="btn btn-primary btn-split ml-2">
+              class="btn btn-success btn-split ml-2">
               Resume
               <div class="fab"><span class="mai-play"></span></div>
             </a>
@@ -35,10 +33,9 @@
             <div
               class="m-3 lg:m-3 p-1 lg:p-5">
               <lottie-player
-                src="https://assets2.lottiefiles.com/packages/lf20_gnb0jsok.json"
+                src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
                 background="transparent"
-                speed="1"
-                style="max-width: 500px; max-height: 500px"
+                speed="2"
                 autoplay></lottie-player>
             </div>
           </div>

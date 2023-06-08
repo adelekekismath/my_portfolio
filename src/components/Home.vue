@@ -75,8 +75,7 @@
       </div>
     </div>
   </div>
-
-  <Blog :blog="blog" />
+  
   <Footer />
 </template>
 
@@ -87,7 +86,6 @@ import Services from "./Services.vue";
 import About from "./About.vue";
 import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
-import Blog from "./Blog.vue";
 import Footer from "./Footer.vue";
 
 export default {
@@ -107,7 +105,6 @@ export default {
     About,
     Projects,
     Contact,
-    Blog,
     Footer,
   },
 };
