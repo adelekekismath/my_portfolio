@@ -14,6 +14,7 @@ import { MotionPlugin } from '@vueuse/motion'
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
+import locale from '../locale';
 
 
 const firebaseConfig = {
@@ -41,12 +42,13 @@ import jQuery from "jquery";
 const $ = jQuery;
 window.$ = $;
 
-
+let lang = navigator.language.split('-');
+const i18n = locale.createI18n(lang[0]);
 
 const app = createApp(App);
 
 app.use(MotionPlugin);
 app.use(router);
-
+app.use(i18n);
 
 app.mount("#app");

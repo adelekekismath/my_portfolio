@@ -2,30 +2,8 @@
   <Navbar />
 
   <div class="">
-    <div class="hidden lg:block container">
-      <div
-        class="page-banner1 bg-green-50">
-        <div class="row justify-content-center align-items-center h-100">
-          <div class="col-md-6">
-            <nav aria-label="Breadcrumb">
-              <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-                <li class="breadcrumb-item">
-                  <router-link to="/">Home</router-link>
-                </li>
-                <li class="breadcrumb-item active">Projects</li>
-              </ul>
-            </nav>
-            <p class="text-center text-2xl font-semibold text-green-600">
-              MyProject
-            </p>
-            <div class="divider mx-auto"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div
-      class="page-section bg-green-50">
+      class="page-section bg-green-50 pt-5">
       <div class="container">
         <div class="row my-5 card-blog-row">
           <div class="relative lg:hidden col-md-6 col-lg-3 py-3 wow fadeInUp">

@@ -1,25 +1,6 @@
 <template>
   <Navbar />
 
-  <div class="hidden lg:relative container mt-5">
-    <div class="page-banner1">
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-md-6">
-          <nav aria-label="Breadcrumb">
-            <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-              <li class="breadcrumb-item">
-                <router-link to="/">Home</router-link>
-              </li>
-              <li class="breadcrumb-item active">Blogs</li>
-            </ul>
-          </nav>
-          <h1 class="text-center">Discover The Blogs</h1>
-          <div class="divider mx-auto"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="bg-green-50 page-section">
     <div class="container">
       <div class="row">
