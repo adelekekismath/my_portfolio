@@ -1596,6 +1596,11 @@ a.text-dark:focus {
     font-weight: 600;
 }
 
+.marked {
+    position: relative;
+    color: #6C55F9;
+}
+
 .title-section .marked {
     position: relative;
     color: #6C55F9;

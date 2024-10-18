@@ -22,19 +22,18 @@
 
           <div>
             <p>
-              I’m a Junior Front-End Developer located in South Korea. I learn a
-              serious passion for UI effects,animations and creating intuitive,
-              dynamic user experiences.
+              I’m a  Software Engineer  located in France. I
+              have a serious passion for UI effects,animations and creating
+              intuitive, dynamic user experiences.
             </p>
           </div>
 
           <div>
             <p>
-              I'm a well organized person, problem solver, independent employee
-              with high attention to detail. Fan of Football and Boxing, outdoor
+              I'm a well organized person, problem solver
+              with high attention to detail. Fan of Fitness and Boxing, outdoor
               activities with my friends, TV series and English literature.
-              Actually, I have been living in South Korea for 5 years, I So i'm
-              also good in Korean.
+          
             </p>
           </div>
 
@@ -65,25 +64,15 @@
           </h2>
           <div class="divider"></div>
           <p class="mb-4">
-            I graduated from Chonnam National University three months ago with a
-            bachelor’s in Computer Engineering. My experiences in school gave me
-            strong communication and networking skills, which are crucial for
-            event planning.
+            I graduated from Sorbonne University in the master Computer
+            Engineering. My experiences in school gave me strong communication
+            and networking skills, which are crucial for event planning.
           </p>
           <p class="mb-4">
             I create successful responsive websites that are fast, easy to use,
             and built with best practices. The main area of my expertise is
-            front-end development, HTML, CSS, JS, building small and simple web
-            apps,features, animations, and coding interactive. layouts.
-          </p>
-
-          <p class="mb-5 hidden lg:flex">
-            I also have experiences with building Nft Smart Contract and
-            Blockchain Solutions as freelancer developer in South Korea. Since
-            beginning my journey as a freelance developer nearly 10 months ago,
-            I’ve done remote work for agencies, consulted for startups, and
-            collaborated with talented people to create Nfts,Smart Contracts and
-            Dapps for both business and consumer use.
+            front-end development, HTML, CSS, JavaScript, TypeSript, building small and simple web
+            apps,features, animations, and coding interactive layouts.
           </p>
 
           <router-link to="/blog" class="btn btn-primary">My Blogs</router-link>
