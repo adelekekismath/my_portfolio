@@ -1,8 +1,12 @@
 {
-    "title": "Hi, I'm Kismath, a problem solver, thinker, and developer. Looking to bring innovation to your next project? Let's create something great together.",
-    "quickDescription": "Here, I present my varied and complex projects, demonstrating my versatility, rigor and ability to create captivating user experiences.",
+    "title": "Hi, I'm Kismath, a problem solver, a dreamer, and a developer.",
+    "quickDescription": "Looking to bring innovation to your next project? Let's create something great together. Here, I present my varied and complex projects, demonstrating my versatility, rigor and ability to create captivating user experiences.",
+    "myPortfolio": "My Portfolio",
     "home": "Home",
     "about": "About",
+    "aboutMe": "About Me",
+    "myResume": "My Resume",
+
     "projects": "Projects",
     "contact": "Contact",
     "resume": "Resume",

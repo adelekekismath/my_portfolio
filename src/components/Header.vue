@@ -1,54 +1,58 @@
 <template>
-  <header>
-    <div class="page-banner home-banner">
-      <div class="container h-100">
-        <div class="row align-items-center h-100">
-          <div class="col-lg-6 py-3 wow fadeInUp">
-            <p
-              class="text-green-600 hover:text-green-500 text-2xl lg:text-4xl font-medium lg:font-semibold mb-5 lg:leading-normal leading-snug">
-              HI, I'm Kismath 
-              <br />
-              Full-stack Developer
-            </p>
-            <p
-              class="hidden lg:block text-2xl mb-5">
-              Here, I present my varied and complex projects, 
-              demonstrating my versatility, rigor and ability to create captivating user experiences.
+ <v-container class="hero-section">
+  <v-row class="align-center justify-center header-desc">
+    <v-col cols="12" lg="6"  sm="6">
+      <v-sheet elevation="0" class="pa-10">
+        <v-row class="d-flex align-center header-desc">
+          <v-col cols="12">
+            <h1 class=" text-2xl lg:text-4xl font-medium  mb-5 marked">
+              {{ $t('title') }}
+            </h1>
+            <p class="text-xl mb-5">
+              {{ $t('quickDescription') }}
             </p>
 
-            <router-link
-              to="/about"
-              name="fade"
-              class="btn btn-outline border text-secondary">
-              About
-            </router-link>
-            <a
-              href="#"
-              class="btn btn-success btn-split ml-2">
-              Resume
-              <div class="fab"><span class="mai-play"></span></div>
-            </a>
-          </div>
-          <div class="col-lg-6 wow zoomIn">
-            <div
-              class="m-3 lg:m-3 p-1 lg:p-5">
-              <lottie-player
-                src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
-                background="transparent"
-                speed="2"
-                autoplay></lottie-player>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+            <v-btn outlined color="secondary" to="/about">
+              {{ $t('aboutMe') }}
+            </v-btn>
+
+            <v-btn class="ml-2" color="success" href="#">
+              {{ $t('myResume') }}
+              <v-icon right>mdi-play</v-icon>
+            </v-btn>
+          </v-col>
+        </v-row>
+      </v-sheet>
+    </v-col>
+
+    <v-col cols="12" lg="6" sm="6">
+      <v-sheet width="100%">
+        <!-- Lottie animation -->
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
+          background="transparent"
+          speed="2"
+          loop
+          autoplay>
+        </lottie-player>
+        
+      </v-sheet>
+    </v-col>
+  </v-row>
+</v-container>
+
 </template>
 
 <script>
-import { directive as motion } from "@vueuse/motion";
 
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+  .hero-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+</style>

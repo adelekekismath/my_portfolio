@@ -1,7 +1,9 @@
 <template>
-  <transition name="fade" mode="out-in" @before-enter="beforeEnter" appear>
+  <v-app>
+    <transition name="fade" mode="out-in" @before-enter="beforeEnter" appear>
     <router-view :blog="blog"></router-view>
   </transition>
+  </v-app>
 </template>
 
 <script>

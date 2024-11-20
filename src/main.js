@@ -12,22 +12,30 @@ import router from './router/router.js';
 import './data/projects.js';
 import './style/home.css';
 import './style/tailwind.css';
+import '@mdi/font/css/materialdesignicons.css';
 
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 import { MotionPlugin } from '@vueuse/motion'
 
+const vuetify = createVuetify({
+  components,
+  directives,
+});
+
 const messages = {
-    en: en,   // Fichiers de traduction anglais
-    fr: fr    // Fichiers de traduction français
+    en: en,
+    fr: fr
   };
 
 
-
-  // Créer une instance VueI18n
 const i18n = createI18n({
-    locale: 'en', // Langue par défaut
+    locale: 'en',
     allowComposition: true,
-    fallbackLocale: 'fr', // Langue de repli si la langue choisie n'existe pas
-    messages,  // Les messages de traduction
+    fallbackLocale: 'fr', 
+    messages,
   });
 
 
@@ -36,11 +44,12 @@ const app = createApp(App);
 app.use(i18n);
 app.use(MotionPlugin);
 app.use(router);
+app.use(vuetify);
 
 
-// app.config.globalProperties.$switchLanguage = (lang) => {
-//     i18n.locale = lang;
-// };
+app.config.globalProperties.$switchLanguage = (lang) => {
+    i18n.locale = lang;
+};
 
 
 app.mount("#app");

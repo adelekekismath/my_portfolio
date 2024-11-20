@@ -18,6 +18,8 @@ body {
     color: #2D2B3A;
 }
 
+
+
 a {
     color: #6C55F9;
     text-decoration: none;
@@ -26,7 +28,6 @@ a {
 
 a:hover {
     color: #5641df;
-    text-decoration: underline;
 }
 
 .text-xs {
