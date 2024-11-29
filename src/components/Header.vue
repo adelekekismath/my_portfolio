@@ -5,10 +5,10 @@
       <v-sheet elevation="0" class="pa-5">
         <v-row class="d-flex align-center header-desc">
           <v-col cols="12">
-            <h1 class=" text-2xl lg:text-4xl font-medium  mb-5 marked">
+            <h1 class=" text-2xl  font-medium  mb-5 marked">
               {{ $t('title') }}
             </h1>
-            <p class="text-xl mb-5">
+            <p class="text-l mb-5">
               {{ $t('quickDescription') }}
             </p>
 
@@ -16,7 +16,7 @@
               {{ $t('aboutMe') }}
             </v-btn>
 
-            <v-btn class="ml-2" color="success" href="#">
+            <v-btn class="ml-2" color="success" href="#" @click="downloadResume()">
               {{ $t('myResume') }}
               <v-icon right>mdi-play</v-icon>
             </v-btn>
@@ -26,7 +26,7 @@
     </v-col>
 
     <v-col cols="12" lg="6" sm="6">
-      <v-sheet width="100%">
+      <v-sheet width="90%">
         <!-- Lottie animation -->
         <lottie-player
           src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
@@ -44,12 +44,22 @@
 
 <script>
 
-export default {};
+export default {
+  name: "Header",
+  methods: {
+    downloadResume() {
+      const resumeUrl = require("@/assets/resume.pdf");
+      window.open(resumeUrl.default, "_blank");
+    },
+  },
+};
 </script>
 
 <style scoped>
   .hero-section {
-    height: 100vh;
+    position: relative;
+    top: 60px;
+    height: 65vh;
     width: 100%;
     display: flex;
     align-items: center;
