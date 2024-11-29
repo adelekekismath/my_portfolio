@@ -1,4 +1,4 @@
-<template>
+<template class="bg-green-50">
   <Navbar />
   <Header />
   <Services />

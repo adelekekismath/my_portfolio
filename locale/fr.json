@@ -11,5 +11,23 @@
     "projects": "Projets",
     "contact": "Contact",
     "resume": "CV",
-    "skills": "Compétences"
+    "skills": "Compétences",
+
+    "services": {
+        "frontend": {
+            "title": "Développement frontend",
+            "description": "Je crée des sites Web réactifs et conviviaux qui sont à la fois visuellement attrayants et fonctionnels. J'utilise des technologies modernes comme React, Vuejs avec Typescript pour construire des applications Web interactives qui offrent une expérience utilisateur fluide."
+        },
+
+        "backend": {
+            "title": "Développement backend",
+            "description": "Je construis des systèmes backend évolutifs, sécurisés et efficaces en utilisant Node.js, Express.js et MongoDB. J'ai de l'expérience dans la construction d'API RESTful, d'API GraphQL et de microservices."
+        },
+
+        "testing": {
+            "title": "Tests",
+            "description": "Je suis encore débutante en tests, mais j'ai de l'expérience dans l'écriture de tests unitaires, de tests d'intégration et de tests de bout en bout en utilisant Jest, Mocha et Cypress."
+        }
+
+    }
 }

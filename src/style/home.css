@@ -1465,7 +1465,6 @@ a.text-dark:focus {
 }
 
 .page-section p {
-    color: #736f90;
     font-size: 17px;
     font-weight: 400;
     text-align: left;
@@ -1616,6 +1615,7 @@ i.mobile {
     color: #6C55F9;
 }
 
+
 .title-section .marked {
     position: relative;
     color: #6C55F9;
@@ -1710,14 +1710,7 @@ i.mobile {
     max-width: 1100px;
 }
 
-.features h5 {
-    color: #2D2B3A;
-}
-
-.features p {
-    font-size: 13px;
-    color: #898798;
-}
+=
 
 .counter-section .row>*:first-child {
     border-radius: 6px 0 0 6px;

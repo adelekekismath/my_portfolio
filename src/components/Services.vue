@@ -11,20 +11,19 @@
                   src="https://cdn.lordicon.com/xumpvbbp.json"
                   trigger="hover"
                   colors="outline:#121331,primary:#66ee78"
-                  style="width: 150px; height: 150px"
+                  style="width: 115px; height: 115px"
                 >
                 </lord-icon>
               </div>
               <div>
-                <h>Front End</h>
-                <p>
-                  I like to craft solid and scalable frontend products with
-                  great user experiences.
+                <h>{{$t('services.frontend.title')}}</h>
+                <p class="text-sm">
+                  {{$t('services.frontend.description')}}
                 </p>
               </div>
             </div>
           </div>
-
+        
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="">
@@ -33,15 +32,14 @@
                     src="https://cdn.lordicon.com/fujmubyr.json"
                     trigger="hover"
                     colors="outline:#121331,primary:#66ee78"
-                    style="width: 150px; height: 150px">
+                    style="width: 115px; height: 115px">
                 </lord-icon>
                 </div>
               </div>
               <div>
-                <h4>Back End</h4>
-                <p>
-                  I enjoy developing robust and scalable backend solutions 
-                  that power seamless functionality and efficient data processing
+                <h4>{{ $t('services.backend.title') }}</h4>
+                <p class="text-sm">
+                  {{ $t('services.backend.description') }}
                 </p>
               </div>
             </div>
@@ -56,13 +54,12 @@
                   src="https://cdn.lordicon.com/hzbrvxyv.json"
                   trigger="hover"
                   colors="outline:#121331,primary:#66ee78"
-                  style="width: 150px; height: 150px"></lord-icon>
+                  style="width: 115px; height: 115px"></lord-icon>
               </div>
               <div>
-                <h5>Machine learning</h5>
-                <p>
-                  I also highly interested  in building machine learning models and systems that leverage data 
-                  to deliver accurate predictions and intelligent insights..
+                <h5>{{ $t('services.testing.title') }}</h5>
+                <p class="text-sm">
+                  {{ $t('services.testing.description') }}
                 </p>
               </div>
             </div>
@@ -77,4 +74,10 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+  services-icon {
+    width: 150px;
+  }
+
+
+</style>

@@ -23,17 +23,20 @@
           <div>
             <p>
               I’m a  Software Engineer  located in France. I
-              have a serious passion for UI effects,animations and creating
-              intuitive, dynamic user experiences.
+              have a serious passion for UI effectsand creating
+              intuitive, dynamic user experiences. User satisfaction is a must for me.
             </p>
           </div>
 
-          <div>
+          <div class="about-me">
             <p>
-              I'm a well organized person, problem solver
-              with high attention to detail. Fan of Fitness and Boxing, outdoor
-              activities with my friends, TV series and English literature.
-          
+              <i class="fas fa-tasks"></i> I'm a detail-oriented problem solver who loves tackling challenges with precision and creativity.
+            </p>
+            <p>
+              <i class="fas fa-dumbbell"></i> Passionate about <strong>fitness</strong> and <strong>boxing</strong>,  
+              <i class="fas fa-tree"></i> enjoying <strong>adventures outdoors</strong> with friends,  
+              <i class="fas fa-tv"></i> binge-watching the best <strong>TV series</strong>, and  
+              <i class="fas fa-book"></i> diving into the world of <strong>English literature</strong>.
             </p>
           </div>
 
@@ -119,4 +122,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+
+.about-me i {
+  color: #645F88;
+  margin-inline: 0.5rem;
+}
+
+
+</style>

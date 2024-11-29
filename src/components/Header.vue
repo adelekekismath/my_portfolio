@@ -1,5 +1,5 @@
 <template>
- <v-container class="hero-section pt-0">
+ <v-container class="hero-section pt-0 ">
   <v-row class="align-center justify-center header-desc mt-0 " >
     <v-col cols="12" lg="6"  sm="6">
       <v-sheet elevation="0" class="pa-5">
