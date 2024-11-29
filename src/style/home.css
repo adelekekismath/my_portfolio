@@ -1547,7 +1547,7 @@ i.mobile {
 }
 
 .hidden-on-mobile {
-    display: none;
+    display: none !important;
 }
 
 @media (min-width: 768px) {
@@ -1558,7 +1558,7 @@ i.mobile {
         display: hidden;
     }
     .hidden-on-mobile {
-        display: block;
+        display: flex !important;
     }
     .hidden-on-medium{
         display: none;

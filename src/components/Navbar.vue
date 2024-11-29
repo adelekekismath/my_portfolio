@@ -1,7 +1,7 @@
 <template>
-  <div class="hidden-on-mobile">
+  <div >
     <nav  class="nav-contaier ">
-    <div class="nav-items">
+    <div class="nav-items hidden-on-mobile">
       <button
         class="nav-item"
         flat
@@ -11,8 +11,8 @@
         <router-link
             :to=item.path
           >
-            <i class="mdi marked" :class="item.icon"></i>
-            <span class="flex-1 ml-2 ">{{ item.title}}</span>
+            <i class="mdi marked"  :class="item.icon"></i>
+            <span class="flex-1 ml-2 text-md">{{ item.title}}</span>
           </router-link>
       </button>
     </div>
@@ -39,7 +39,9 @@ export default {
       menuItems: [
           { title: this.$t('home'), path: '/', icon: 'mdi-home' },
           { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
-          { title: this.$t('about'), path: '/about', icon: 'mdi-star' }
+          { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
+          { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
+
      ],
     
     }
@@ -67,13 +69,23 @@ export default {
     text-decoration: none !important;
   }
 
+  i.marked {
+    font-size: 1.4rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
   .nav-contaier{
     display: flex;
     align-items: center;
     padding: 20px 20px;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 5px 10px rgba(24, 24, 24, 0.1);
-    gap: 10px;
+    gap: 12px;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,6 +104,22 @@ export default {
   .lang-btns{
     display: flex;
     gap: 10px;
+
+  }
+
+  @media (max-width: 768px) {
+    .lang-btns{
+      margin-left: auto;
+      gap: 20px !important;
+      font-size: 1.2rem;
+    }
+
+    .nav-contaier{
+      box-shadow: none !important;
+      position: relative !important;
+      border: none !important;
+
+    }
   }
 
 

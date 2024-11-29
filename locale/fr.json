@@ -1,3 +1,15 @@
 {
-    
+    "title": "Bonjour, je suis Kismath, une résolveuse de problèmes, une rêveuse et une développeuse.",
+    "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je vous présente ici mes projets variés, illustrant ma polyvalence, ma rigueur et ma capacité à concevoir des expériences utilisateur captivantes.",
+    "myPortfolio": "Mon Portfolio",
+    "home": "Accueil",
+    "about": "À propos",
+    "aboutMe": "À propos de moi",
+    "blog": "Blog",
+    "myResume": "Mon CV",
+
+    "projects": "Projets",
+    "contact": "Contact",
+    "resume": "CV",
+    "skills": "Compétences"
 }

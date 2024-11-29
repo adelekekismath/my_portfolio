@@ -1,8 +1,8 @@
 <template>
- <v-container class="hero-section">
-  <v-row class="align-center justify-center header-desc">
+ <v-container class="hero-section pt-0">
+  <v-row class="align-center justify-center header-desc mt-0 " >
     <v-col cols="12" lg="6"  sm="6">
-      <v-sheet elevation="0" class="pa-10">
+      <v-sheet elevation="0" class="pa-5">
         <v-row class="d-flex align-center header-desc">
           <v-col cols="12">
             <h1 class=" text-2xl lg:text-4xl font-medium  mb-5 marked">
