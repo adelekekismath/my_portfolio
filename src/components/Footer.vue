@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:hidden fixed bottom-0 hidden-on-medium left-0 z-20 pb-1 w-full rounded-t-xl drop-shadow-xl px-1 bg-gray-50 border-t border-gray-200  dark:bg-gray-800 dark:border-gray-600">
+    class="lg:hidden fixed bottom-0 hidden-on-medium left-0 z-20 pb-2 w-full rounded-t-xl drop-shadow-xl px-1 bg-gray-50 border-t border-gray-200  dark:bg-gray-800 dark:border-gray-600">
     <div>
       <div
         class="flex flex-wrap items-center justify-evenly p-1 space-x-5 text-sm  sm:mt-0">
