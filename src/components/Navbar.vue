@@ -1,5 +1,6 @@
 <template>
-  <nav class="nav-contaier hidden-xs-only">
+  <div class="hidden-on-mobile">
+    <nav  class="nav-contaier ">
     <div class="nav-items">
       <button
         class="nav-item"
@@ -21,10 +22,15 @@
       <button  flat icon @click="switchLanguage('fr')">🇫🇷</button>
     </div>
     </nav>
+  </div>
+ 
 </template>
 
 <script>
+import { useDisplay } from 'vuetify';
+
 export default {
+  
   name: "Navbar",
   data(){
     return {
@@ -34,14 +40,24 @@ export default {
           { title: this.$t('home'), path: '/', icon: 'mdi-home' },
           { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
           { title: this.$t('about'), path: '/about', icon: 'mdi-star' }
-     ]
+     ],
+    
     }
   },
+  computed: {
+    isSmAndDown() {
+      const {smAndDown} = useDisplay();
+      return smAndDown.value;
+    },
+  },
+
   methods: {
     switchLanguage(lang) {
       this.$i18n.locale = lang;
     },
   },
+
+ 
 };
 </script>
 

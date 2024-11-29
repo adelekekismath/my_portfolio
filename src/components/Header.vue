@@ -32,7 +32,6 @@
           src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
           background="transparent"
           speed="2"
-          loop
           autoplay>
         </lottie-player>
         
