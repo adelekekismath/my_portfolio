@@ -1,49 +1,53 @@
 <template>
- <v-container class="hero-section pt-0 ">
-  <v-row class="align-center justify-center header-desc mt-0 " >
-    <v-col cols="12" lg="6"  sm="6">
-      <v-sheet elevation="0" class="pa-5">
-        <v-row class="d-flex align-center header-desc">
-          <v-col cols="12">
-            <h1 class=" text-2xl  font-medium  mb-5 marked">
-              {{ $t('title') }}
-            </h1>
-            <p class="text-l mb-5">
-              {{ $t('quickDescription') }}
-            </p>
+  <v-container class="hero-section pt-0">
+    <v-row class="d-flex align-center justify-center header-desc">
+      <v-col cols="12" lg="5"  sm="6">
+        <v-sheet elevation="0" class="pa-5">
+          <div class="d-flex align-center ">
+            <div cols="12">
+              <h1 class="text-2xl font-medium mb-5 marked">
+                {{ $t("title") }}
+              </h1>
+              <p class="text-l mb-5">
+                {{ $t("quickDescription") }}
+              </p>
 
-            <v-btn outlined color="secondary" to="/about">
-              {{ $t('aboutMe') }}
-            </v-btn>
+              <div class="mt-8">
+                <router-link to="/about" class="btn btn-primary pa-2">
+                  {{ $t("aboutMe") }}</router-link
+                >
+                <router-link
+                  to="#"
+                  @click="downloadResume()"
+                  class="btn btn-outline ml-2 bg-success pa-2"
+                >
+                  {{ $t("myResume") }}<v-icon right>mdi-play</v-icon></router-link
+                >
+              </div>
 
-            <v-btn class="ml-2" color="success" href="#" @click="downloadResume()">
-              {{ $t('myResume') }}
-              <v-icon right>mdi-play</v-icon>
-            </v-btn>
-          </v-col>
-        </v-row>
-      </v-sheet>
-    </v-col>
+            </div>
+          </div>
+        </v-sheet>
+      </v-col>
 
-    <v-col cols="12" lg="6" sm="6">
-      <v-sheet width="90%">
-        <!-- Lottie animation -->
-        <lottie-player
-          src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
-          background="transparent"
-          speed="2"
-          autoplay>
-        </lottie-player>
-        
-      </v-sheet>
-    </v-col>
-  </v-row>
-</v-container>
-
+      <v-col cols="12" lg="7" sm="6">
+        <v-sheet>
+          <!-- Lottie animation -->
+          <lottie-player
+            src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
+            background="transparent"
+            speed="2"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </v-sheet>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
-
 export default {
   name: "Header",
   methods: {
@@ -56,12 +60,22 @@ export default {
 </script>
 
 <style scoped>
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.header-desc {
+  margin-top: -100px;
+}
+
+@media (max-width: 375px) {
   .hero-section {
-    position: relative;
-    top: 60px;
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    top: 30px;
   }
+}
 </style>

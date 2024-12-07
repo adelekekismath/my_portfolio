@@ -82,6 +82,7 @@ a.bg-secondary:focus {
 
 .bg-success {
     background-color: #35bb78 !important;
+    color: white;
 }
 
 a.bg-success:hover,
