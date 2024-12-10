@@ -1,26 +1,7 @@
 <template>
   <Navbar />
 
-  <div class="hidden lg:block container mt-5">
-    <div class="page-banner1">
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-md-6">
-          <nav aria-label="Breadcrumb">
-            <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-              <li class="breadcrumb-item">
-                <router-link to="/">Home</router-link>
-              </li>
-              <li class="breadcrumb-item active">About</li>
-            </ul>
-          </nav>
-          <h1 class="text-center">About Us</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <About />
-  <Services />
+  <About :addSpaceOnTop="true" />
 
   <div class="bg-green-50 py-5 page-section">
     <div class="container">
@@ -38,12 +19,13 @@
         <div
           class="bg-white rounded-xl drop-shadow-md mt-3 col-lg-4 ml-2 py-1 px-5 h-96 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
           <lord-icon
-            src="https://cdn.lordicon.com/dfxesbyu.json"
+            src="https://cdn.lordicon.com/xmaezqzk.json"
             trigger="hover"
+            colors="primary:#121331,secondary:#6c55f9"
             style="width: 150px; height: 150px"
             class="hidden lg:flex"></lord-icon>
 
-          <div class="text-2xl font-semibold text-green-800 mt-4 pl-1">
+          <div class="text-2xl font-semibold  mt-4 pl-1">
             Quick Learning
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
@@ -56,12 +38,13 @@
         <div
           class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-96 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
           <lord-icon
-            src="https://cdn.lordicon.com/xqgancly.json"
+            src="https://cdn.lordicon.com/ncmnezgk.json"
+            colors="primary:#121331,secondary:#6c55f9"
             trigger="hover"
             style="width: 150px; height: 150px"
             class="hidden lg:flex"></lord-icon>
 
-          <div class="text-2xl font-semibold text-green-800 mt-4 pl-1">
+          <div class="text-2xl font-semibold  mt-4 pl-1">
             Problem Solving
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
@@ -75,19 +58,20 @@
         <div
           class="bg-white rounded-xl drop-shadow-md mt-3 col-lg-4 ml-2 py-1 px-5 h-96 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
           <lord-icon
-            src="https://cdn.lordicon.com/hursldrn.json"
+            src="https://cdn.lordicon.com/bduzytli.json"
+            colors="primary:#121331,secondary:#6c55f9"
             trigger="morph"
             style="width: 150px; height: 150px"
             class="hidden lg:flex"></lord-icon>
 
-          <div class="text-2xl font-semibold text-green-800 mt-4 pl-1">
+          <div class="text-2xl font-semibold  mt-4 pl-1">
             Honesty
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
-            Software developers need to learn to admit their mistakes. Of
-            course, making a mistake occurs to all of us. The most important
-            thing to do is to make an effort to learn from them and try to avoid
-            them later in life.
+            We, as software developers, need to learn to admit our mistakes. 
+            Of course, making mistakes happens to all of us. 
+            The most important thing to do is to make an effort to learn from them and try to avoid 
+            them in the future.
           </p>
         </div>
       </div>

@@ -13,21 +13,17 @@
     "resume": "Resume",
     "skills": "Skills",
 
-    "services": {
-        "frontend": {
-            "title": "Frontend development",
-            "description": "I create responsive, user-friendly websites that are both visually appealing and functional. I use modern technologies like React, Vuejs with Typescript to build interactive web applications that provide a seamless user experience."
-        },
-
-        "backend": {
-            "title": "Backend development",
-            "description": "I build scalable, secure and efficient backend systems using Node.js, Express.js, and MongoDB. I have experience in building RESTful APIs, GraphQL APIs, and microservices."
-        },
-
-        "testing": {
-            "title": "Testing",
-            "description": "I am still a beginner in testing, but I have experience in writing unit tests, integration tests, and end-to-end tests using Jest, Mocha, and Cypress."
-        }
-
-    }
+    "skillsAndExperience" : {
+        "title": "My <span class=\"marked\">Skills & Experiences</span>",
+        "description": "<p class='mb-4'>I hold a Master's degree in Computer Engineering from Sorbonne University, completed through a two-year apprenticeship at Bien’ici as a full-stack developer. There, I developed innovative 3D digital solutions for real estate promotion.</p><p class='mb-4'>I specialize in front-end development, crafting modern, responsive websites using JavaScript, TypeScript, Vue.js, React, and HTML/CSS, while also having experience in back-end development with Node.js and Python.</p><p class='mb-4'>Proficient in database management and cloud computing, I am a quick learner who thrives on challenges and is committed to delivering clean, maintainable code and exceptional user experiences.</p>"        
+    },
+    "allaboutMe": {
+        "title": "All About <span class=\"marked\">Myself</span>",
+        "intro": "I’m a Software Engineer located in France. I have a serious passion for UI effects and creating intuitive, dynamic user experiences. User satisfaction is a must for me.",
+        "details": [
+        "<i class=\"fas fa-tasks\"></i> I'm a detail-oriented problem solver who loves tackling challenges with precision and creativity.",
+        "<i class=\"fas fa-dumbbell\"></i> Passionate about <strong>fitness</strong> and <strong>boxing</strong>, <i class=\"fas fa-tree\"></i> enjoying <strong>adventures outdoors</strong> with friends, <i class=\"fas fa-tv\"></i> binge-watching the best <strong>TV series</strong>, and <i class=\"fas fa-book\"></i> diving into the world of <strong>English literature</strong>.",
+        "And I'm interested in the entire creative frontend spectrum and working on ambitious projects with positive people."
+        ]
+  }
 }

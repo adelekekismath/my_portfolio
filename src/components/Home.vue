@@ -1,7 +1,7 @@
 <template class="bg-green-50">
   <Navbar />
   <Header />
-  <Services />
+  <!-- <Services /> -->
   <About />
 
   <div class="bg-green-50 py-5 page-section">

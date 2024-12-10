@@ -3,8 +3,8 @@
     "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je vous présente ici mes projets variés, illustrant ma polyvalence, ma rigueur et ma capacité à concevoir des expériences utilisateur captivantes.",
     "myPortfolio": "Mon Portfolio",
     "home": "Accueil",
-    "about": "À propos",
-    "aboutMe": "Qui suis-je",
+    "about": "A propos",
+    "aboutMe": "Qui suis-je ?",
     "blog": "Blog",
     "myResume": "Mon CV",
 
@@ -13,21 +13,18 @@
     "resume": "CV",
     "skills": "Compétences",
 
-    "services": {
-        "frontend": {
-            "title": "Développement frontend",
-            "description": "Je crée des sites Web réactifs et conviviaux qui sont à la fois visuellement attrayants et fonctionnels. J'utilise des technologies modernes comme React, Vuejs avec Typescript pour construire des applications Web interactives qui offrent une expérience utilisateur fluide."
-        },
+    "skillsAndExperience" : {
+        "title": "Mes <span class=\"marked\">Compétences & Expériences</span>",
+        "description": "<p class='mb-4'>Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière.</p><p class='mb-4'>Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.</p><p class='mb-4'>Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles.</p>"        
+    },
 
-        "backend": {
-            "title": "Développement backend",
-            "description": "Je construis des systèmes backend évolutifs, sécurisés et efficaces en utilisant Node.js, Express.js et MongoDB. J'ai de l'expérience dans la construction d'API RESTful, d'API GraphQL et de microservices."
-        },
-
-        "testing": {
-            "title": "Tests",
-            "description": "Je suis encore débutante en tests, mais j'ai de l'expérience dans l'écriture de tests unitaires, de tests d'intégration et de tests de bout en bout en utilisant Jest, Mocha et Cypress."
-        }
-
-    }
+    "allaboutMe": {
+    "title": "Tout sur <span class=\"marked\">Moi</span>",
+    "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
+    "details": [
+      "<i class=\"fas fa-tasks\"></i> Je suis une résolveuse de problèmes orientée vers les détails qui aime relever les défis avec précision et créativité.",
+      "<i class=\"fas fa-dumbbell\"></i> Passionnée par le <strong>fitness</strong> et la <strong>boxe</strong>, <i class=\"fas fa-tree\"></i> j'aime les <strong>aventures en plein air</strong> avec des amis, <i class=\"fas fa-tv\"></i> regarder les meilleures <strong>séries télévisées</strong>, et <i class=\"fas fa-book\"></i> plonger dans le monde de la <strong>littérature anglaise</strong>.",
+      "Et je m'intéresse à tout le spectre créatif du frontend et à travailler sur des projets ambitieux avec des personnes positives."
+    ]
+  }
 }

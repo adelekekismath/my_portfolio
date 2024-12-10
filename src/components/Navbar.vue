@@ -36,21 +36,19 @@ export default {
     return {
       appTitle: 'Awesome App',
       sidebar: false,
-      menuItems: [
-          { title: this.$t('home'), path: '/', icon: 'mdi-home' },
-          { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
-          { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
-          { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
-
-     ],
     
     }
   },
   computed: {
-    isSmAndDown() {
-      const {smAndDown} = useDisplay();
-      return smAndDown.value;
-    },
+    menuItems() {
+      return [
+        { title: this.$t('home'), path: '/', icon: 'mdi-home' },
+        { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
+        { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
+        { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
+      ];
+    }
+  
   },
 
   methods: {
