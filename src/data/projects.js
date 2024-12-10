@@ -3,35 +3,31 @@ export default [
     name: "Personal Portfolio",
     id: 1,
     content:
-      "Personal Portfolio Built with VueJs, Bootstrap & Firebase with SignUp & Login Pages",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/portfolio.png?alt=media&token=a473b7b7-1ca0-4783-a591-ce667cff7c9d",
+      "Personal Portfolio Website to showcase my work, skills and experience",
+    image: require('@/assets/images/portfolio_preview.png'),
     tech1:
       "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
-    tech2:
-      "https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white",
     tech3:
-      "https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white",
+      "https://img.shields.io/badge/Vuetify-7952B3?style=flat&logo=Vuetify&logoColor=white",
 
-    live: "https://personal-portfolio-2102f.web.app/",
-    code: "https://github.com/anaskhonprime/personal.github.io",
+    live: "https://kismath-adeleke.netlify.app/",
+    code: "https://github.com/adelekekismath/my_portfolio",
   },
 
   {
-    name: "Prime Blogs",
+    name: "Clock Manager App",
     id: 2,
     content:
-      "Simple Blog Web Application built with VueJs, Firebase and Tailwind CSS, Admin Dashboard",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/blog.png?alt=media&token=7a6e548c-1efe-4451-ac89-3f6a9b310251",
+      "Simple Clock Manager App to manage digital and analog clocks with different timezones",
+    image: require('@/assets/images/timemanager_preview.png'),
     tech1:
-      "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
+      "https://img.shields.io/badge/Typescript-439A97?style=flat&logo=Typescript&logoColor=white",
     tech2:
       "https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white",
     tech3:
-      "https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white",
-    live: "https://vueblog-13514.web.app/",
-    code: "https://github.com/anaskhonprime/prime-blogs",
+      "https://img.shields.io/badge/CSS-181717?style=flat&logo=css3&logoColor=white",
+    live: "https://timemanager-by-kis.netlify.app/",
+    code: "https://github.com/adelekekismath/template-ts",
   },
 
   {

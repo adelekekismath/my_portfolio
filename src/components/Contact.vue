@@ -13,16 +13,8 @@
 
           <ul class="contact-list">
             <li>
-              <div class="icon"><span class="mai-map"></span></div>
-              <div class="content">123 Main Street, Seoul, South Korea</div>
-            </li>
-            <li>
               <div class="icon"><span class="mai-mail"></span></div>
-              <div class="content"><a href="#">aaron08889@gmail.com</a></div>
-            </li>
-            <li>
-              <div class="icon"><span class="mai-phone-portrait"></span></div>
-              <div class="content"><a href="#">+8210 5818 2222</a></div>
+              <div class="content"><a href="#">adelekekismath9@gmail.com</a></div>
             </li>
           </ul>
         </div>
