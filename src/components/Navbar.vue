@@ -8,9 +8,7 @@
         v-for="item in menuItems"
         :key="item.title"
         :to="item.path">
-        <router-link
-            :to=item.path
-          >
+        <router-link :to=item.path active-class="active-nav-item">
             <i class="mdi marked"  :class="item.icon"></i>
             <span class="flex-1 ml-2 text-md">{{ item.title}}</span>
           </router-link>
@@ -117,6 +115,11 @@ export default {
       border: none !important;
 
     }
+  }
+
+  .active-nav-item {
+    color: #6C55F9;
+    text-shadow: 0 0 black;
   }
 
 

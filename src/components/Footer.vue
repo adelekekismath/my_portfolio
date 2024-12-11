@@ -7,7 +7,6 @@
         <router-link
           v-for="menuItem in menuItems"
           :key="menuItem.title"
-          @click="isActive"
           :to="menuItem.path"
           class="flex flex-col items-center justify-center">
           <div

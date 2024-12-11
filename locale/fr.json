@@ -1,6 +1,6 @@
 {
     "title": "Bonjour, je suis Kismath, une résolveuse de problèmes, une rêveuse et une développeuse.",
-    "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je vous présente ici mes projets variés, illustrant ma polyvalence, ma rigueur et ma capacité à concevoir des expériences utilisateur captivantes.",
+    "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je présente divers projets qui reflètent ma créativité et mon engagement à offrir des expériences exceptionnelles aux utilisateurs.",
     "myPortfolio": "Mon Portfolio",
     "home": "Accueil",
     "about": "A propos",
@@ -14,8 +14,15 @@
     "skills": "Compétences",
 
     "skillsAndExperience" : {
-        "title": "Mes <span class=\"marked\">Compétences & Expériences</span>",
-        "description": "<p class='mb-4'>Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière.</p><p class='mb-4'>Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.</p><p class='mb-4'>Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles.</p>"        
+        "title": [
+            "Mes",
+            "Compétences & Expériences"
+        ],
+        "description": [
+          "Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière",
+          "Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.",
+          "Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles." 
+        ]
     },
 
     "allaboutMe": {

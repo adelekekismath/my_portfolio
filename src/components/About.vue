@@ -41,9 +41,24 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 p-4 -mt-9 lg:mt-0">
-          <h2 class="title-section text-2xl" v-html="$t('skillsAndExperience.title')" ></h2>
+          <h2 class="title-section text-2xl" >
+            {{ $t('skillsAndExperience.title[0]') }}
+            <span class="marked">
+              {{ $t('skillsAndExperience.title[1]') }}
+            </span>
+          </h2>
           <div class="divider"></div>
-          <div class="mb-4" v-html="$t('skillsAndExperience.description')"></div>
+          <div class="mb-4">
+            <p class="mb-4">
+              {{ $t('skillsAndExperience.description[0]') }}
+            </p>
+            <p class="mb-4">
+              {{ $t('skillsAndExperience.description[1]') }}
+            </p>
+            <p class="mb-4">
+              {{ $t('skillsAndExperience.description[2]') }}
+            </p>
+          </div>
           <router-link to="/blog" class="btn btn-primary">My Blogs</router-link>
           <router-link to="/projects" class="btn btn-outline ml-2">
             My Projects
