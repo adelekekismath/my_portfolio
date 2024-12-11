@@ -1,7 +1,7 @@
 <template>
   <Navbar />
 
-  <div class="">
+  <div class="space-on-top">
     <div class="page-section pt-5" style="">
       <div class="container">
         <nav aria-label="Breadcrumb">
@@ -155,4 +155,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.space-on-top{
+  top: 70px;
+  position: relative;
+}
+
+</style>

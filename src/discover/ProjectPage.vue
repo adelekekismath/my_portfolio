@@ -1,7 +1,7 @@
 <template>
   <Navbar />
     <div
-      class="page-section bg-green-50 pt-10 space-on-top">
+      class="page-section bg-green-50 space-on-top">
       <div class="container">
         <div class="row my-5 card-blog-row">
 
@@ -10,7 +10,7 @@
             :key="a"
             class="col-md-5 col-lg-4 py-5 px-4 my-8">
             <div
-              class="flex flex-col space-y-5 border shadow-md border-green-500 bg-white h-96 rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-green-200 cursor-pointer">
+              class="flex flex-col space-y-5 border shadow-md border-green-500 bg-white h-105 rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-green-200 cursor-pointer">
               <div
                 class="flex items-center justify-center -mt-6 h-48 rounded-t-lg ">
                 <img class="h-48 w-96 project-img " :src="project[i].image" />
@@ -67,6 +67,7 @@ import ProjectData from "../data/projects.js";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
+import SingleProject from "../components/SingleProject";
 
 export default {
   name: "Project Page",
@@ -80,7 +81,7 @@ export default {
     blog: Array,
   },
 
-  components: { Navbar, Services, Footer },
+  components: { Navbar, Services, Footer, SingleProject },
 };
 </script>
 
@@ -94,6 +95,30 @@ export default {
   border: 3px solid #dad9db;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px #6C55F9;
+  padding: 0 6px;
+  float: left;
+  width: 54.99999%;
+}
+
+.project-img:hover {
+  transform: scale(1.5);
+  transition: transform 0.8s;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 700px){
+  .project-img {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .project-img {
+    width: 100%;
+  }
 }
 
 </style>

@@ -1,7 +1,6 @@
 <template class="bg-green-50">
   <Navbar />
   <Header />
-  <!-- <Services /> -->
   <About />
 
  
@@ -16,7 +15,6 @@ import Navbar from "./Navbar.vue";
 import Header from "./Header.vue";
 import Services from "./Services.vue";
 import About from "./About.vue";
-import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
 import Footer from "./Footer.vue";
 
@@ -35,7 +33,6 @@ export default {
     Header,
     Services,
     About,
-    Projects,
     Contact,
     Footer,
   },
