@@ -1,5 +1,7 @@
 <template>
-  <div class="page-section">
+
+  <Navbar />
+  <div class="page-section space-on-top">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
@@ -48,6 +50,8 @@
     </div>
     <!-- .container -->
   </div>
+
+  <Footer />
 </template>
 
 <script>
@@ -94,4 +98,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.space-on-top{
+  top: 60px;
+}
+
+</style>

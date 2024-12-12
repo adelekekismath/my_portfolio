@@ -43,6 +43,7 @@ export default {
         { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
         { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
         { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
+        { title: this.$t('contact'), path: '/contact', icon: 'mdi-email' },
       ];
     }
   

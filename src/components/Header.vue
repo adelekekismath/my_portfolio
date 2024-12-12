@@ -12,6 +12,26 @@
                 {{ $t("quickDescription") }}
               </p>
 
+              <a href="https://github.com/adelekekismath" target="_blank" class="px-3">
+                <v-btn icon>
+                <v-icon class="marked" > mdi-github </v-icon>
+              </v-btn>
+              </a>
+
+              <a href="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" target="_blank"  class="px-3">
+                <v-btn icon class="hover:yellow">
+                <v-icon class="marked"> mdi-linkedin </v-icon>
+              </v-btn>
+              </a>
+
+              <a href="mailto:adelekekismath9@gmail.com" target="_blank"  class="px-3">
+                <v-btn icon>
+                <v-icon class="marked"> mdi-email </v-icon>
+              </v-btn>
+              </a>
+
+            
+
               <div class="mt-8">
                 <router-link to="/about" class="btn btn-primary pa-2">
                   {{ $t("aboutMe") }}</router-link

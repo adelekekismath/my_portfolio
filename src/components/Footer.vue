@@ -8,7 +8,7 @@
           v-for="menuItem in menuItems"
           :key="menuItem.title"
           :to="menuItem.path"
-          class="flex flex-col items-center justify-center">
+          class="flex flex-col items-center mb-3 justify-center">
           <div
             class="flex items-center hover:no-underline mt-1 text-gray-900 rounded-lg dark:text-white hover:bg-blue-100 dark:hover:bg-gray-700"
             aria-current="page">
@@ -37,6 +37,7 @@ export default {
           { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
           { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
           { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
+          { title: this.$t('contact'), path: '/contact', icon: 'mdi-email' },
      ],
     };
   },

@@ -26,7 +26,7 @@
     },
 
     "allaboutMe": {
-    "title": "Tout sur <span class=\"marked\">Moi</span>",
+    "title": "Quelques mots sur <span class=\"marked\">Moi</span>",
     "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
     "details": [
       "<i class=\"fas fa-tasks\"></i> Je suis une résolveuse de problèmes orientée vers les détails qui aime relever les défis avec précision et créativité.",

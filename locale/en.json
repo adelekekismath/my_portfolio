@@ -4,12 +4,13 @@
     "myPortfolio": "My Portfolio",
     "home": "Home",
     "about": "About",
+    "contact": "Contact",
     "aboutMe": "Who am I ?",
     "blog": "Blog",
     "myResume": "My Resume",
 
+
     "projects": "Projects",
-    "contact": "Contact",
     "resume": "Resume",
     "skills": "Skills",
 
@@ -25,7 +26,7 @@
         ]
     },
     "allaboutMe": {
-        "title": "All About <span class=\"marked\">Myself</span>",
+        "title": "A liltle about <span class=\"marked\">Me</span>",
         "intro": "I’m a Software Engineer located in France. I have a serious passion for UI effects and creating intuitive, dynamic user experiences. User satisfaction is a must for me.",
         "details": [
         "<i class=\"fas fa-tasks\"></i> I'm a detail-oriented problem solver who loves tackling challenges with precision and creativity.",
