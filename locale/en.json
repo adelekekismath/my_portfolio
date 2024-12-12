@@ -1,11 +1,15 @@
 {
-    "title": "Hi, I'm Kismath, a problem solver, a dreamer, and a developer.",
-    "quickDescription": "Looking to bring innovation to your next project? Let's create something great together. Showcasing diverse projects that reflect my creativity, and commitment to exceptional user experiences.",
+    "title": [
+        "Hi, I'm",
+        "a Full-Stack Developer."
+    ],
+    "quickDescription": "Experienced in creating scalable web applications using Node.js and modern JavaScript frameworks.",
     "myPortfolio": "My Portfolio",
     "home": "Home",
+    "name": "Kismath ADELEKE",
     "about": "About",
     "contact": "Contact",
-    "aboutMe": "Who am I ?",
+    "aboutMe": "Learn more about me",
     "blog": "Blog",
     "myResume": "My Resume",
 

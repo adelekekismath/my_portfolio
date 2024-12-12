@@ -1,48 +1,36 @@
 <template>
   <v-container class="hero-section pt-0">
     <v-row class="d-flex align-center justify-center header-desc">
-      <v-col cols="12" lg="5"  sm="6">
+      <v-col cols="12" lg="5" sm="6" >
         <v-sheet elevation="0" class="pa-5">
           <div class="d-flex align-center ">
             <div cols="12">
-              <h1 class="text-2xl font-medium mb-5 marked">
-                {{ $t("title") }}
-              </h1>
+              <h1 class="text-sm uppercase mb-4"> Welcome to my world</h1>
+              <h2 class=" text-4xl xs:text-2xl mb-6 font-medium" >
+                {{ $t("title[0]") }} 
+              
+                <span class="marked  ">{{ $t("name") }}</span>
+                <br/>
+                {{ $t("title[1]") }}
+                
+              </h2>
               <p class="text-l mb-5">
                 {{ $t("quickDescription") }}
               </p>
+              <!-- <h1 class="text-xl  mb-5 ">
+                {{ $t("title[0]") }}
+                <span class="marked   text-4xl">{{ $t("name") }}</span>
+                {{ $t("title[1]") }}
+              </h1>
+              <p class="text-l mb-5">
+                {{ $t("quickDescription") }}
+              </p> -->
 
-              <a href="https://github.com/adelekekismath" target="_blank" class="px-3">
-                <v-btn icon>
-                <v-icon class="marked" > mdi-github </v-icon>
-              </v-btn>
-              </a>
-
-              <a href="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" target="_blank"  class="px-3">
-                <v-btn icon class="hover:yellow">
-                <v-icon class="marked"> mdi-linkedin </v-icon>
-              </v-btn>
-              </a>
-
-              <a href="mailto:adelekekismath9@gmail.com" target="_blank"  class="px-3">
-                <v-btn icon>
-                <v-icon class="marked"> mdi-email </v-icon>
-              </v-btn>
-              </a>
-
-            
-
-              <div class="mt-8">
-                <router-link to="/about" class="btn btn-primary pa-2">
-                  {{ $t("aboutMe") }}</router-link
-                >
-                <router-link
-                  to="#"
-                  @click="downloadResume()"
-                  class="btn btn-outline ml-2 bg-success pa-2"
-                >
-                  {{ $t("myResume") }}<v-icon right>mdi-play</v-icon></router-link
-                >
+              <div class="d-flex align-center gap-4 mt-9">
+                <SocialLink url="https://github.com/adelekekismath" icon="mdi-github" />
+                <SocialLink url="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" icon="mdi-linkedin" />
+                <SocialLink url="mailto:adelekekismath9@gmail.com" icon="mdi-email" />
+                <SocialLink url="#" icon="mdi-text-account" @click="downloadResume()" :isLink="false" />
               </div>
 
             </div>
@@ -53,13 +41,8 @@
       <v-col cols="12" lg="7" sm="6">
         <v-sheet>
           <!-- Lottie animation -->
-          <lottie-player
-            src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json"
-            background="transparent"
-            speed="2"
-            loop
-            autoplay
-          >
+          <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json" background="transparent"
+            speed="1" loop autoplay>
           </lottie-player>
         </v-sheet>
       </v-col>
@@ -68,8 +51,13 @@
 </template>
 
 <script>
+import SocialLink from './SocialLink';
+
 export default {
   name: "Header",
+  components: {
+    SocialLink,
+  },
   methods: {
     downloadResume() {
       const resumeUrl = require("@/assets/resume.pdf");

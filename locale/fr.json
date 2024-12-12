@@ -1,8 +1,12 @@
 {
-    "title": "Bonjour, je suis Kismath, une résolveuse de problèmes, une rêveuse et une développeuse.",
+    "title": [
+        "Bonjour, je suis",
+        "une  Développeuse Full-stack."
+    ],
     "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je présente divers projets qui reflètent ma créativité et mon engagement à offrir des expériences exceptionnelles aux utilisateurs.",
     "myPortfolio": "Mon Portfolio",
     "home": "Accueil",
+    "name": "Kismath ADELEKE",
     "about": "A propos",
     "aboutMe": "Qui suis-je ?",
     "blog": "Blog",
