@@ -5,8 +5,8 @@
         <v-sheet elevation="0" class="pa-5">
           <div class="d-flex align-center ">
             <div cols="12">
-              <h1 class="text-sm uppercase mb-4"> Welcome to my world</h1>
-              <h2 class=" text-4xl xs:text-2xl mb-6 font-medium" >
+              <h1 class="text-sm uppercase mb-4"> {{ $t('welcome') }}</h1>
+              <h2 class="xs:text-3xl sm:text-4xl  mb-6 font-medium" >
                 {{ $t("title[0]") }} 
               
                 <span class="marked  ">{{ $t("name") }}</span>
@@ -17,16 +17,8 @@
               <p class="text-l mb-5">
                 {{ $t("quickDescription") }}
               </p>
-              <!-- <h1 class="text-xl  mb-5 ">
-                {{ $t("title[0]") }}
-                <span class="marked   text-4xl">{{ $t("name") }}</span>
-                {{ $t("title[1]") }}
-              </h1>
-              <p class="text-l mb-5">
-                {{ $t("quickDescription") }}
-              </p> -->
 
-              <div class="d-flex align-center gap-4 mt-9">
+              <div class="d-flex align-center gap-2 mt-7">
                 <SocialLink url="https://github.com/adelekekismath" icon="mdi-github" />
                 <SocialLink url="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" icon="mdi-linkedin" />
                 <SocialLink url="mailto:adelekekismath9@gmail.com" icon="mdi-email" />
@@ -78,7 +70,7 @@ export default {
 
 
 .header-desc {
-  margin-top: -100px;
+  margin-top: -50px;
 }
 
 @media (max-width: 375px) {

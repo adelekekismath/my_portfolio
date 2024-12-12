@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+   
 
   <div class="space-on-top">
     <div class="page-section pt-5" style="">

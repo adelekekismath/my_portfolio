@@ -1,6 +1,6 @@
 <template>
 
-  <Navbar />
+   
   <div class="page-section space-on-top">
     <div class="container">
       <div class="row align-items-center">

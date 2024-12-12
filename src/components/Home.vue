@@ -1,10 +1,7 @@
 <template class="bg-green-50">
-  <Navbar />
+   
   <Header />
   <About />
-
- 
-
   <Contact />
   
   <Footer />

@@ -1,9 +1,10 @@
 {
+    "welcome": "Bienvenue dans mon monde",
     "title": [
         "Bonjour, je suis",
         "une  Développeuse Full-stack."
     ],
-    "quickDescription": "Vous cherchez à apporter de l'innovation à votre prochain projet ? Créons quelque chose de grand ensemble. Je présente divers projets qui reflètent ma créativité et mon engagement à offrir des expériences exceptionnelles aux utilisateurs.",
+    "quickDescription": "Avec plus de 2 ans d'expérience dans la création d'applications web évolutives en utilisant Node.js et des frameworks JavaScript/TypeScript modernes. Vous cherchez de l'innovation pour votre projet ? Travaillons ensemble pour créer des solutions uniques combinant créativité et expériences utilisateur exceptionnelles.",
     "myPortfolio": "Mon Portfolio",
     "home": "Accueil",
     "name": "Kismath ADELEKE",

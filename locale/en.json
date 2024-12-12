@@ -1,9 +1,10 @@
 {
-    "title": [
+  "welcome": "Welcome to my world",
+  "title": [
         "Hi, I'm",
         "a Full-Stack Developer."
     ],
-    "quickDescription": "Experienced in creating scalable web applications using Node.js and modern JavaScript frameworks.",
+    "quickDescription": "With 2+ years experienced in creating scalable web applications using Node.js and modern JavaScript/TypeScript frameworks. Looking for innovation for your project? Let's work together to create unique solutions combining creativity and exceptional user experiences.",
     "myPortfolio": "My Portfolio",
     "home": "Home",
     "name": "Kismath ADELEKE",

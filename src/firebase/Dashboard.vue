@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+   
   <div class="container mt-5">
     <div class="page-banner1">
       <div class="row justify-content-center align-items-center h-100">

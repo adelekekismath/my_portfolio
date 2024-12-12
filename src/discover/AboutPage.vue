@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+   
 
   <About :addSpaceOnTop="true" />
 

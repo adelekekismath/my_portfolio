@@ -1,21 +1,23 @@
 <template>
   <v-app>
-    <transition name="fade" mode="out-in" @before-enter="beforeEnter" appear>
-    <router-view :blog="blog"></router-view>
-  </transition>
+    <Navbar />
+    <main>
+      <router-view />
+    </main>
+    <Footer />
   </v-app>
 </template>
 
 <script>
+import Navbar from './components/Navbar';
 import Blog from './data/data.js'
-import ProjectData from './data/projects.js'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   data () {
     return {
       blog: Blog,
-      project: ProjectData
     }
   },
 
@@ -25,7 +27,10 @@ export default {
     }
   },
 
-  components: {}
+  components: {
+    Navbar,
+    Footer
+  }
 }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+   
     <div
       class="page-section bg-green-50 space-on-top">
       <div class="container">
