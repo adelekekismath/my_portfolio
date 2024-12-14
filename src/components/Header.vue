@@ -6,7 +6,7 @@
           <div class="d-flex align-center ">
             <div cols="12">
               <h1 class="text-sm uppercase mb-4"> {{ $t('welcome') }}</h1>
-              <h2 class="xs:text-3xl sm:text-4xl  mb-6 font-medium" >
+              <h2 class="xs:text-3xl sm:text-5xl  mb-6 font-medium" >
                 {{ $t("title[0]") }} 
               
                 <span class="marked  ">{{ $t("name") }}</span>

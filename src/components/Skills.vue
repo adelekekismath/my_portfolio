@@ -1,0 +1,64 @@
+<template>
+     <div class="container mx-auto py-12 px-4 md:px-8 w-fit">
+        <h3 class="text-2xl font-bold  mb-10 text-gradient">
+          Skills
+          <div class="divider"></div>
+        </h3>
+
+        <!-- Skill Categories -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Learned Independently -->
+          <div class="bg-white shadow-md rounded-lg  p-3">
+            <h2 class="text-xl  font-bold mb-4">
+              Learned Independently (with projects)
+            </h2>
+            <div class="flex flex-wrap gap-3">
+              <span v-for="(skill, index) in independentSkills" :key="index" class="badge">
+                <img class="w-20 h-6" :src="skill" alt="">
+              </span>
+            </div>
+            <router-link to="/projects" class="btn mt-8 py-1 px-3 btn-primary">
+              Explore my projects
+            </router-link>
+          </div>
+
+          <!-- Practiced in Companies -->
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-xl font-bold mb-4">
+              Practiced in Companies
+            </h2>
+            <div class="flex flex-wrap gap-3">
+              <span v-for="(skill, index) in companySkills" :key="index" class="badge">
+                <img class="w-20 h-6" :src="skill" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</template>
+
+<script>
+    export default {
+        name: 'Skills',
+        data() {
+            return {
+            }
+        },
+
+        props: {
+            independentSkills: {
+                type: Array,
+                required: true
+            },
+            companySkills: {
+                type: Array,
+                required: true
+            }
+        }
+        
+    }
+    
+
+</script>

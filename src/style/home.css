@@ -1633,6 +1633,10 @@ i.mobile {
     z-index: -1;
 }
 
+.white{
+    color: white;
+}
+
 .text-center .title-section {
     margin-left: auto;
     margin-right: auto;

@@ -32,11 +32,11 @@
     },
     "allaboutMe": {
         "title": "A liltle about <span class=\"marked\">Me</span>",
-        "intro": "I’m a Software Engineer located in France. I have a serious passion for UI effects and creating intuitive, dynamic user experiences. User satisfaction is a must for me.",
+        "intro": "I’m a Software Engineer located in France. I  am passionate about  UI effects and creating intuitive, dynamic user experiences.",
         "details": [
-        "<i class=\"fas fa-tasks\"></i> I'm a detail-oriented problem solver who loves tackling challenges with precision and creativity.",
-        "<i class=\"fas fa-dumbbell\"></i> Passionate about <strong>fitness</strong> and <strong>boxing</strong>, <i class=\"fas fa-tree\"></i> enjoying <strong>adventures outdoors</strong> with friends, <i class=\"fas fa-tv\"></i> binge-watching the best <strong>TV series</strong>, and <i class=\"fas fa-book\"></i> diving into the world of <strong>English literature</strong>.",
-        "And I'm interested in the entire creative frontend spectrum and working on ambitious projects with positive people."
+          " I thrive on challenges, tackling them with creativity and precision to deliver optimal solutions.",
+          " I’m eager to work across the creative frontend spectrum, collaborating on ambitious projects with like-minded, positive people.",
+          " Beyond coding, I’m deeply passionate about fitness and boxing, exploring the outdoors with friends, binge-watching top TV series, and immersing myself in English literature."
         ]
   }
 }

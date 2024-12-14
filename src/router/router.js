@@ -6,7 +6,6 @@ import Projects from '../discover/ProjectPage.vue';
 import Blog from '../discover/BlogPage.vue';
 import Contact from '../components/Contact.vue';
 import Allblogs from '../components/Allblogs.vue';
-import SingleProject from "../components/SingleProject.vue";
 
 import PageNotFound from "../components/PageNotFound.vue";
 
@@ -47,27 +46,6 @@ const routes = [{
         component: Allblogs,
         meta: {title: 'All Blogs | Kismath ADELEKE'}
     },
-    {
-        path: "/singleproject/:id",
-        component: SingleProject,
-        meta: {title: 'Single Project | Kismath ADELEKE'}
-    },
-    // {
-    //     path: "/login",
-    //     component: Login,
-    // },
-    // {
-    //     path: "/signup",
-    //     component: Signup,
-    // },
-    // {
-    //     path: "/dashboard",
-    //     component: Dashboard,
-    // },
-    // {
-    //     path: "/upload",
-    //     component: Upload,
-    // },
 
     {
         path: '/:catchAll(.*)*',

@@ -7,6 +7,8 @@ export default [
     image: require('@/assets/images/portfolio_preview.png'),
     tech1:
       "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
+    tech2:
+      "https://img.shields.io/badge/Tailwind_CSS-181717?style=flat&logo=tailwind-css&logoColor=white",
     tech3:
       "https://img.shields.io/badge/Vuetify-7952B3?style=flat&logo=Vuetify&logoColor=white",
 
