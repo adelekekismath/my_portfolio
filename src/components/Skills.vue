@@ -1,5 +1,5 @@
 <template>
-     <div class="container mx-auto py-12 px-4 md:px-8 w-fit">
+     <div class="container mx-auto py-12 px-10 md:px-8 w-screen">
         <h3 class="text-2xl font-bold  mb-10 text-gradient">
           Skills
           <div class="divider"></div>

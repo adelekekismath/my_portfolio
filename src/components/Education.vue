@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-green-50  py-12">
-        <div class="max-w-7xl mx-auto px-6">
+    <div class="bg-indigo-50 px-10 w-screen  py-12">
+        <div class="max-w-7xl ">
           <h3 class="text-2xl font-bold text-gradient  mb-12">Education
             <div class="divider"></div>
           </h3>
           <div
-            class="flex flex-col md:flex-row border-t-2 border-gray-300  items-center justify-between space-y-8 md:space-y-0">
+            class="flex  mx-10  flex-col md:flex-row border-t-2 border-gray-300  items-center justify-between space-y-8 md:space-y-0">
             <!-- Timeline Item -->
             <div class="flex-1 md:px-4">
               <div class="relative">
