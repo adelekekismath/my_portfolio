@@ -17,12 +17,40 @@
 
     "projects": "Projects",
     "resume": "Resume",
+
     "skills": {
         "title": "Skills",
         "learnIndepentlyWithProjects": "Learn independently (with projects)",
         "praticedInCompany": "Practiced in company",
         "seeProjects": "See my projects"
       },
+
+    "education": {
+        "title": "Education",
+        "items": [
+            {
+                "degree": "Master's degree in Computer Engineering",
+                "school": "Sorbonne University",
+                "location": "Paris, France",
+                "year": "2024",
+                "description": "Completed through a two-year apprenticeship at Bien’ici as a full-stack developer. Degree focused on  software engineering and compilation theory."
+            },
+            {
+                "degree": "Bachelor's degree in Computer Science",
+                "school": "University of Angers",
+                "location": "Angers, France",
+                "year": "2022",
+                "description": "Developed strong foundations in software development and systems design."
+            },
+            {
+                "degree": "High School Diploma",
+                "school": "High School of Bon Berger",
+                "location": "Cotonou, Benin",
+                "year": "2018",
+                "description": "Focused on mathematics and physics"
+            }
+        ]
+    },
 
     "skillsAndExperience" : {
         "title": [

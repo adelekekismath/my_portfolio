@@ -23,6 +23,33 @@
         "seeProjects": "Voir mes projets"
       },
 
+    "education": {
+        "title": "Education",
+        "items": [
+            {
+                "degree": "Master Informatique",
+                "school": "Sorbonne Université ",
+                "location": "Paris, France",
+                "year": "2024",
+                "description": "Obtenu en apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Le diplôme est axé sur l'ingénierie logicielle et la théorie de la compilation."
+            },
+            {
+                "degree": "Licence  Informatique",
+                "school": "Université d'Angers",
+                "location": "Angers, France",
+                "year": "2022",
+                "description": "Développé des bases solides en développement logiciel et en conception de systèmes."
+            },
+            {
+                "degree": "Baccalauréat",
+                "school": "Lycée du Bon Berger",
+                "location": "Cotonou, Bénin",
+                "year": "2018",
+                "description": "Axé sur les mathématiques et la physique"
+            }
+        ]
+    },
+
     "skillsAndExperience" : {
         "title": [
             "Mes",
