@@ -7,7 +7,7 @@
             <div class="divider"></div>
           </h3>
           <div
-            class="flex  mx-10  flex-col md:flex-row border-t-2 border-gray-300  items-start justify-between space-y-10 md:space-y-0">
+            class="flex  flex-col md:flex-row border-t-2 border-gray-300  items-start justify-between space-y-10 md:space-y-0">
             
             <EducationItem 
                 v-for="educationItem in educationItems" 

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-50 page-section pt-5 -mb-5" :class="{ 'space-on-top': addSpaceOnTop }">
+  <div class="bg-indigo-50 page-section pt-5 mb-0" :class="{ 'space-on-top': addSpaceOnTop }">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 py-3 wow zoomIn">
