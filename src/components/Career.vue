@@ -1,6 +1,6 @@
 <template>
-
-    <div class="row">
+    <div class="container mx-auto py-12 px-10 md:px-8 w-screen">
+        <div class="row mx-8 w-screen">
         <div class="col-lg-6 p-4 mt-9 lg:mt-0">
             <h2 class="title-section text-2xl">
                 {{ $t('skillsAndExperience.title[0]') }}
@@ -12,7 +12,7 @@
             <div class="mb-4">
 
             </div>
-            <div class="container mx-auto px-4">
+            <div class="container  px-4">
                 <div class="relative border-l-2 border-gray-300 pl-6">
                     <!-- Item 1 -->
                     <div class="mb-10">
@@ -80,6 +80,8 @@
             </div>
         </div>
     </div>
+    </div>
+    
 
 </template>
 

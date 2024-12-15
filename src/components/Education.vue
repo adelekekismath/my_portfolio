@@ -1,11 +1,12 @@
 <template>
-    <div class="bg-indigo-50 px-10 w-screen  py-12">
+  <div class=" w-screen bg-indigo-50">
+    <div class=" container  px-10 mx-auto w-screen  py-12">
         <div class="max-w-7xl ">
           <h3 class="text-2xl font-bold text-gradient  mb-12">Education
             <div class="divider"></div>
           </h3>
           <div
-            class="flex  mx-10  flex-col md:flex-row border-t-2 border-gray-300  items-center justify-between space-y-8 md:space-y-0">
+            class="flex  mx-10  flex-col md:flex-row border-t-2 border-gray-300  items-start justify-between space-y-10 md:space-y-0">
             <!-- Timeline Item -->
             <div class="flex-1 md:px-4">
               <div class="relative">
@@ -17,7 +18,7 @@
                   <h3 class="text-xl font-bold text-gray-900">Master of Computer Science</h3>
                   <p class="text-gray-500 mt-2">Sorbonne University</p>
                   <p class="text-gray-500 text-sm my-1"> <span> <i class="fa fa-location-dot ml-1" aria-hidden="true"></i></span> Paris, France</p>
-                  <p class="text-gray-600 mt-2 h-10 text-sm">
+                  <p class="text-gray-600 mt-2  text-md">
                     Explored advanced computer science concepts, specializing in  software
                     engineering and compilation theory.
                   </p>
@@ -35,7 +36,7 @@
                   <h3 class="text-xl font-bold text-gray-900">Bachelor of Computer Science</h3>
                   <p class="text-gray-500 mt-2">University of Angers</p>
                   <p class="text-gray-500 text-sm my-1"> <span> <i class="fa fa-location-dot ml-1" aria-hidden="true"></i></span> Angers, France</p>
-                  <p class="text-gray-600 mt-2 text-sm">
+                  <p class="text-gray-600 mt-2 text-md">
                     Developed strong foundations in software development and systems design.
                   </p>
                 </div>
@@ -55,7 +56,7 @@
                     
                   </p>
                   <p class="text-gray-500 text-sm my-1"> <span> <i class="fa fa-location-dot ml-1" aria-hidden="true"></i></span> Cotonou, Benin</p>
-                  <p class="text-gray-600 mt-2 text-sm">
+                  <p class="text-gray-600 mt-2 text-md">
                     Studied a wide range of subjects, including mathematics, physics.
                   </p>
                 </div>
@@ -64,6 +65,8 @@
           </div>
         </div>
       </div>
+  </div>
+    
 
 </template>
 

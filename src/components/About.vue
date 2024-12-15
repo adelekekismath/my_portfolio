@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-50 page-section pt-5 -mb-5" :class="{ 'space-on-top': addSpaceOnTop }">
+  <div class="bg-indigo-50 page-section pt-5 -mb-5" :class="{ 'space-on-top': addSpaceOnTop }">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 py-3 wow zoomIn">
@@ -40,7 +40,6 @@
   </div>
 
   <div class=" page-section">
-    <div class="container px-0">
 
       <Skills :independentSkills="independentSkills" :companySkills="companySkills" />
 
@@ -49,7 +48,7 @@
       <Career />
 
      
-    </div>
+
   </div>
 </template>
 
