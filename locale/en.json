@@ -17,7 +17,12 @@
 
     "projects": "Projects",
     "resume": "Resume",
-    "skills": "Skills",
+    "skills": {
+        "title": "Skills",
+        "learnIndepentlyWithProjects": "Learn independently (with projects)",
+        "praticedInCompany": "Practiced in company",
+        "seeProjects": "See my projects"
+      },
 
     "skillsAndExperience" : {
         "title": [

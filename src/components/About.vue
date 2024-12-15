@@ -74,6 +74,8 @@ export default {
         "https://img.shields.io/badge/NodeJS-339933?style=flat&logo=Node.js&logoColor=white",
         "https://img.shields.io/badge/Express-000000?style=flat&logo=Express&logoColor=white",
         "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black",
+        "https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white",
+        "https://img.shields.io/badge/flask-000000?style=flat&logo=flask&logoColor=white",
         "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=Sass&logoColor=white",
         "https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=white",
         "https://img.shields.io/badge/REST_API-000000?style=flat&logo=REST&logoColor=white",
@@ -84,6 +86,8 @@ export default {
         "https://img.shields.io/badge/Gitlab-FCA121?style=flat&logo=Gitlab&logoColor=white",
         "https://img.shields.io/badge/Bitbucket-0052CC?style=flat&logo=Bitbucket&logoColor=white",
         "https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white",
+        
+
       ]
     };
   },

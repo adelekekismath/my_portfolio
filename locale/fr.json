@@ -16,7 +16,12 @@
     "projects": "Projets",
     "contact": "Contact",
     "resume": "CV",
-    "skills": "Compétences",
+    "skills": {
+        "title": "Compétences",
+        "learnIndepentlyWithProjects": "Apprendre de manière indépendante (avec des projets)",
+        "praticedInCompany": "Pratiqué en entreprise",
+        "seeProjects": "Voir mes projets"
+      },
 
     "skillsAndExperience" : {
         "title": [
@@ -34,9 +39,9 @@
     "title": "Quelques mots sur <span class=\"marked\">Moi</span>",
     "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
     "details": [
-      "<i class=\"fas fa-tasks\"></i> Je suis une résolveuse de problèmes orientée vers les détails qui aime relever les défis avec précision et créativité.",
-      "<i class=\"fas fa-dumbbell\"></i> Passionnée par le <strong>fitness</strong> et la <strong>boxe</strong>, <i class=\"fas fa-tree\"></i> j'aime les <strong>aventures en plein air</strong> avec des amis, <i class=\"fas fa-tv\"></i> regarder les meilleures <strong>séries télévisées</strong>, et <i class=\"fas fa-book\"></i> plonger dans le monde de la <strong>littérature anglaise</strong>.",
-      "Et je m'intéresse à tout le spectre créatif du frontend et à travailler sur des projets ambitieux avec des personnes positives."
+        "Je suis passionnée par les défis, les abordant avec créativité et précision pour fournir des solutions optimales.",
+        "Je suis impatiente de travailler dans le spectre créatif du front-end, collaborant sur des projets ambitieux avec des personnes positives et partageant les mêmes idées.",
+        "Au-delà du code, je suis profondément passionnée par le fitness et la boxe, l'exploration de la nature avec des amis, le visionnage en série de séries télévisées de premier plan et l'immersion dans la littérature anglaise."
     ]
   }
 }
