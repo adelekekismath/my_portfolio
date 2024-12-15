@@ -43,7 +43,7 @@
                 "description": "Developed strong foundations in software development and systems design."
             },
             {
-                "degree": "High School Diploma",
+                "degree": "High school diploma (Baccalaureat)",
                 "school": "High School of Bon Berger",
                 "location": "Cotonou, Benin",
                 "year": "2018",
@@ -52,16 +52,38 @@
         ]
     },
 
-    "skillsAndExperience" : {
-        "title": [
-            "My",
-            "Skills & Experiences"
+    "career" : {
+        "title": "Experiences",
+        "items": [
+            {
+                "title": "Full-Stack Developer",
+                "company": "Bien'ici, 2 years (2022 - 2024)",
+                "location": "Paris, France",
+                "description": "Development of the \"Mega Widget 3D\" application, an interactive visualization solution for real estate projects.",
+                "moreDetails": [
+                    "Developed a 3D visualization tool for real estate projects, allowing users to explore properties in a virtual environment.",
+                    "Implemented a dynamic, user-friendly interface, enabling users to customize their property search.",
+                    "Collaborated with the design team to create a visually appealing, intuitive user experience.",
+                    "Optimized application performance, resulting in a 30% increase in user engagement."
+                ]
+            },
+            {
+                "title": "Developper DevSecOps",
+                "company": "Tranquil IT, 4 months (2021)",
+                "location": "Nantes, France",
+                "description": "Automate application management with WAPT packages (deployment, updates, and removal).",
+                "moreDetails": [
+                    "Developed a Python script to automate the deployment of software packages, reducing manual workload by 50%.",
+                    "Implemented a continuous integration pipeline, resulting in a 40% reduction in deployment time.",
+                    "Collaborated with the development team to improve application security and performance."
+                ]
+            }
+
+
         ],
-        "description": [
-          "I hold a Master's degree in Computer Engineering from Sorbonne University, completed through a two-year apprenticeship at Bien’ici as a full-stack developer. There, I developed innovative 3D digital solutions for real estate promotion.",
-          "I specialize in front-end development, crafting modern, responsive websites using JavaScript, TypeScript, Vue.js, React, and HTML/CSS, while also having experience in back-end development with Node.js and Python.",
-          "Proficient in database management and cloud computing, I am a quick learner who thrives on challenges and is committed to delivering clean, maintainable code and exceptional user experiences."
-        ]
+        "readMore": "read more...",
+        "readLess": "read less..."
+
     },
     "allaboutMe": {
         "title": "A liltle about <span class=\"marked\">Me</span>",
