@@ -85,6 +85,16 @@
         "readLess": "read less..."
 
     },
+    "contactMe": {
+        "title": "Contact",
+        "description": "I'm currently looking for new opportunities and would love to hear from you. Whether you have a question or just want to say hi, feel free to send me a message.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send"
+        }
+    },
     "allaboutMe": {
         "title": "A liltle about <span class=\"marked\">Me</span>",
         "intro": "I’m a Software Engineer located in France. I  am passionate about  UI effects and creating intuitive, dynamic user experiences.",

@@ -1,14 +1,14 @@
 <template>
    
 
-  <div class="bg-green-50 pt-8 page-section space-on-top">
+  <div class="bg-indigo-50 pt-8 page-section space-on-top">
     <div class="container">
       <div class="row">
         <div
           class="relative lg:hidden col-md-6 col-lg-3 py-3 wow fadeInUp">
           <div class="bg-green-400 card-blog">
             <div class="header">
-              <div class="entry-footer">
+              <div class="entry-NavbarFooter">
                 <div class="post-author text-medium text-white">
                   Welcome to Blogs
                 </div>
@@ -27,7 +27,7 @@
               </div>
 
               <div
-                class="footer text-green-600 after:no-underline font-medium btn bg-green-200">
+                class="NavbarFooter text-green-600 after:no-underline font-medium btn bg-green-200">
                 <a href="https://prmblogs.tistory.com/">
                   Visit Prime Blogs
                   <span class="mai-chevron-forward text-sm"></span>
@@ -45,7 +45,7 @@
               <div class="avatar">
                 <img :src="blog[i].profile" />
               </div>
-              <div class="entry-footer">
+              <div class="entry-NavbarFooter">
                 <div class="post-author">{{ blog[i].username }}</div>
                 <a class="post-date">{{ blog[i].date }}</a>
               </div>
@@ -59,7 +59,7 @@
                 {{ blog[i].intro }}
               </div>
             </div>
-            <div class="footer ml-2">
+            <div class="NavbarFooter ml-2">
               <a href="https://prmblogs.tistory.com/">
                 Read More
                 <span class="mai-chevron-forward text-sm"></span>
@@ -98,13 +98,13 @@
     </div>
   </div>
 
-  <Footer />
+  <NavbarFooter />
 </template>
 
 <script>
 import Data from "../data/data.js";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NavbarFooter from "../components/NavbarFooter";
 
 export default {
   name: "Blog Page",
@@ -116,7 +116,7 @@ export default {
 
   components: {
     Navbar,
-    Footer,
+    NavbarFooter,
   },
 };
 </script>

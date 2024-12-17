@@ -4,6 +4,7 @@
     <main>
       <router-view />
     </main>
+    <NavbarFooter />
     <Footer />
   </v-app>
 </template>
@@ -11,7 +12,8 @@
 <script>
 import Navbar from './components/Navbar';
 import Blog from './data/data.js'
-import Footer from './components/Footer'
+import NavbarFooter from './components/NavbarFooter'
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
 
   components: {
     Navbar,
+    NavbarFooter,
     Footer
   }
 }

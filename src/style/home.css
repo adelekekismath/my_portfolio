@@ -1269,8 +1269,6 @@ a.text-dark:focus {
 
 .form-control {
     padding: 8px 15px;
-    height: calc(1.5em + 1.375rem + 2px);
-    border-color: #d6dbd9;
 }
 
 .custom-select {
@@ -1460,7 +1458,6 @@ a.text-dark:focus {
 .page-section {
     position: relative;
     padding-top: 10px;
-    padding-bottom: 80px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -1858,7 +1855,7 @@ i.mobile {
     height: 100%;
 }
 
-.card-blog .entry-footer {
+.card-blog .entry-NavbarFooter {
     display: inline-block;
     vertical-align: top;
 }
@@ -1895,7 +1892,7 @@ i.mobile {
     padding-right: 20px;
 }
 
-.card-blog .footer {
+.card-blog .NavbarFooter {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -1907,7 +1904,7 @@ i.mobile {
 
 .card-blog-row *:first-child .card-blog .post-author,
 .card-blog-row *:first-child .card-blog .post-title a,
-.card-blog-row *:first-child .card-blog .footer a {
+.card-blog-row *:first-child .card-blog .NavbarFooter a {
     color: #fff;
 }
 
@@ -1940,7 +1937,7 @@ i.mobile {
     font-size: 20px;
 }
 
-.testi-content .entry-footer {
+.testi-content .entry-NavbarFooter {
     margin-top: 24px;
     font-size: 15px;
 }
@@ -1986,7 +1983,7 @@ i.mobile {
     color: #8e8aad;
 }
 
-.page-footer {
+.page-NavbarFooter {
     position: relative;
     display: block;
     padding-top: 80px;
@@ -1995,44 +1992,44 @@ i.mobile {
     border-top: 1px solid #e9e8f5;
 }
 
-.page-footer p a {
+.page-NavbarFooter p a {
     transition: color .2s ease;
 }
 
-.page-footer h3,
-.page-footer h4,
-.page-footer h5 {
+.page-NavbarFooter h3,
+.page-NavbarFooter h4,
+.page-NavbarFooter h5 {
     color: #645F88;
     margin-bottom: 24px;
     font-weight: 600;
 }
 
-.page-footer p {
+.page-NavbarFooter p {
     color: #898798;
 }
 
-.footer-menu {
+.NavbarFooter-menu {
     position: relative;
     padding-left: 0;
     list-style: none;
 }
 
-.footer-menu li {
+.NavbarFooter-menu li {
     margin-bottom: 12px;
 }
 
-.footer-link {
+.NavbarFooter-link {
     display: inline-block;
     padding: 6px 0;
 }
 
-.footer-menu a,
-.footer-link {
+.NavbarFooter-menu a,
+.NavbarFooter-link {
     color: #898798;
 }
 
-.footer-menu a:hover,
-.footer-link:hover {
+.NavbarFooter-menu a:hover,
+.NavbarFooter-link:hover {
     color: #6C55F9;
     text-decoration: none;
 }

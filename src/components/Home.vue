@@ -1,10 +1,10 @@
-<template class="bg-green-50">
+<template class="bg-indigo-50">
    
   <Header />
   <About />
-  <Contact />
+  <Contact :addSpace="false"/>
   
-  <Footer />
+  <NavbarFooter />
 </template>
 
 <script>
@@ -13,7 +13,7 @@ import Header from "./Header.vue";
 import Services from "./Services.vue";
 import About from "./About.vue";
 import Contact from "./Contact.vue";
-import Footer from "./Footer.vue";
+import NavbarFooter from "./NavbarFooter.vue";
 
 export default {
   name: "Home",
@@ -31,7 +31,7 @@ export default {
     Services,
     About,
     Contact,
-    Footer,
+    NavbarFooter,
   },
 };
 </script>

@@ -6,7 +6,7 @@
         </div>
         <div class="pl-8">
             <p class="text-lg font-semibold text-gray-700 mb-4">{{ educationItem.year }}</p>
-            <h3 class="text-xl font-semibold text-gray-900"> {{ educationItem.degree }}</h3>
+            <h3 class="text-lg font-semibold text-gray-900"> {{ educationItem.degree }}</h3>
             <p class="text-gray-500 mt-2"> {{ educationItem.school }}</p>
             <p class="text-gray-500 text-sm my-1"> <span> <i class="fa fa-location-dot ml-1" aria-hidden="true"></i></span>  
             {{ educationItem.location }}

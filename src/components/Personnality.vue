@@ -1,5 +1,5 @@
 <template>
-     <div class="bg-green-50 py-5 page-section">
+     <div class="bg-indigo-50 py-5 page-section">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="text-2xl mb-3">Personality as Developer</div>
@@ -11,7 +11,7 @@
       </div>
 
       <div
-        class="flex flex-col lg:flex-row items-center justify-evenly space-x-3 h-full text-left py-5">
+        class="flex flex-col lg:flex-row items-center justify-evenly space-x-4 h-full text-left py-5">
         <div
         class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
         <lord-icon

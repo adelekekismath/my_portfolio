@@ -1,36 +1,44 @@
 <template>
-
+  <div class="relative mb-8  px-10 mx-auto w-screen" :class="{'space-on-top': addSpace}">
+    <div class="d-flex justify-center mt-12 flex-col ">
+        <h3 class="text-2xl font-bold mx-auto text-gradient ">
+            {{ $t('contactMe.title') }}
+        </h3>
+        <div class="divider w-12 mx-auto"></div>
+        <p class="w-1/2 mx-auto text-center">
+            {{ $t('contactMe.description') }}
+        </p>
+    </div>
    
-  <div class="page-section space-on-top">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-start mt-8">
         <div class="col-lg-6 py-3 wow fadeInUp">
-          <h2 class="title-section">Contact information</h2>
-          <div class="divider"></div>
-          <p>
-            Great genius takes shape by contact with another great genius,
-            <br />
-            but, less by assimilation than by friction.
-          </p>
+          
 
           <ul class="contact-list">
-            <li>
-              <div class="icon"><span class="mai-mail"></span></div>
-              <div class="content"><a href="#">adelekekismath9@gmail.com</a></div>
+            <li class="mb-8">
+                <i class="fa-solid fa-location-dot rounded-full pa-4 fa-xl px-4 py-6 marked  mr-4 bg-indigo-100" ></i>
+                <div class="content"><a href="#"> Ile de france, France</a></div>
+            </li>
+            <li class="mb-8">
+                <i class="fa-solid fa-at rounded-full pa-4 fa-xl px-4 py-6 marked mr-4 bg-indigo-100"></i>
+                <div class="content"><a href="#">adelekekismath9@gmail.com</a></div>
+            </li>
+            <li class="mb-8">
+                <i class="fa-brands fa-linkedin rounded-full pa-4 fa-xl px-4 py-6 marked mr-4 bg-indigo-100"></i>
+                <div class="content"><a href="#">Kismath ADELEKE</a></div>
             </li>
           </ul>
         </div>
         <div class="col-lg-6 py-3 wow fadeInUp">
-          <div class="subhead">Contact Me</div>
-          <h2 class="title-section">Get In Touch</h2>
-          <div class="divider"></div>
 
           <form @submit.prevent="sendEmail()">
-            <div class="py-2">
-              <input type="text" v-model="form.from_name" class="form-control" placeholder="Full name" required />
+            <div class="py-2 d-flex w-full justify-between">
+              <input type="text"  v-model="form.from_name" class=" rounded-3 border border-t-2  w-[48%]" placeholder="Your full name" required />
+              <input type="email" v-model="form.from_email" class=" rounded-3 border border-t-2 w-[48%]" placeholder="Your email" required />
             </div>
             <div class="py-2">
-              <input type="email" v-model="form.from_email" class="form-control" placeholder="Email" required />
+              <input type="text" v-model="form.subject" class=" rounded-3 border border-t-2 w-full" placeholder="Subject" required />
             </div>
             <div class="py-2">
               <textarea
@@ -41,7 +49,7 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill mt-4">
+            <button class="py-2 px-5 bg-indigo-500 mt-4 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400 focus:ring-opacity-75">
               Send Message
             </button>
           </form>
@@ -51,12 +59,12 @@
     <!-- .container -->
   </div>
 
-  <Footer />
+  <NavbarFooter />
 </template>
 
 <script>
 import Navbar from "./Navbar.vue";
-import Footer from "./Footer.vue";
+import NavbarFooter from "./NavbarFooter.vue";
 import emailjs from '@emailjs/browser';
 
 export default {
@@ -78,7 +86,14 @@ export default {
 
   components: {
     Navbar: Navbar,
-    Footer: Footer,
+    NavbarFooter: NavbarFooter,
+  },
+
+  props: {
+    addSpace: {
+      type: Boolean,
+      default: true
+    }
   },
 
   methods: {

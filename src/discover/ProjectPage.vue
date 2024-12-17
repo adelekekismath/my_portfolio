@@ -1,7 +1,7 @@
 <template>
    
     <div
-      class="page-section bg-green-50 space-on-top">
+      class="page-section bg-indigo-50 space-on-top">
       <div class="container">
         <div class="row my-5 card-blog-row">
 
@@ -10,14 +10,14 @@
             :key="a"
             class="col-md-5 col-lg-4 py-5 px-4 my-8">
             <div
-              class="flex flex-col space-y-5 border shadow-md border-green-500 bg-white h-105 rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-green-200 cursor-pointer">
+              class="flex flex-col space-y-5 border shadow-md border-indigo-500 bg-white h-105 rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-indigo-400 cursor-pointer">
               <div
-                class="flex items-center justify-center -mt-6 h-48 rounded-t-lg ">
+                class="flex items-center justify-center -mt-6 h-48 rounded-t-lg bg-white ">
                 <img class="h-48 w-96 project-img " :src="project[i].image" />
               </div>
 
               <div class="flex flex-col ml-4">
-                <div class="text-xl font-medium text-green-600 ml-3 mb-2">
+                <div class="text-xl font-medium  ml-3 mb-2">
                   <a>{{ project[i].name }}</a>
                 </div>
                 <div
@@ -37,7 +37,7 @@
               <a
                 :href="project[i].live"
                 target="_blank"
-                class="btn  hover:bg-green-100  hover:font-medium">
+                class="btn  hover:bg-indigo-100  hover:font-medium">
                 Live
                 <span class="mai-chevron-forward text-sm"></span>
               </a>
@@ -45,7 +45,7 @@
               <a
                 :href="project[i].code"
                 target="_blank"
-                class="btn hover:bg-purple-100 hover:font-medium">
+                class="btn hover:bg-indigo-100 hover:font-medium">
                 Source Code
                 <span class="mai-chevron-forward text-sm"></span>
               </a>
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <Footer />
+    <NavbarFooter />
 
 </template>
 
@@ -66,7 +66,7 @@ import ProjectData from "../data/projects.js";
 
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
-import Footer from "../components/Footer";
+import NavbarFooter from "../components/NavbarFooter";
 
 export default {
   name: "Project Page",
@@ -80,7 +80,7 @@ export default {
     blog: Array,
   },
 
-  components: { Navbar, Services, Footer },
+  components: { Navbar, Services, NavbarFooter },
 };
 </script>
 
@@ -93,14 +93,15 @@ export default {
 .project-img{
   border: 3px solid #dad9db;
   border-radius: 15px;
-  box-shadow: 0px 0px 10px 0px #6C55F9;
+  box-shadow: 0px 0px 10px 5px #6C55F9;
   padding: 0 6px;
   float: left;
   width: 54.99999%;
 }
 
 .project-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.8); margin: 80px 0 0 0;
+  z-index: 10;
   transition: transform 0.8s;
   width: 100%;
   height: 100%;

@@ -5,14 +5,14 @@
 
   <Personnality />
 
-  <Footer :blog="blog" />
+  <NavbarFooter :blog="blog" />
 </template>
 
 <script>
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Services from "../components/Services";
-import Footer from "../components/Footer";
+import NavbarFooter from "../components/NavbarFooter";
 import Personnality from "../components/Personnality";
 
 export default {
@@ -29,7 +29,7 @@ export default {
     Navbar,
     About,
     Services,
-    Footer,
+    NavbarFooter,
     Personnality
   },
 };
