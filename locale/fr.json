@@ -58,7 +58,7 @@
   },
 
   "allaboutMe": {
-    "title": "Quelques mots sur <span class=\"marked\">Moi</span>",
+    "title": ["Quelques mots sur", " Moi"],
     "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
     "details": [
       "Je suis passionnée par les défis, les abordant avec créativité et précision pour fournir des solutions optimales.",
@@ -89,5 +89,9 @@
       "title": "Admettre ses erreurs",
       "description": "Nous, en tant que développeurs de logiciels, devons apprendre à admettre nos erreurs. Bien sûr, faire des erreurs arrive à tout le monde. La chose la plus importante à faire est de faire un effort pour apprendre de ces erreurs et essayer de les éviter à l'avenir."
     }
+  },
+  "projectsPage": {
+    "liveDemo": "Démo",
+    "sourceCode": "Code source"
   }
 }

@@ -100,7 +100,7 @@
         }
     },
     "allaboutMe": {
-        "title": "A liltle about <span class=\"marked\">Me</span>",
+        "title": ["A little about", " Me"],
         "intro": "I’m a Software Engineer located in France. I  am passionate about  UI effects and creating intuitive, dynamic user experiences.",
         "details": [
           " I thrive on challenges, tackling them with creativity and precision to deliver optimal solutions.",
@@ -132,6 +132,12 @@
             "title": "Admit Mistakes",
             "description": "We, as software developers, need to learn to admit our mistakes. Of course, making mistakes happens to all of us.The most important thing to do is to make an effort to learn from them and try to avoid them in the future."
         }
+    },
+
+    "projectsPage": {
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code"
+        
     }
 
 }

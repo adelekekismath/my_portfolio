@@ -9,7 +9,12 @@
           </div>
         </div>
         <div class="col-lg-6 p-4">
-          <h2 class="title-section text-2xl" v-html="$t('allaboutMe.title')"></h2>
+          <h2 class="title-section text-2xl">
+            {{ $t('allaboutMe.title[0]') }}
+            <span class="marked">
+                {{ $t('allaboutMe.title[1]') }}
+            </span>
+          </h2>
           <div class="divider"></div>
 
           <div>

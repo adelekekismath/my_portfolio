@@ -38,7 +38,7 @@
                 :href="project[i].live"
                 target="_blank"
                 class="btn  hover:bg-indigo-100  hover:font-medium">
-                Live
+                {{ $t('projectsPage.liveDemo') }}
                 <span class="mai-chevron-forward text-sm"></span>
               </a>
 
@@ -46,7 +46,7 @@
                 :href="project[i].code"
                 target="_blank"
                 class="btn hover:bg-indigo-100 hover:font-medium">
-                Source Code
+                {{ $t('projectsPage.sourceCode') }}
                 <span class="mai-chevron-forward text-sm"></span>
               </a>
             </div>

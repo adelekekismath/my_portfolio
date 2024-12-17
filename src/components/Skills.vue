@@ -6,7 +6,7 @@
     </h3>
 
     <!-- Skill Categories -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <!-- Learned Independently -->
       <div class="bg-white shadow-md rounded-lg p-3">
         <h2 class="text-xl font-bold mb-4">
