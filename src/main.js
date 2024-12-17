@@ -41,6 +41,7 @@ const i18n = createI18n({
 
 
 const app = createApp(App);
+app.config.compilerOptions.isCustomElement = tag => tag === 'lottie-player'
 app.use(i18n);
 app.use(MotionPlugin);
 app.use(router);

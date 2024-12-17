@@ -1,5 +1,5 @@
 <template>
-    <div class="relative mb-8  px-10 mx-auto w-screen" :class="{ 'space-on-top': addSpace }">
+    <div class="relative mb-[90px]  px-10 mx-auto w-screen" :class="{ 'space-on-top': addSpace }">
         <div class="d-flex justify-center mt-12 flex-col ">
             <h3 class="text-2xl font-bold mx-auto  text-gradient">
                 {{ $t('contactMe.title') }}
@@ -60,13 +60,9 @@
             </div>
         </div>
     </div>
-
-    <NavbarFooter />
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
-import NavbarFooter from "./NavbarFooter.vue";
 import emailjs from '@emailjs/browser';
 
 export default {
@@ -86,11 +82,6 @@ export default {
             messageSent: false
 
         };
-    },
-
-    components: {
-        Navbar: Navbar,
-        NavbarFooter: NavbarFooter,
     },
 
     props: {

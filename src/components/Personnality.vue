@@ -2,10 +2,10 @@
      <div class="bg-indigo-50 py-5 page-section">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="text-2xl mb-3">Personality as Developer</div>
+        <div class="text-2xl mb-3"> {{ $t("personnality.title") }} </div>
         <h3 class="title-section">
-          <span class="">"Slow and Steady</span>
-          Win The Rase"
+          <span class="">"{{ $t("personnality.description[0]") }}</span>
+          {{ $t("personnality.description[1]") }}"
         </h3>
         <div class="divider mx-auto"></div>
       </div>
@@ -22,12 +22,10 @@
             class="hidden lg:flex"></lord-icon>
 
           <div class="text-2xl font-semibold  mt-4 pl-1">
-            Quick Learning
+            {{ $t("personnality.quickLearning.title") }}
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
-            Best software developers are often fantastic self-learners.The ideal
-            skill any person can have is understanding how to learn, and ideal
-            developers have acquired the skill of self-learning.
+            {{ $t("personnality.quickLearning.description") }}
           </p>
         </div>
 
@@ -41,13 +39,10 @@
             class="hidden lg:flex"></lord-icon>
 
           <div class="text-2xl font-semibold  mt-4 pl-1">
-            Problem Solving
+            {{ $t("personnality.problemSolving.title") }}
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
-            Problem-solving is a one of the most important part of the work.
-            Problem-solving also has to do with utilizing creativity and logical
-            thought processes to identify problems and resolve them with
-            software.
+            {{ $t("personnality.problemSolving.description") }}
           </p>
         </div>
 
@@ -61,13 +56,10 @@
             class="hidden lg:flex"></lord-icon>
 
           <div class="text-2xl font-semibold  mt-4 pl-1">
-            Honesty
+            {{ $t("personnality.admitMistakes.title") }}
           </div>
           <p class="text-left text-base lg:text-sm leading-relaxed">
-            We, as software developers, need to learn to admit our mistakes. 
-            Of course, making mistakes happens to all of us. 
-            The most important thing to do is to make an effort to learn from them and try to avoid 
-            them in the future.
+            {{ $t("personnality.admitMistakes.description") }}
           </p>
         </div>
       </div>

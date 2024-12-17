@@ -13,6 +13,8 @@
     "aboutMe": "Learn more about me",
     "blog": "Blog",
     "myResume": "My Resume",
+    "allRightsReserved": "All rights reserved",
+
 
 
     "projects": "Projects",
@@ -75,7 +77,9 @@
                 "moreDetails": [
                     "Developed a Python script to automate the deployment of software packages, reducing manual workload by 50%.",
                     "Implemented a continuous integration pipeline, resulting in a 40% reduction in deployment time.",
-                    "Collaborated with the development team to improve application security and performance."
+                    "Collaborated with the development team to improve application security and performance.",
+                    "Provided technical support to clients, resolving issues and ensuring optimal application performance."
+                    
                 ]
             }
 
@@ -103,5 +107,31 @@
           " I’m eager to work across the creative frontend spectrum, collaborating on ambitious projects with like-minded, positive people.",
           " Beyond coding, I’m deeply passionate about fitness and boxing, exploring the outdoors with friends, binge-watching top TV series, and immersing myself in English literature."
         ]
-  }
+  },
+   "pageNotFound": {
+        "title": "Look like you're lost",
+        "description": "The page you are looking for is not available. Please check the URL or go back to the homepage.",
+        "goToHome": "Go to Home"
+   },
+
+   "personnality": {
+        "title": "Personnality as a Developer",
+        "description": [
+            "Slow and Steady, ",
+            "Win The Rase"
+        ],
+        "quickLearning": {
+            "title": "Quick Learning",
+            "description": "Best software developers are often fantastic self-learners.The ideal skill any person can have is understanding how to learn, and ideal developers have acquired the skill of self-learning."
+        },
+        "problemSolving": {
+            "title": "Problem Solving",
+            "description": "Problem-solving is a one of the most important part of the work. Problem-solving also has to do with utilizing creativity and logical thought processes to identify problems and resolve them with software."
+        },
+        "admitMistakes": {
+            "title": "Admit Mistakes",
+            "description": "We, as software developers, need to learn to admit our mistakes. Of course, making mistakes happens to all of us.The most important thing to do is to make an effort to learn from them and try to avoid them in the future."
+        }
+    }
+
 }

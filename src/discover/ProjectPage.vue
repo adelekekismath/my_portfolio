@@ -64,10 +64,6 @@
 <script>
 import ProjectData from "../data/projects.js";
 
-import Navbar from "../components/Navbar";
-import Services from "../components/Services";
-import NavbarFooter from "../components/NavbarFooter";
-
 export default {
   name: "Project Page",
   data() {
@@ -80,7 +76,6 @@ export default {
     blog: Array,
   },
 
-  components: { Navbar, Services, NavbarFooter },
 };
 </script>
 

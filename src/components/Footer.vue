@@ -1,25 +1,25 @@
 <template>
-    <footer class="bg-gray-900 text-white py-6">
+    <footer class="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4">
         <div class="container mx-auto">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div>
             
-            <p class="text-sm">© 2024 Kismath ADELEKE. All rights reserved.</p>
+            <p class="text-sm">© 2024 Kismath ADELEKE. {{ $t('allRightsReserved') }}.</p>
             </div>
-            <div class="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://github.com/adelekekismath" target="_blank" class="px-2">
-                <v-btn icon>
-                <v-icon class="marked">mdi-github</v-icon>
+            <div class="flex space-x-4 m md:mt-0">
+            <a href="https://github.com/adelekekismath" target="_blank" class="px-1">
+                <v-btn size="40px" icon>
+                <v-icon size="20px" class="marked ">mdi-github</v-icon>
                 </v-btn>
             </a>
-            <a href="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" target="_blank" class="px-3">
-                <v-btn icon>
-                <v-icon class="marked">mdi-linkedin</v-icon>
+            <a href="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" target="_blank" class="px-1">
+                <v-btn size="40px" icon>
+                <v-icon size="20px" class="marked">mdi-linkedin</v-icon>
                 </v-btn>
             </a>
-            <a href="mailto:adelekekismath9@gmail.com" target="_blank" class="px-3">
-                <v-btn icon>
-                <v-icon class="marked">mdi-email</v-icon>
+            <a href="mailto:adelekekismath9@gmail.com" target="_blank" class="px-1">
+                <v-btn size="40px" icon>
+                <v-icon size="20px" class="marked">mdi-email</v-icon>
                 </v-btn>
             </a>
             </div>

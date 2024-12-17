@@ -11,7 +11,6 @@
 <script>
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import Services from "../components/Services";
 import NavbarFooter from "../components/NavbarFooter";
 import Personnality from "../components/Personnality";
 
@@ -28,7 +27,6 @@ export default {
   components: {
     Navbar,
     About,
-    Services,
     NavbarFooter,
     Personnality
   },

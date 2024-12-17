@@ -10,7 +10,6 @@
 <script>
 import Navbar from "./Navbar.vue";
 import Header from "./Header.vue";
-import Services from "./Services.vue";
 import About from "./About.vue";
 import Contact from "./Contact.vue";
 import NavbarFooter from "./NavbarFooter.vue";
@@ -28,7 +27,6 @@ export default {
   components: {
     Navbar,
     Header,
-    Services,
     About,
     Contact,
     NavbarFooter,

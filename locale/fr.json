@@ -1,74 +1,93 @@
 {
-    "welcome": "Bienvenue dans mon monde",
-    "title": [
-        "Bonjour, je suis",
-        "une  Développeuse Full-stack."
-    ],
-    "quickDescription": "Avec plus de 2 ans d'expérience dans la création d'applications web évolutives en utilisant Node.js et des frameworks JavaScript/TypeScript modernes. Vous cherchez de l'innovation pour votre projet ? Travaillons ensemble pour créer des solutions uniques combinant créativité et expériences utilisateur exceptionnelles.",
-    "myPortfolio": "Mon Portfolio",
-    "home": "Accueil",
-    "name": "Kismath ADELEKE",
-    "about": "A propos",
-    "aboutMe": "Qui suis-je ?",
-    "blog": "Blog",
-    "myResume": "Mon CV",
+  "welcome": "Bienvenue dans mon monde",
+  "title": ["Bonjour, je suis", "une  Développeuse Full-stack."],
+  "quickDescription": "Avec plus de 2 ans d'expérience dans la création d'applications web évolutives en utilisant Node.js et des frameworks JavaScript/TypeScript modernes. Vous cherchez de l'innovation pour votre projet ? Travaillons ensemble pour créer des solutions uniques combinant créativité et expériences utilisateur exceptionnelles.",
+  "myPortfolio": "Mon Portfolio",
+  "home": "Accueil",
+  "name": "Kismath ADELEKE",
+  "about": "A propos",
+  "aboutMe": "Qui suis-je ?",
+  "blog": "Blog",
+  "myResume": "Mon CV",
+  "allRightsReserved": "Tous droits réservés",
 
-    "projects": "Projets",
-    "contact": "Contact",
-    "resume": "CV",
-    "skills": {
-        "title": "Compétences",
-        "learnIndepentlyWithProjects": "Apprendre de manière indépendante (avec des projets)",
-        "praticedInCompany": "Pratiqué en entreprise",
-        "seeProjects": "Voir mes projets"
+  "projects": "Projets",
+  "contact": "Contact",
+  "resume": "CV",
+  "skills": {
+    "title": "Compétences",
+    "learnIndepentlyWithProjects": "Apprendre de manière indépendante (avec des projets)",
+    "praticedInCompany": "Pratiqué en entreprise",
+    "seeProjects": "Voir mes projets"
+  },
+
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Master Informatique",
+        "school": "Sorbonne Université ",
+        "location": "Paris, France",
+        "year": "2024",
+        "description": "Obtenu en apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Le diplôme est axé sur l'ingénierie logicielle et la théorie de la compilation."
       },
+      {
+        "degree": "Licence  Informatique",
+        "school": "Université d'Angers",
+        "location": "Angers, France",
+        "year": "2022",
+        "description": "Développé des bases solides en développement logiciel et en conception de systèmes."
+      },
+      {
+        "degree": "Baccalauréat",
+        "school": "Lycée du Bon Berger",
+        "location": "Cotonou, Bénin",
+        "year": "2018",
+        "description": "Axé sur les mathématiques et la physique"
+      }
+    ]
+  },
 
-    "education": {
-        "title": "Education",
-        "items": [
-            {
-                "degree": "Master Informatique",
-                "school": "Sorbonne Université ",
-                "location": "Paris, France",
-                "year": "2024",
-                "description": "Obtenu en apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Le diplôme est axé sur l'ingénierie logicielle et la théorie de la compilation."
-            },
-            {
-                "degree": "Licence  Informatique",
-                "school": "Université d'Angers",
-                "location": "Angers, France",
-                "year": "2022",
-                "description": "Développé des bases solides en développement logiciel et en conception de systèmes."
-            },
-            {
-                "degree": "Baccalauréat",
-                "school": "Lycée du Bon Berger",
-                "location": "Cotonou, Bénin",
-                "year": "2018",
-                "description": "Axé sur les mathématiques et la physique"
-            }
-        ]
-    },
+  "skillsAndExperience": {
+    "title": ["Mes", "Compétences & Expériences"],
+    "description": [
+      "Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière",
+      "Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.",
+      "Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles."
+    ]
+  },
 
-    "skillsAndExperience" : {
-        "title": [
-            "Mes",
-            "Compétences & Expériences"
-        ],
-        "description": [
-          "Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière",
-          "Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.",
-          "Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles." 
-        ]
-    },
-
-    "allaboutMe": {
+  "allaboutMe": {
     "title": "Quelques mots sur <span class=\"marked\">Moi</span>",
     "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
     "details": [
-        "Je suis passionnée par les défis, les abordant avec créativité et précision pour fournir des solutions optimales.",
-        "Je suis impatiente de travailler dans le spectre créatif du front-end, collaborant sur des projets ambitieux avec des personnes positives et partageant les mêmes idées.",
-        "Au-delà du code, je suis profondément passionnée par le fitness et la boxe, l'exploration de la nature avec des amis, le visionnage en série de séries télévisées de premier plan et l'immersion dans la littérature anglaise."
+      "Je suis passionnée par les défis, les abordant avec créativité et précision pour fournir des solutions optimales.",
+      "Je suis impatiente de travailler dans le spectre créatif du front-end, collaborant sur des projets ambitieux avec des personnes positives et partageant les mêmes idées.",
+      "Au-delà du code, je suis profondément passionnée par le fitness et la boxe, l'exploration de la nature avec des amis, le visionnage en série de séries télévisées de premier plan et l'immersion dans la littérature anglaise."
     ]
+  },
+
+  "pageNotFound": {
+    "title": "On dirait que vous êtes perdu...",
+    "description": "La page que vous recherchez n'est pas disponible. Vous pouvez revenir à la page d'accueil ou explorer d'autres sections de mon site.",
+    "goToHome": "Retour à l'accueil"
+  },
+
+  "personnality": {
+    "title": "Personnalité en tant que Développeur",
+    "description": ["Lentement mais surement,",
+            "on réussit"],
+    "quickLearning": {
+      "title": "Apprentissage Rapide",
+      "description": "Les meilleurs développeurs de logiciels sont souvent des autodidactes fantastiques. La compétence idéale que toute personne peut avoir est de comprendre comment apprendre, et les développeurs idéaux ont acquis la compétence de l'auto-apprentissage."
+    },
+    "problemSolving": {
+      "title": "Résolution de Problèmes",
+      "description": "La résolution de problèmes est l'une des parties les plus importantes du travail. La résolution de problèmes consiste également à utiliser la créativité et les processus de pensée logique pour identifier les problèmes et les résoudre avec des logiciels."
+    },
+    "admitMistakes": {
+      "title": "Admettre ses erreurs",
+      "description": "Nous, en tant que développeurs de logiciels, devons apprendre à admettre nos erreurs. Bien sûr, faire des erreurs arrive à tout le monde. La chose la plus importante à faire est de faire un effort pour apprendre de ces erreurs et essayer de les éviter à l'avenir."
+    }
   }
 }

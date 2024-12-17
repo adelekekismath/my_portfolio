@@ -1,13 +1,13 @@
 <template>
   <div class=" w-screen bg-indigo-50">
-    <div class=" container  px-10 mx-auto w-screen  py-12">
+    <div class=" container mx-auto w-screen  py-12">
         <div class="max-w-7xl ">
           <h3 class="text-2xl font-bold text-gradient  mb-12">
             {{ $t('education.title') }}
             <div class="divider"></div>
           </h3>
           <div
-            class="flex  flex-col md:flex-row border-t-2 border-gray-300  items-start justify-between space-y-10 md:space-y-0">
+            class="flex  flex-col md:flex-row md:border-t-2 border-gray-300  items-start justify-between space-y-10 md:space-y-0">
             
             <EducationItem 
                 v-for="educationItem in educationItems" 

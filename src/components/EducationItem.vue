@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-1  md:px-4">
+    <div class="flex-1  border-t-2  border-gray-300 md:border-0  md:px-4">
         <div class="relative">
         <div class="absolute w-8 h-8 bg-indigo-500 rounded-full -top-0  d-flex justify-center align-center">
             <i class="fa-solid fa-graduation-cap white" color="white"></i>
