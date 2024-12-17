@@ -1,5 +1,4 @@
 <template>
-  <div >
     <nav  class="nav-contaier ">
     <div class="nav-items hidden-on-mobile">
       <button
@@ -20,7 +19,6 @@
       <button  flat icon @click="switchLanguage('fr')">🇫🇷</button>
     </div>
     </nav>
-  </div>
  
 </template>
 

@@ -1,19 +1,18 @@
 <template>
   <div class="relative mb-8  px-10 mx-auto w-screen" :class="{'space-on-top': addSpace}">
     <div class="d-flex justify-center mt-12 flex-col ">
-        <h3 class="text-2xl font-bold mx-auto text-gradient ">
+        <h3 class="text-2xl font-bold mx-auto  text-gradient">
             {{ $t('contactMe.title') }}
         </h3>
         <div class="divider w-12 mx-auto"></div>
-        <p class="w-1/2 mx-auto text-center">
+        <p class="sm:w-1/2 mx-auto text-center">
             {{ $t('contactMe.description') }}
         </p>
     </div>
    
     <div class="container">
       <div class="row align-items-start mt-8">
-        <div class="col-lg-6 py-3 wow fadeInUp">
-          
+        <div class="col-lg-6 py-3 px-0 wow fadeInUp">
 
           <ul class="contact-list">
             <li class="mb-8">
