@@ -1,7 +1,7 @@
 <template>
    
 
-  <div class="bg-indigo-50 pt-8 page-section space-on-top">
+  <div class="bg-indigo-50 pt-8 page-section my-[76px]">
     <div class="container">
       <div class="row">
         <div

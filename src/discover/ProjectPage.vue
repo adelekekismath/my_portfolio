@@ -1,23 +1,23 @@
 <template>
    
     <div
-      class="page-section bg-indigo-50 space-on-top">
+      class="page-section bg-indigo-50 md:my-[76px]">
       <div class="container">
-        <div class="row my-5 card-blog-row">
+        <div class="row my-5 card-blog-row w-screen">
 
           <div
             v-for="(a, i) in project"
             :key="a"
-            class="col-md-5 col-lg-4 py-5 px-4 my-8">
+            class="col-md-6 col-lg-5 py-5 px-4 my-8 lg:h-[600px]">
             <div
-              class="flex flex-col space-y-5 border shadow-md border-indigo-500 bg-white h-105 rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-indigo-400 cursor-pointer">
+              class="flex flex-col space-y-5 border h-full shadow-md border-indigo-500 bg-white rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-indigo-400 cursor-pointer">
               <div
-                class="flex items-center justify-center -mt-6 h-48 rounded-t-lg bg-white ">
-                <img class="h-48 w-96 project-img " :src="project[i].image" />
+                class="flex items-center justify-center h-3/4 w-full  rounded-t-lg bg-white ">
+                <img class="h-full w-full project-img " :src="project[i].image" />
               </div>
 
               <div class="flex flex-col ml-4">
-                <div class="text-xl font-medium  ml-3 mb-2">
+                <div class="text-lg font-medium  ml-3 mb-2">
                   <a>{{ project[i].name }}</a>
                 </div>
                 <div
@@ -26,8 +26,7 @@
                 </div>
 
                 <div
-                  class="flex flex-row items-start py-2 px-2 space-x-3 ml-2"
-                  style="padding-bottom: 25px">
+                  class="flex flex-row items-start  space-x-3 ml-2">
                   <img :src="project[i].tech1" />
                   <img :src="project[i].tech2" />
                   <img :src="project[i].tech3" />
@@ -89,13 +88,11 @@ export default {
   border: 3px solid #dad9db;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 5px #6C55F9;
-  padding: 0 6px;
   float: left;
-  width: 54.99999%;
 }
 
 .project-img:hover {
-  transform: scale(1.8); margin: 80px 0 0 0;
+  transform: scale(1.5); margin: 80px 0 0 0;
   z-index: 10;
   transition: transform 0.8s;
   width: 100%;

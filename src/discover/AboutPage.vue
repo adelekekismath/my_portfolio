@@ -1,11 +1,11 @@
 <template>
    
+<div class="my-[76px]">
+    <About :addSpaceOnTop="true" />
+    <Personnality />
+</div>
+  
 
-  <About :addSpaceOnTop="true" />
-
-  <Personnality />
-
-  <NavbarFooter :blog="blog" />
 </template>
 
 <script>

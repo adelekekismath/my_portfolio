@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-50 page-section pt-5 mb-0" :class="{ 'space-on-top': addSpaceOnTop }">
+  <div class="bg-indigo-50 page-section pt-5 mb-0" >
     <div class="container">
       <div class="row">
         <div class="col-lg-6 py-3 wow zoomIn">
@@ -36,13 +36,13 @@
                 <span v-html="$t('allaboutMe.details[2]')"></span>
               </li>
             </ul>
-          </div>
+          </div
 
         </div>
 
       </div>
     </div>
-  </div>
+        </div>
 
   <div class=" page-section">
 
@@ -55,6 +55,7 @@
      
 
   </div>
+</div>
 </template>
 
 <script>
