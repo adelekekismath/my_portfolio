@@ -56,8 +56,6 @@
       </div>
     </div>
 
-    <NavbarFooter />
-
 </template>
 
 <script>

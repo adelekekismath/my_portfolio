@@ -11,7 +11,6 @@
 <script>
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import NavbarFooter from "../components/NavbarFooter";
 import Personnality from "../components/Personnality";
 
 export default {
@@ -27,7 +26,6 @@ export default {
   components: {
     Navbar,
     About,
-    NavbarFooter,
     Personnality
   },
 };

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative mb-[90px]  px-10 mx-auto w-screen" :class="{ 'my-[88px]': addSpace }">
+    <div class="relative mb-[130px]  px-10 mx-auto w-screen" :class="{ 'my-[88px]': addSpace }">
         <div class="d-flex justify-center mt-12 flex-col ">
             <h3 class="text-2xl font-bold mx-auto  text-gradient">
                 {{ $t('contactPage.title') }}

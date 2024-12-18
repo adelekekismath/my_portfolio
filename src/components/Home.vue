@@ -4,7 +4,7 @@
   <About />
   <Contact :addSpace="false"/>
   
-  <NavbarFooter />
+  
 </template>
 
 <script>
@@ -12,7 +12,6 @@ import Navbar from "./Navbar.vue";
 import Header from "./Header.vue";
 import About from "./About.vue";
 import Contact from "./Contact.vue";
-import NavbarFooter from "./NavbarFooter.vue";
 
 export default {
   name: "Home",
@@ -28,8 +27,7 @@ export default {
     Navbar,
     Header,
     About,
-    Contact,
-    NavbarFooter,
+    Contact
   },
 };
 </script>

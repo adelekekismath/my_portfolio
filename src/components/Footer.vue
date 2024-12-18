@@ -1,10 +1,10 @@
 <template>
-    <footer class="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4">
+    <footer class="absolute mb-[20px] md-0 bottom-0 left-0 right-0 bg-gray-900 text-white py-4">
         <div class="container mx-auto">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div>
             
-            <p class="text-sm">© 2024 Kismath ADELEKE. {{ $t('allRightsReserved') }}.</p>
+            <p class="text-sm pb-3">© 2024 Kismath ADELEKE. {{ $t('allRightsReserved') }}.</p>
             </div>
             <div class="flex space-x-4 m md:mt-0">
             <a href="https://github.com/adelekekismath" target="_blank" class="px-1">

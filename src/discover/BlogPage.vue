@@ -97,14 +97,10 @@
       </div>
     </div>
   </div>
-
-  <NavbarFooter />
 </template>
 
 <script>
 import Data from "../data/data.js";
-import Navbar from "../components/Navbar";
-import NavbarFooter from "../components/NavbarFooter";
 
 export default {
   name: "Blog Page",
@@ -112,12 +108,7 @@ export default {
     return {
       blog: Data,
     };
-  },
-
-  components: {
-    Navbar,
-    NavbarFooter,
-  },
+  }
 };
 </script>
 
