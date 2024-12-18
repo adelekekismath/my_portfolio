@@ -93,5 +93,18 @@
   "projectsPage": {
     "liveDemo": "Démo",
     "sourceCode": "Code source"
-  }
+  },
+
+  "contactPage": {
+    "title": "Contact",
+    "description": "Je suis actuellement à la recherche de nouvelles opportunités et j'aimerais avoir de vos nouvelles. Que vous ayez une question ou que vous vouliez simplement dire bonjour, n'hésitez pas à m'envoyer un message.",
+    "form": {
+        "name": "Votre Nom Complet",
+        "email": "Votre Email",
+        "subject": "Sujet",
+        "message": "Votre Message",
+        "send": "Envoyer le Message",
+        "success": ["Votre message a été envoyé avec succès,", "Je vous répondrai dès que possible."]
+    }
+}
 }

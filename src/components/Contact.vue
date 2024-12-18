@@ -36,24 +36,24 @@
                     <form @submit.prevent="sendEmail()">
                         <div class="py-2 d-flex w-full justify-between">
                             <input type="text" v-model="form.from_name" class=" rounded-3 border border-t-2  w-[48%]"
-                                placeholder="Your full name" required />
+                                :placeholder="$t('contactPage.form.name')" required />
                             <input type="email" v-model="form.from_email" class=" rounded-3 border border-t-2 w-[48%]"
-                                placeholder="Your email" required />
+                                :placeholder="$t('contactPage.form.email')" required />
                         </div>
                         <div class="py-2">
                             <input type="text" v-model="form.subject" class=" rounded-3 border border-t-2 w-full"
-                                placeholder="Subject" required />
+                                :placeholder="$t('contactPage.form.subject')" required />
                         </div>
                         <div class="py-2">
-                            <textarea v-model="form.message" rows="6" class="form-control" placeholder="Enter message"
+                            <textarea v-model="form.message" rows="6" class="form-control" :placeholder="$t('contactPage.form.message')"
                                 required></textarea>
                         </div>
                         <button
                             class="py-2 px-5 bg-indigo-500 mt-4 text-white font-semibold rounded-full shadow-md hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-400 focus:ring-opacity-75">
-                            Send Message
+                            {{ $t('contactPage.form.send') }}
                         </button>
                         <v-alert v-if="messageSent" type="success" closable  class="p-3 my-4 text-sm text-green-800 rounded-lg bg-green-100 dark:bg-gray-800 dark:text-green-400" role="alert">
-                            <span class="font-medium"> Message sent successfully </span> I will get back to you as soon as possible.
+                            <span class="font-medium"> {{ $t('contactPage.form.success[0]') }} </span> {{ $t('contactPage.form.success[1]') }}
                         </v-alert>
                     </form>
                 </div>
