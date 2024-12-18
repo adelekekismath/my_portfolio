@@ -16,8 +16,8 @@
   "resume": "CV",
   "skills": {
     "title": "Compétences",
-    "learnIndepentlyWithProjects": "Apprendre de manière indépendante (avec des projets)",
-    "praticedInCompany": "Pratiqué en entreprise",
+    "learnIndepentlyWithProjects": "Apprentissage en autonomie (avec des projets)",
+    "praticedInCompany": "Utilisés en entreprise",
     "seeProjects": "Voir mes projets"
   },
 
@@ -56,6 +56,38 @@
       "Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles."
     ]
   },
+
+  "career" : {
+    "title": "Expériences",
+    "items": [
+        {
+            "title": "Développeur Full-Stack",
+            "company": "Bien'ici, 2 ans (2022 - 2024)",
+            "location": "Paris, France",
+            "description": "Développement de l'application \"Mega Widget 3D\", une solution de visualisation interactive pour les projets immobiliers.",
+            "moreDetails": [
+                "Développement d'un outil de visualisation 3D pour les projets immobiliers, permettant aux utilisateurs d'explorer les propriétés dans un environnement virtuel.",
+                "Mise en œuvre d'une interface dynamique et conviviale, permettant aux utilisateurs de personnaliser leur recherche de propriétés.",
+                "Collaboration avec l'équipe de conception pour créer une expérience utilisateur visuellement attrayante et intuitive.",
+                "Optimisation des performances de l'application, entraînant une augmentation de 30 % de l'engagement des utilisateurs."
+            ]
+        },
+        {
+            "title": "Développeur DevSecOps",
+            "company": "Tranquil IT, 4 mois (2021)",
+            "location": "Nantes, France",
+            "description": "Automatisation de la gestion des applications avec des packages WAPT (déploiement, mises à jour et suppression).",
+            "moreDetails": [
+                "Développement d'un script Python pour automatiser le déploiement des packages logiciels, réduisant la charge de travail manuelle de 50 %.",
+                "Mise en œuvre d'un pipeline d'intégration continue, entraînant une réduction de 40 % du temps de déploiement.",
+                "Collaboration avec l'équipe de développement pour améliorer la sécurité et les performances des applications.",
+                "Fourniture d'un support technique aux clients, résolution des problèmes et garantie des performances optimales des applications."
+            ]
+        }
+    ],
+    "readMore": "lire la suite...",
+    "readLess": "lire moins..."
+},
 
   "allaboutMe": {
     "title": ["Quelques mots sur", " Moi"],
@@ -96,7 +128,7 @@
   },
 
   "contactPage": {
-    "title": "Contact",
+    "title": "Contactez-moi",
     "description": "Je suis actuellement à la recherche de nouvelles opportunités et j'aimerais avoir de vos nouvelles. Que vous ayez une question ou que vous vouliez simplement dire bonjour, n'hésitez pas à m'envoyer un message.",
     "form": {
         "name": "Votre Nom Complet",

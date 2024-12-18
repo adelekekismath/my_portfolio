@@ -2,11 +2,11 @@
     <div class="relative mb-[90px]  px-10 mx-auto w-screen" :class="{ 'my-[88px]': addSpace }">
         <div class="d-flex justify-center mt-12 flex-col ">
             <h3 class="text-2xl font-bold mx-auto  text-gradient">
-                {{ $t('contactMe.title') }}
+                {{ $t('contactPage.title') }}
             </h3>
             <div class="divider w-12 mx-auto"></div>
             <p class="sm:w-1/2 mx-auto text-center">
-                {{ $t('contactMe.description') }}
+                {{ $t('contactPage.description') }}
             </p>
         </div>
 

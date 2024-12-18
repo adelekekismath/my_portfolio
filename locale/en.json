@@ -23,7 +23,7 @@
     "skills": {
         "title": "Skills",
         "learnIndepentlyWithProjects": "Learn independently (with projects)",
-        "praticedInCompany": "Practiced in company",
+        "praticedInCompany": "Used in company",
         "seeProjects": "See my projects"
       },
 
@@ -90,7 +90,7 @@
 
     },
     "contactMe": {
-        "title": "Contact",
+        "title": "Contact me",
         "description": "I'm currently looking for new opportunities and would love to hear from you. Whether you have a question or just want to say hi, feel free to send me a message.",
         "form": {
             "name": "Name",
