@@ -15,14 +15,12 @@
     </div>
       
     <div class="lang-btns">
-        <input @change="switchMode()" type="checkbox" class="checkbox " id="checkbox">
-        <label for="checkbox" class="checkbox-label mr-4">
-            <i class="fas  fa-moon"></i>
-            <i class="fas  fa-sun"></i>
+        <input @change="switchLanguage()" type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox"  class="checkbox-label text-sm  mr-4">
+            <span class="mx-1">fr</span>
+            <span class="mx-1">en</span>
             <span class="ball"></span>
         </label>
-      <button  flat icon @click="switchLanguage('en')"> 🇬🇧</button>
-      <button  flat icon @click="switchLanguage('fr')">🇫🇷</button>
     </div>
     </nav>
 </template>
@@ -37,7 +35,7 @@ export default {
     return {
       appTitle: 'Awesome App',
       sidebar: false,
-      isDarkMode: false,
+      isEnglish: true,
     }
   },
   computed: {
@@ -54,14 +52,9 @@ export default {
   },
 
   methods: {
-    switchLanguage(lang) {
-      this.$i18n.locale = lang;
-    },
-    switchMode() {
-      this.isDarkMode = !this.isDarkMode;
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-      document.body.classList.toggle('dark-mode');
-    },
+    switchLanguage() {
+      this.$i18n.locale = this.$i18n.locale === 'en' ? 'fr' : 'en';
+    }
   },
 
  
@@ -79,7 +72,7 @@ export default {
 
 .checkbox-label {
   background-color: #6C55F9;
-  width: 50px;
+  width: 55px;
   height: 26px;
   border-radius: 50px;
   position: relative;
@@ -88,11 +81,10 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
 }
 
-.fa-moon {color: #fbfaff;}
 
-.fa-sun {color: #fbfaff;}
 
 .checkbox-label .ball {
   background-color: #fff;
@@ -106,7 +98,7 @@ export default {
 }
 
 .checkbox:checked + .checkbox-label .ball {
-  transform: translateX(24px);
+  transform: translateX(28px);
 }
 
   a:hover {

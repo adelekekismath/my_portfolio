@@ -18,7 +18,7 @@
                 {{ $t("quickDescription") }}
               </p>
 
-              <div class="d-flex align-center gap-2 mt-7">
+              <div class="d-flex align-center gap-1 mt-4">
                 <SocialLink url="https://github.com/adelekekismath" icon="mdi-github" />
                 <SocialLink url="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" icon="mdi-linkedin" />
                 <SocialLink url="mailto:adelekekismath9@gmail.com" icon="mdi-email" />
@@ -30,7 +30,7 @@
         </v-sheet>
       </v-col>
 
-      <v-col cols="12" lg="7" sm="6">
+      <v-col cols="12" lg="7" sm="6" class="">
         <v-sheet>
           <!-- Lottie animation -->
           <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json" background="transparent"
