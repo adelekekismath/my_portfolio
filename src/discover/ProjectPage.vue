@@ -90,7 +90,7 @@ export default {
 }
 
 .project-img:hover {
-  transform: scale(1.5); margin: 80px 0 0 0;
+  transform: scale(1.3); margin: 80px 0 0 0;
   z-index: 10;
   transition: transform 0.8s;
   width: 100%;

@@ -9,7 +9,7 @@
         :to="item.path">
         <router-link :to=item.path active-class="active-nav-item">
             <i class="mdi marked"  :class="item.icon"></i>
-            <span class="flex-1 ml-2 text-md">{{ item.title}}</span>
+            <span class="flex-1 ml-2 text-md ">{{ item.title}}</span>
           </router-link>
       </button>
     </div>
@@ -134,6 +134,7 @@ export default {
     display: flex;
     margin: 0 auto;
     gap: 30px;
+    color: gray;
     
   }
 
@@ -158,10 +159,7 @@ export default {
     }
   }
 
-  .active-nav-item {
-    color: #6C55F9;
-    text-shadow: 0 0 black;
-  }
+
 
 
 
