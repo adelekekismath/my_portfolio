@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto py-7 w-screen">
-        <div class="row sm:mx-8  w-screen">
+        <div class="row md:mx-0 sm:mx-8   w-screen">
         <div class="col-lg-6  mt-9 lg:mt-0">
             <h2 class="title-section text-2xl">
                 {{ $t('career.title') }}

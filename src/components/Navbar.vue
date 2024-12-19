@@ -15,14 +15,20 @@
     </div>
       
     <div class="lang-btns">
+        <input @change="switchMode()" type="checkbox" class="checkbox " id="checkbox">
+        <label for="checkbox" class="checkbox-label mr-4">
+            <i class="fas  fa-moon"></i>
+            <i class="fas  fa-sun"></i>
+            <span class="ball"></span>
+        </label>
       <button  flat icon @click="switchLanguage('en')"> 🇬🇧</button>
       <button  flat icon @click="switchLanguage('fr')">🇫🇷</button>
     </div>
     </nav>
- 
 </template>
 
 <script>
+
 
 export default {
   
@@ -31,7 +37,7 @@ export default {
     return {
       appTitle: 'Awesome App',
       sidebar: false,
-    
+      isDarkMode: false,
     }
   },
   computed: {
@@ -40,7 +46,7 @@ export default {
         { title: this.$t('home'), path: '/', icon: 'mdi-home' },
         { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
         { title: this.$t('about'), path: '/about', icon: 'mdi-star' },
-        { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
+        { title: this.$t('blog'), path: '/blogs', icon: 'mdi-newspaper' },
         { title: this.$t('contact'), path: '/contact', icon: 'mdi-email' },
       ];
     }
@@ -51,6 +57,11 @@ export default {
     switchLanguage(lang) {
       this.$i18n.locale = lang;
     },
+    switchMode() {
+      this.isDarkMode = !this.isDarkMode;
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+      document.body.classList.toggle('dark-mode');
+    },
   },
 
  
@@ -58,6 +69,45 @@ export default {
 </script>
 
 <style scoped>
+
+
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #6C55F9;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #fbfaff;}
+
+.fa-sun {color: #fbfaff;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
 
   a:hover {
     text-decoration: none !important;

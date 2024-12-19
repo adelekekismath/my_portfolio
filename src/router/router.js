@@ -3,10 +3,9 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Home from '../components/Home.vue';
 import About from '../discover/AboutPage.vue';
 import Projects from '../discover/ProjectPage.vue';
-import Blog from '../discover/BlogPage.vue';
+import Blogs from '../discover/BlogsPage.vue';
 import Contact from '../components/Contact.vue';
-import Allblogs from '../components/Allblogs.vue';
-
+import Blog from '../components/Blog.vue';
 import PageNotFound from "../components/PageNotFound.vue";
 
 
@@ -32,8 +31,8 @@ const routes = [{
         meta: {title: 'Projects | Kismath ADELEKE'}
     },
     {
-        path: "/blog",
-        component: Blog,
+        path: "/blogs",
+        component: Blogs,
         meta: {title: 'Blog | Kismath ADELEKE'}
     },
     {
@@ -42,9 +41,10 @@ const routes = [{
         meta: {title: 'Contact | Kismath ADELEKE'}
     },
     {
-        path: "/blogs",
-        component: Allblogs,
-        meta: {title: 'All Blogs | Kismath ADELEKE'}
+        path: "/blog/:id",
+        component: Blog,
+        props: true,
+        meta: {title: 'Blog | Kismath ADELEKE'}
     },
 
     {

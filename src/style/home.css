@@ -18,7 +18,9 @@ body {
     color: #2D2B3A;
 }
 
-
+.dark-mode {
+    background-color: var(--dark) !important;
+}
 
 a {
     color: #6C55F9;
