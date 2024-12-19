@@ -18,11 +18,11 @@
           <div class="divider"></div>
 
           <div>
-            <p v-html="$t('allaboutMe.intro')"></p>
+            <p class="text-md" v-html="$t('allaboutMe.intro')"></p>
           </div>
 
           <div class="allaboutMe-me">
-            <ul>
+            <ul class="text-md ml-2" >
               <li class="my-4">
                 <i class="fa-solid fa-check-double marked mr-2"></i>
                 <span v-html="$t('allaboutMe.details[0]')"></span>
