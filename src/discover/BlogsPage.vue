@@ -1,7 +1,7 @@
 <template>
    
 
-  <div class="b pt-8 page-section mt-[76px] mb-[72px]">
+  <div class="b pt-8 page-section md:mt-[76px] mb-[130px] md:mb-[72px]">
     <div class="container">
       <div class="my-2 grid sm:grid-cols-2 md:grid-cols-2 gap-4">
 
