@@ -3,14 +3,14 @@
     <div
       class="page-section  md:my-[76px]">
       <div class="container">
-        <div class="row my-5 card-blog-row w-screen">
+        <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
 
           <div
             v-for="(a, i) in project"
             :key="a"
-            class="col-md-6 col-lg-5 py-5 px-4 my-8 lg:h-[600px]">
+            class="p-4 pb-0 bg-white my-2 rounded-lg shadow dark:bg-gray-800" >
             <div
-              class="flex flex-col space-y-5 border h-full bg-white rounded-md  cursor-pointer">
+              class="flex flex-col space-y-5 h-full bg-white rounded-md  cursor-pointer">
               <div
                 class="flex items-center justify-center h-3/4 w-full  rounded-t-lg bg-white ">
                 <img class="h-full w-full project-img " :src="project[i].image" />

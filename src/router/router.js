@@ -5,7 +5,6 @@ import About from '../discover/AboutPage.vue';
 import Projects from '../discover/ProjectPage.vue';
 import Blogs from '../discover/BlogsPage.vue';
 import Contact from '../components/Contact.vue';
-import Blog from '../components/Blog.vue';
 import PageNotFound from "../components/PageNotFound.vue";
 
 
@@ -39,12 +38,6 @@ const routes = [{
         path: "/contact",
         component: Contact,
         meta: {title: 'Contact | Kismath ADELEKE'}
-    },
-    {
-        path: "/blog/:id",
-        component: Blog,
-        props: true,
-        meta: {title: 'Blog | Kismath ADELEKE'}
     },
 
     {
