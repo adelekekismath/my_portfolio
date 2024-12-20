@@ -124,7 +124,25 @@
   },
   "projectsPage": {
     "liveDemo": "Démo",
-    "sourceCode": "Code source"
+    "sourceCode": "Code source",
+    "items": [
+        {
+            "title": "Application de Gestion d'Horloge",
+            "description": "Une application simple de gestion d'horloge qui vous permet d'ajouter, de modifier et de supprimer des horloges pour différents fuseaux horaires. L'objectif était de créer une application modulaire tout en appliquant le modèle architectural MVC (Modèle-Vue-Contrôleur)."
+        },
+        {
+            "title": "Application de Vœux Personnalisés d'Anniversaire",
+            "description": "Une application de vœux personnalisés d'anniversaire pour envoyer des vœux d'anniversaire à vos proches. L'objectif était de créer une application amusante et interactive en utilisant React."
+        },
+        {
+            "title": "Générateur de Mot de Passe",
+            "description": "Un générateur de mot de passe simple qui vous permet de générer un mot de passe aléatoire en fonction de vos préférences. L'objectif était de créer une application simple et conviviale en utilisant JavaScript vanilla."
+        },
+        {
+            "title": "Portfolio Personnel",
+            "description": "Un site web de portfolio personnel qui présente mes projets, compétences et expériences. L'objectif était de créer un site web visuellement attrayant et réactif en utilisant HTML, CSS et JavaScript."
+        }
+        ]
   },
 
   "contactPage": {

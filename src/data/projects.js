@@ -1,26 +1,10 @@
 export default [
-  {
-    name: "Personal Portfolio",
-    id: 1,
-    content:
-      "Personal Portfolio Website to showcase my work, skills and experience",
-    image: require('@/assets/images/portfolio_preview.png'),
-    tech1:
-      "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
-    tech2:
-      "https://img.shields.io/badge/Tailwind_CSS-181717?style=flat&logo=tailwind-css&logoColor=white",
-    tech3:
-      "https://img.shields.io/badge/Vuetify-7952B3?style=flat&logo=Vuetify&logoColor=white",
-
-    live: "https://kismath-adeleke.netlify.app/",
-    code: "https://github.com/adelekekismath/my_portfolio",
-  },
+  
 
   {
-    name: "Clock Manager App",
+    name: "projectsPage.items[0].title",
     id: 2,
-    content:
-      "Simple Clock Manager App to manage digital and analog clocks with different timezones",
+    content: "projectsPage.items[0].description",
     image: require('@/assets/images/timemanager_preview.png'),
     tech1:
       "https://img.shields.io/badge/Typescript-439A97?style=flat&logo=Typescript&logoColor=white",
@@ -33,10 +17,9 @@ export default [
   },
 
   {
-    name: "Birthday personnalized wish App",
+    name: "projectsPage.items[1].title",
     id: 3,
-    content:
-      "Birthday personnalized wish App to send birthday wishes to your loved ones",
+    content: "projectsPage.items[1].description",
     image: require('@/assets/images/birthdaywish_preview.png'),
     tech1:
       "https://img.shields.io/badge/ReactJs-7286D3?style=flat&logo=ReactJs&logoColor=green",
@@ -50,10 +33,9 @@ export default [
   },
 
   {
-    name: "Password Generator App",
+    name: "projectsPage.items[2].title",
     id: 4,
-    content:
-      "Password Generator App to generate strong passwords with different options",
+    content: "projectsPage.items[2].description",
     image: require('@/assets/images/pwdgenerator_preview.png'),   
     tech1:
       "https://img.shields.io/badge/Javascript-363636?style=flat&logo=Javascript&logoColor=white",
@@ -63,6 +45,22 @@ export default [
       "https://img.shields.io/badge/CSS-181717?style=flat&logo=css3&logoColor=white",
     live: "https://passwordgenerator-by-kis.netlify.app/",
     code: "https://github.com/adelekekismath/password_generator",
+  },
+
+  {
+    name: "projectsPage.items[3].title",
+    id: 1,
+    content: "projectsPage.items[3].description",
+    image: require('@/assets/images/portfolio_preview.png'),
+    tech1:
+      "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
+    tech2:
+      "https://img.shields.io/badge/Tailwind_CSS-181717?style=flat&logo=tailwind-css&logoColor=white",
+    tech3:
+      "https://img.shields.io/badge/Vuetify-7952B3?style=flat&logo=Vuetify&logoColor=white",
+
+    live: "https://kismath-adeleke.netlify.app/",
+    code: "https://github.com/adelekekismath/my_portfolio",
   },
 
 ];

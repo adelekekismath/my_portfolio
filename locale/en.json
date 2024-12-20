@@ -135,8 +135,25 @@
 
     "projectsPage": {
         "liveDemo": "Live Demo",
-        "sourceCode": "Source Code"
-        
+        "sourceCode": "Source Code",
+        "items": [
+            {
+                "title": "Clock Manager App",
+                "description": "A simple clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern"
+            },
+            {
+                "title": "Birthday personnalized wish App",
+                "description": "Birthday personnalized wish App to send birthday wishes to your loved ones. The goal was to create a fun and interactive using React"
+            },
+            {
+                "title": "Password Generator",
+                "description": "A simple password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript."
+            },
+            {
+                "title": "Personal Portfolio",
+                "description": "A personal portfolio website that showcases my projects, skills, and experience. The goal was to create a visually appealing, responsive website using HTML, CSS, and JavaScript."
+            }
+        ]
     },
 
     "contactPage": {
