@@ -243,12 +243,16 @@ a.text-dark:focus {
     
   }
   .nav-item{
-    color: gray;
+    color: rgb(138, 132, 132);
+  }
+
+  .nav-item.i {
+    color: rgb(138, 132, 132);
   }
 
 .active-nav-item {
     color: #6C55F9;
-    text-shadow: 0 0 black;
+    font-weight:600;
 }
 
 .text-body {

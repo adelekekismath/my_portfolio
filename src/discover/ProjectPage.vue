@@ -1,7 +1,7 @@
 <template>
    
     <div
-      class="page-section bg-indigo-50 md:my-[76px]">
+      class="page-section  md:my-[76px]">
       <div class="container">
         <div class="row my-5 card-blog-row w-screen">
 
@@ -10,7 +10,7 @@
             :key="a"
             class="col-md-6 col-lg-5 py-5 px-4 my-8 lg:h-[600px]">
             <div
-              class="flex flex-col space-y-5 border h-full shadow-md border-indigo-500 bg-white rounded-md hover:-mt-1 hover:shadow-lg hover:shadow-indigo-400 cursor-pointer">
+              class="flex flex-col space-y-5 border h-full bg-white rounded-md  cursor-pointer">
               <div
                 class="flex items-center justify-center h-3/4 w-full  rounded-t-lg bg-white ">
                 <img class="h-full w-full project-img " :src="project[i].image" />
@@ -83,9 +83,7 @@ export default {
 }
 
 .project-img{
-  border: 3px solid #dad9db;
   border-radius: 15px;
-  box-shadow: 0px 0px 10px 5px #6C55F9;
   float: left;
 }
 

@@ -4,7 +4,6 @@
     <main>
       <router-view />
     </main>
-    <NavbarFooter />
     <Footer />
   </v-app>
 </template>
@@ -12,7 +11,6 @@
 <script>
 import Navbar from './components/Navbar';
 import Blog from './data/data.js'
-import NavbarFooter from './components/NavbarFooter'
 import Footer from './components/Footer';
 
 export default {
@@ -31,7 +29,6 @@ export default {
 
   components: {
     Navbar,
-    NavbarFooter,
     Footer
   }
 }
