@@ -1,14 +1,14 @@
 <template>
    
     <div
-      class="page-section  md:my-[76px] mb-[130px] md:mb-[72px]">
+      class="page-section md:pt-12  md:my-[76px] mb-[130px] md:mb-[72px]">
       <div class="container">
         <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
 
           <div
             v-for="(a, i) in project"
             :key="a"
-            class="p-3 pb-0 bg-white my-2 rounded-lg shadow dark:bg-gray-800" >
+            class="p-3 pb-0 bg-white my-2 border border-gray-200 rounded-lg shadow dark:bg-gray-800" >
             <div
               class="flex flex-col space-y-5 h-full bg-white rounded-md  cursor-pointer">
               <div

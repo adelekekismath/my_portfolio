@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto py-7 w-screen">
-        <div class="row md:mx-0 sm:mx-8   w-screen">
+    <div class="container md:px-6 mx-auto py-7 w-screen">
+        <div class="row md:mx-0 sm:mx-8   lg:w-screen">
         <div class="col-lg-6  mt-9 lg:mt-0">
             <h2 class="title-section text-2xl">
                 {{ $t('career.title') }}
@@ -18,11 +18,14 @@
             </div>
 
         </div>
-        <div class="col-lg-6 py-3 wow zoomIn">
+        <div class="col-lg-4 py-3 wow zoomIn my-auto">
             <div class="img-place text-center">
                 <lottie-player src="https://lottie.host/0634f73c-13ea-45c0-ba69-411f0a58f2b0/7HePBzo9CW.json"
                     background="transparent" speed="0.5" style="max-width: 500px; max-height: 500px"
-                    autoplay></lottie-player>
+                    autoplay
+                    loop
+                >
+                </lottie-player>
             </div>
         </div>
     </div>
@@ -46,16 +49,36 @@ export default {
             const items = [];
             const itemCount = 2; 
             for (let i = 0; i < itemCount; i++) {
-                const moreDetails = [];
+                const tasks = [];
+                const result = [];
                 for (let j = 0; j < 4; j++) {
-                    if(this.$t(`career.items[${i}].moreDetails[${j}]`) !== `career.items[${i}].moreDetails[${j}]`) 
-                        moreDetails.push(this.$t(`career.items[${i}].moreDetails[${j}]`));
+                    if(this.$t(`career.items[${i}].tasks.content[${j}]`) !== `career.items[${i}].tasks.content[${j}]`) 
+                        tasks.push(this.$t(`career.items[${i}].tasks.content[${j}]`));
+                }
+                for (let j = 0; j < 4; j++) {
+                    if(this.$t(`career.items[${i}].results.content[${j}]`) !== `career.items[${i}].results.content[${j}]`) 
+                        result.push(this.$t(`career.items[${i}].results.content[${j}]`));
                 }
                 items.push({
                     title: this.$t(`career.items[${i}].title`),
                     company: this.$t(`career.items[${i}].company`),
-                    description: this.$t(`career.items[${i}].description`),
-                    moreDetails: moreDetails
+                    context: this.$t(`career.items[${i}].context`),
+                    tasks: {
+                        title: this.$t(`career.items[${i}].tasks.title`),
+                        content: tasks
+                    },
+                    results: {
+                        title: this.$t(`career.items[${i}].results.title`),
+                        content: result
+                    },
+                    tools: {
+                        title: this.$t(`career.items[${i}].tools.title`),
+                        content: this.$t(`career.items[${i}].tools.content`)
+                    },
+                    team: {
+                        title: this.$t(`career.items[${i}].team.title`),
+                        content: this.$t(`career.items[${i}].team.content`)
+                    },
                 });
             }
             return items;

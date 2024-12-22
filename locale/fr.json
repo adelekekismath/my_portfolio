@@ -36,14 +36,14 @@
         "school": "Université d'Angers",
         "location": "Angers, France",
         "year": "2022",
-        "description": "Développé des bases solides en développement logiciel et en conception de systèmes."
+        "description": "Acquisition des bases solides en développement logiciel et en conception de systèmes."
       },
       {
         "degree": "Baccalauréat",
         "school": "Lycée du Bon Berger",
         "location": "Cotonou, Bénin",
         "year": "2018",
-        "description": "Axé sur les mathématiques et la physique"
+        "description": "Cours principaux  : mathématiques, physique et sciences de la vie et de la terre"
       }
     ]
   },
@@ -64,25 +64,68 @@
             "title": "Développeur Full-Stack",
             "company": "Bien'ici, 2 ans (2022 - 2024)",
             "location": "Paris, France",
-            "description": "Développement de l'application \"Mega Widget 3D\", une solution de visualisation interactive pour les projets immobiliers.",
-            "moreDetails": [
-                "Développement d'un outil de visualisation 3D pour les projets immobiliers, permettant aux utilisateurs d'explorer les propriétés dans un environnement virtuel.",
-                "Mise en œuvre d'une interface dynamique et conviviale, permettant aux utilisateurs de personnaliser leur recherche de propriétés.",
-                "Collaboration avec l'équipe de conception pour créer une expérience utilisateur visuellement attrayante et intuitive.",
-                "Optimisation des performances de l'application, entraînant une augmentation de 30 % de l'engagement des utilisateurs."
-            ]
+            "context": "Développement de solutions numériques 3D innovantes (plans 3D, visites virtuelles et configurables, etc.) pour promouvoir les programmes immobiliers dans le neuf à la demande des promoteurs en fonction de leurs besoins.",
+            "team": {
+                "title": "Equipe",
+                "content": "5 personnes (3 développeurs, 1 product owner, 1 product manager)"
+            } ,
+            
+            "tools": {
+                 "title": "Outils",
+                "content":  "Vue.js, Express.js, Node.js, TypeScript, HTML/SCSS, Git, Jira, Jenkins, Bitbucket, AWS, Docker"
+
+            },
+            "tasks": {
+                "title": "Tâches",
+                "content":  [
+                    "Analyse des besoins du client avec les parties prenantes",
+                    "Travail en collaboration dans un environnement Agile (Kanban)",
+                    "Utilisation des design patterns, incluant l'injection de dépendances",
+                    "Développement de nouvelles fonctionnalités, en assurant la maintenance corrective et évolutive de l'application",
+                    "Optimisation des performances de l'application, en assurant une expérience utilisateur fluide et intuitive",
+                    "Participation à la revue de code et à la rétro-ingénierie",
+                    "Déploiement continu de l'application sur AWS, en utilisant Docker et Jenkins"
+    
+                ]
+            },
+            "results": {
+                "title": "Resultats",
+                "content": [
+                    "Optimisation des performances de myHabiteo Studio (un outil pour exporter des perspectives de haute qualité à partir de n’importe quelle visite virtuelle ou configurable, permettant de promouvoir les programmes immobiliers à moindre coût, entraînant une augmentation de 30 % de l'engagement des utilisateurs. ",
+                    "Refonte du méga widget 3D (un outil de visualisation 3D pour les projets immobiliers, permettant aux utilisateurs d'explorer les propriétés dans un environnement virtuel), pour ameliorer l'expérience utilisateur sur tout les supports (mobile, tablette, desktop)", 
+                    "Livraisons de 12 visites configurables, chacune étant vendue à un prix unitaire de 3 000"     
+                ]
+            } 
+        
         },
         {
             "title": "Développeur DevSecOps",
             "company": "Tranquil IT, 4 mois (2021)",
             "location": "Nantes, France",
-            "description": "Automatisation de la gestion des applications avec des packages WAPT (déploiement, mises à jour et suppression).",
-            "moreDetails": [
-                "Développement d'un script Python pour automatiser le déploiement des packages logiciels, réduisant la charge de travail manuelle de 50 %.",
-                "Mise en œuvre d'un pipeline d'intégration continue, entraînant une réduction de 40 % du temps de déploiement.",
-                "Collaboration avec l'équipe de développement pour améliorer la sécurité et les performances des applications.",
-                "Fourniture d'un support technique aux clients, résolution des problèmes et garantie des performances optimales des applications."
-            ]
+            "context": "Automatisation de la gestion des applications avec des packages WAPT (déploiement, mises à jour et suppression) pour les clients de l'entreprise.",
+            "team": {
+                "title": "Equipe",
+                "content": "4 développeurs "
+            } ,
+            "tools": {
+                "title": "Outils",
+                "content":  "Python, WAPT, Git, Windows Server, Flask, SQL Server"
+            },
+            "tasks": {
+                "title": "Tâches",
+                "content":  [
+                    "Développement d'un script Python pour automatiser le déploiement des packages logiciels",
+                    "Collaboration avec l'équipe de développement pour améliorer la sécurité et les performances des applications",
+                    "Developpement d'un tableau de bord pour la visualisation des données de déploiement dans le parc informatique des clients"
+                ]
+            },
+            "results": {
+                "title": "Resultats",
+                "content": [
+                    "Reeduction de la charge de travail manuelle de 50% grâce à l'automatisation du déploiement des packages logiciels",
+                    "Réduction de 40% du temps de déploiement grâce à la mise en place d'un pipeline d'intégration continue"
+                ]
+            }
         }
     ],
     "readMore": "lire la suite...",
