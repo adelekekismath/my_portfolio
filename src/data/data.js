@@ -10,9 +10,9 @@ export default [{
     {
         "username": "Kismath ADELEKE",
         "date": "2024.20.12",
-        "title": "La bataille du choix entre le frontend et le backend",
+        "title": "Ma bataille entre le frontend et le backend : Et si on arrêtait de choisir ?",
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png",
-        "link": "https://medium.com/@adelekekismath9/la-bataille-du-choix-entre-le-frontend-et-le-backend-7b3b3b7b1b7d",
-        "intro": "Le frontend et le backend sont deux faces d'une même pièce. Découvrez les avantages et les inconvénients de chaque domaine, et les facteurs à prendre en compte pour choisir lequel vous convient le mieux."
+        "link": "https://medium.com/@adelekekismath9/ma-bataille-entre-le-frontend-et-le-backend-et-si-on-arr%C3%AAtait-de-choisir-e1311f536862",
+        "intro": "Découvrez comment j'ai appris à aimer le frontend et le backend, et pourquoi il est temps de mettre fin à la guerre entre les deux."
     }
   ];
