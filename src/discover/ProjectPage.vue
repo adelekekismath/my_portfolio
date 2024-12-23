@@ -21,7 +21,7 @@
                   <a>{{ $t(`${project[i].name}`) }}</a>
                 </div>
                 <div
-                  class="text-base h-18 lg:h-12 text-gray-700 ml-3 mr-3 mb-2">
+                  class="text-base  text-gray-700 ml-3 mr-3 mb-2">
                   {{  $t(`${project[i].content}`) }}
                 </div>
 

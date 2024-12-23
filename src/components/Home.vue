@@ -1,4 +1,4 @@
-<template class="bg-indigo-50">
+<template>
    
   <Header />
   <About />
@@ -8,28 +8,24 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
-import Header from "./Header.vue";
-import About from "./About.vue";
-import Contact from "./Contact.vue";
+    import Navbar from "./Navbar.vue";
+    import Header from "./Header.vue";
+    import About from "./About.vue";
+    import Contact from "./Contact.vue";
 
-export default {
-  name: "Home",
-  data() {
-    return {};
-  },
+    export default {
+        name: "Home",
+        props: {
+            blog: Array,
+        },
 
-  props: {
-    blog: Array,
-  },
-
-  components: {
-    Navbar,
-    Header,
-    About,
-    Contact
-  },
-};
+        components: {
+            Navbar,
+            Header,
+            About,
+            Contact
+        },
+    };
 </script>
 
 <style></style>

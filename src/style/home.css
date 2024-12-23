@@ -1478,7 +1478,6 @@ a.text-dark:focus {
 
 .page-section {
     position: relative;
-    padding-top: 10px;
     background-color: #fff;
     overflow: hidden;
 }

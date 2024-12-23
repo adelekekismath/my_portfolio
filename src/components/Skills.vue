@@ -1,6 +1,7 @@
 <template>
-  <div class="container mx-auto py-12 px-3 md:px-8 w-screen">
-    <h3 class="text-2xl font-bold mb-10 text-gradient">
+  <div class="py-12 px-3 md:px-8 w-screen">
+    <div class="container">
+        <h3 class="text-2xl font-bold mb-10 text-gradient">
       {{ $t("skills.title") }}
       <div class="divider"></div>
     </h3>
@@ -34,6 +35,8 @@
         </div>
       </div>
     </div>
+    </div>
+   
   </div>
 </template>
 

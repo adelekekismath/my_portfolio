@@ -1,17 +1,11 @@
 import { createWebHistory, createRouter } from 'vue-router';
 
-import Home from '../components/Home.vue';
-import About from '../discover/AboutPage.vue';
-import Projects from '../discover/ProjectPage.vue';
-import Blogs from '../discover/BlogsPage.vue';
-import Contact from '../components/Contact.vue';
-import PageNotFound from "../components/PageNotFound.vue";
-
-
-import Login from '../firebase/Login.vue';
-import Signup from '../firebase/Signup.vue';
-import Dashboard from '../firebase/Dashboard.vue';
-import Upload from "../firebase/Upload.vue";
+const Home = () => import('../components/Home.vue');
+const About = () => import('../discover/AboutPage.vue');
+const Projects = () => import('../discover/ProjectPage.vue');
+const Blogs = () => import('../discover/BlogsPage.vue');
+const Contact = () => import('../components/Contact.vue');
+const PageNotFound = () => import("../components/PageNotFound.vue");
 
 
 const routes = [{

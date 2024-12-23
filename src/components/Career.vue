@@ -1,5 +1,5 @@
 <template>
-    <div class="  bg-indigo-50 md:px-6  py-7 w-screen">
+    <div class="bg-indigo-50 md:px-6  py-7 w-screen">
         <div class="container">
             <div class="row">
         <div class="col-lg-7  mt-9 lg:mt-0">
