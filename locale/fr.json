@@ -20,6 +20,7 @@
     "praticedInCompany": "Utilisés en entreprise",
     "seeProjects": "Voir mes projets"
   },
+  "availableForHire": "Disponible imédiatement pour un CDI",
 
   "education": {
     "title": "Education",
@@ -134,12 +135,15 @@
 
   "allaboutMe": {
     "title": ["Quelques mots sur", " Moi"],
-    "intro": "Je suis une ingénieure logicielle située en France. J'ai une très forte passion  pour les effets UI et la création d'expériences utilisateur intuitives et dynamiques. La satisfaction des utilisateurs est primordiale pour moi.",
-    "details": [
-      "Je suis passionnée par les défis, les abordant avec créativité et précision pour fournir des solutions optimales.",
-      "Je suis impatiente de travailler dans le spectre créatif du front-end, collaborant sur des projets ambitieux avec des personnes positives et partageant les mêmes idées.",
-      "Au-delà du code, je suis profondément passionnée par le fitness et la boxe, l'exploration de la nature avec des amis, le visionnage en série de séries télévisées de premier plan et l'immersion dans la littérature anglaise."
-    ]
+    "intro": "Développeuse passionnée, je suis animée par la création d’expériences numériques impactantes. Ce qui me distingue ? Une capacité à apprendre rapidement, une rigueur dans la résolution de problèmes complexes et une soif de toujours faire mieux.",
+    "strengths": "Mes forces",
+    "strengthsDetails":  [
+      "Conception de solutions innovantes : Automatisations et applications web performantes.",
+      "Adaptabilité : des missions variées dans des environnements techniques exigeants.",
+      "Collaboration efficace : je crois au travail d’équipe pour atteindre des résultats ambitieux."
+    ],
+    "myEngine": ["Mon moteur","Transformer les idées en solutions concrètes, utiles et intuitives."]
+
   },
 
   "pageNotFound": {

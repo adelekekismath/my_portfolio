@@ -13,7 +13,7 @@
     "blog": "Blogs",
     "myResume": "My Resume",
     "allRightsReserved": "All rights reserved",
-
+    "availableForHire": "Open to immediate full-time opportunities",
 
 
     "projects": "Projects",
@@ -137,12 +137,14 @@
     },
     "allaboutMe": {
         "title": ["A little about", " Me"],
-        "intro": "I’m a Software Engineer located in France. I  am passionate about  UI effects and creating intuitive, dynamic user experiences.",
-        "details": [
-          " I thrive on challenges, tackling them with creativity and precision to deliver optimal solutions.",
-          " I’m eager to work across the creative frontend spectrum, collaborating on ambitious projects with like-minded, positive people.",
-          " Beyond coding, I’m deeply passionate about fitness and boxing, exploring the outdoors with friends, binge-watching top TV series, and immersing myself in English literature."
-        ]
+       "intro": "Passionate developer, I am driven by creating impactful digital experiences. What sets me apart? A quick learning ability, precision in solving complex problems, and a constant drive to improve.",
+    "strengths": "My strengths",
+    "strengthsDetails": [
+        "Design of innovative solutions: Automations and high-performing web applications.",
+        "Adaptability: Tackling diverse projects in demanding technical environments.",
+        "Effective collaboration: I believe in teamwork to achieve ambitious results."
+    ],
+    "myEngine": ["My drive", "Transforming ideas into concrete, useful, and intuitive solutions."]
   },
    "pageNotFound": {
         "title": "Look like you're lost",
