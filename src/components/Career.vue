@@ -1,8 +1,9 @@
 <template>
-    <div class="container md:px-6 mx-auto py-7 w-screen">
-        <div class="row md:mx-0 sm:mx-8   lg:w-screen">
-        <div class="col-lg-6  mt-9 lg:mt-0">
-            <h2 class="title-section text-2xl">
+    <div class="  bg-indigo-50 md:px-6  py-7 w-screen">
+        <div class="container">
+            <div class="row">
+        <div class="col-lg-7  mt-9 lg:mt-0">
+            <h2 class="font-bold text-gradient text-2xl">
                 {{ $t('career.title') }}
             </h2>
             <div class="divider"></div>
@@ -18,7 +19,7 @@
             </div>
 
         </div>
-        <div class="col-lg-4 py-3 wow zoomIn my-auto">
+        <div class="col-lg-5 py-3 wow zoomIn my-auto">
             <div class="img-place text-center">
                 <lottie-player src="https://lottie.host/0634f73c-13ea-45c0-ba69-411f0a58f2b0/7HePBzo9CW.json"
                     background="transparent" speed="0.5" style="max-width: 500px; max-height: 500px"
@@ -28,6 +29,7 @@
                 </lottie-player>
             </div>
         </div>
+    </div>
     </div>
     </div>
     

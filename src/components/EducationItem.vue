@@ -1,11 +1,11 @@
 <template>
-    <div class="flex-1  border-t-2  border-gray-300 md:border-0  md:px-4">
+    <div class="flex-1  border-t-2 mb-6  border-gray-300 md:border-0  md:px-4">
         <div class="relative">
-            <div class="absolute w-8 h-8 bg-indigo-500 rounded-full -top-0  d-flex justify-center align-center">
+            <div class="absolute w-8 h-8 bg-indigo-500 rounded-full -top-10  d-flex justify-center align-center">
                 <i class="fa-solid fa-graduation-cap white" color="white"></i>
             </div>
             <div class="pl-8">
-                <p class="text-lg font-semibold text-gray-700 mb-4">
+                <p class="absolute -top-14  text-lg font-semibold text-gray-700 mb-4">
                     {{ educationItem.year }}
                 </p>
                 <h3 class="text-lg font-semibold w-72 text-gray-900"> 
@@ -20,7 +20,7 @@
                     </span>
                     {{ educationItem.location }}
                 </p>
-                <p class="text-gray-600 mt-2  text-md">
+                <p class=" mt-2  text-md">
                     {{ educationItem.description }}
                 </p>
             </div>

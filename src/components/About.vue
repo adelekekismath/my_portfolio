@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="col-lg-6 p-4">
-          <h2 class="title-section text-2xl">
+          <h2 class="title-section font-bold text-2xl">
             {{ $t('allaboutMe.title[0]') }}
             <span class="marked">
                 {{ $t('allaboutMe.title[1]') }}
@@ -22,20 +22,30 @@
           </div>
 
           <div class="allaboutMe-me">
+            <span class="text-md font-bold">
+                {{ $t('allaboutMe.strengths') }}:
+            </span>
             <ul class="text-md ml-2" >
               <li class="my-4">
                 <i class="fa-solid fa-check-double marked mr-2"></i>
-                <span v-html="$t('allaboutMe.details[0]')"></span>
+                <span v-html="$t('allaboutMe.strengthsDetails[0]')"></span>
               </li>
               <li class="my-4">
                 <i class="fa-solid fa-check-double marked mr-2"></i>
-                <span v-html="$t('allaboutMe.details[1]')"></span>
+                <span v-html="$t('allaboutMe.strengthsDetails[1]')"></span>
               </li>
               <li class="my-4">
                 <i class="fa-solid fa-check-double marked mr-2"></i>
-                <span v-html="$t('allaboutMe.details[2]')"></span>
+                <span v-html="$t('allaboutMe.strengthsDetails[2]')"></span>
               </li>
             </ul>
+
+            <div class="text-md">
+                <span class=" font-bold">
+                    {{ $t('allaboutMe.myEngine[0]') }}:
+                </span>
+                {{ $t('allaboutMe.myEngine[1]') }}
+            </div>
           </div
 
         </div>
@@ -48,9 +58,11 @@
 
       <Skills :independentSkills="independentSkills" :companySkills="companySkills" />
 
+     
+      <Career />
+
       <Education />
 
-      <Career />
 
      
 

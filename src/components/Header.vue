@@ -6,7 +6,7 @@
           <div class="d-flex align-center ">
             <div cols="12">
               <h1 class="text-sm uppercase mb-4"> {{ $t('welcome') }}</h1>
-              <h2 class="xs:text-3xl sm:text-5xl  mb-6 font-medium" >
+              <h2 class="xs:text-3xl sm:text-4xl  mb-6 font-medium" >
                 {{ $t("title[0]") }} 
               
                 <span class="marked  ">{{ $t("name") }}</span>
@@ -17,6 +17,15 @@
               <p class="text-l mb-5">
                 {{ $t("quickDescription") }}
               </p>
+
+              <div class="availability-indicator mb-5">
+                <v-chip color="#6C55F9"  variant="elevated" >
+                    <v-icon left class="mr-1">mdi-circle</v-icon>
+                    <div class="text-l max-w-xs]" >
+                        {{ $t("availableForHire") }}
+                    </div>
+                </v-chip>
+              </div>
 
               <div class="d-flex align-center gap-1 mt-4">
                 <SocialLink url="https://github.com/adelekekismath" icon="mdi-github" />
@@ -68,6 +77,11 @@ export default {
   align-items: center;
 }
 
+.availability-indicator {
+  display: flex;
+  align-items: center;
+}
+
 
 .header-desc {
   margin-top: -50px;
@@ -75,7 +89,7 @@ export default {
 
 @media (max-width: 375px) {
   .hero-section {
-    top: 30px;
+    
   }
 }
 </style>
