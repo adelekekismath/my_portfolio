@@ -8,7 +8,7 @@
               <h1 class="text-sm uppercase mb-4"> {{ $t('welcome') }}</h1>
               <h2 class="xs:text-3xl sm:text-4xl  mb-6 font-medium" >
                 {{ $t("title[0]") }} 
-              
+
                 <span class="marked  ">{{ $t("name") }}</span>
                 <br/>
                 {{ $t("title[1]") }}
@@ -52,7 +52,8 @@
 </template>
 
 <script>
-import SocialLink from './SocialLink';
+import { defineAsyncComponent } from 'vue';
+const SocialLink = defineAsyncComponent(() => import('./SocialLink.vue'));
 
 export default {
   name: "Header",
@@ -85,11 +86,5 @@ export default {
 
 .header-desc {
   margin-top: -50px;
-}
-
-@media (max-width: 375px) {
-  .hero-section {
-    
-  }
 }
 </style>

@@ -1,50 +1,29 @@
 <template>
-  <v-app>
+    <v-app>
     <Navbar />
     <main>
-      <router-view />
+        <router-view />
     </main>
     <Footer />
-  </v-app>
+    </v-app>
 </template>
 
 <script>
-import Navbar from './components/Navbar';
-import Blog from './data/data.js'
-import Footer from './components/Footer';
+    import { defineAsyncComponent } from 'vue';
 
-export default {
-  name: 'App',
-  data () {
-    return {
-      blog: Blog,
-    }
-  },
+    const Navbar = defineAsyncComponent(() => import('./components/Navbar.vue'));
+    const Footer = defineAsyncComponent(() => import('./components/Footer.vue'));
 
-  methods: {
-    beforeEnter () {
-      this.$root.$emit('scrollBeforeEnter')
-    }
-  },
-
-  components: {
-    Navbar,
-    Footer
-  }
-}
+    export default {
+        name: 'App',
+        data() {
+            return {
+                blog: require('./data/data.js').default, 
+            };
+        },
+        components: {
+            Navbar,
+            Footer
+        }
+    };
 </script>
-
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 350ms;
-}
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-.fade-leave,
-.fade-enter-to {
-  opacity: 1;
-}
-</style>

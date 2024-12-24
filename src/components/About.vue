@@ -74,6 +74,7 @@
 import Skills from './Skills';
 import Education from './Education';
 import Career from './Career';
+import "@lottiefiles/lottie-player";
 export default {
   data() {
     return {
