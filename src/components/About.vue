@@ -27,15 +27,15 @@
             </span>
             <ul class="text-md ml-2" >
               <li class="my-4">
-                <i class="fa-solid fa-check-double marked mr-2"></i>
+                <i class="mdi mdi-check-all mdi-24px marked mr-2"></i>
                 <span v-html="$t('allaboutMe.strengthsDetails[0]')"></span>
               </li>
               <li class="my-4">
-                <i class="fa-solid fa-check-double marked mr-2"></i>
+                <i class="mdi mdi-check-all mdi-24px marked mr-2"></i>
                 <span v-html="$t('allaboutMe.strengthsDetails[1]')"></span>
               </li>
               <li class="my-4">
-                <i class="fa-solid fa-check-double marked mr-2"></i>
+                <i class="mdi mdi-check-all mdi-24px marked mr-2"></i>
                 <span v-html="$t('allaboutMe.strengthsDetails[2]')"></span>
               </li>
             </ul>

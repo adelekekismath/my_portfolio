@@ -6,7 +6,6 @@ import * as fr from '../locale/fr.json';
 import * as en from '../locale/en.json';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap";
 
 import router from './router/router.js';
 import './data/projects.js';
@@ -19,6 +18,8 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { MotionPlugin } from '@vueuse/motion'
+
+
 
 const vuetify = createVuetify({
   components,
@@ -44,7 +45,9 @@ const app = createApp(App);
 app.use(i18n);
 app.use(MotionPlugin);
 app.use(router);
-app.use(vuetify);
+app.use(vuetify, {
+    iconfont: 'mdi'
+  });
 
 
 app.config.globalProperties.$switchLanguage = (lang) => {

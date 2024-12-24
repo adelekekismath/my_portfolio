@@ -13,7 +13,7 @@
       <div
         class="flex flex-col lg:flex-row items-center justify-evenly space-x-4 h-full text-left py-5">
         <div
-        class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
+        class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-indigo-100">
         <lord-icon
             src="https://cdn.lordicon.com/xmaezqzk.json"
             trigger="hover"
@@ -30,7 +30,7 @@
         </div>
 
         <div
-          class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
+          class="bg-white rounded-xl mt-3 drop-shadow-md col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-indigo-100">
           <lord-icon
             src="https://cdn.lordicon.com/ncmnezgk.json"
             colors="primary:#121331,secondary:#6c55f9"
@@ -47,7 +47,7 @@
         </div>
 
         <div
-          class="bg-white rounded-xl drop-shadow-md mt-3 col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-green-100">
+          class="bg-white rounded-xl drop-shadow-md mt-3 col-lg-4 ml-2 py-1 px-5 h-70 hover:-mt-3 cursor-default hover:shadow-lg hover:shadow-indigo-100">
           <lord-icon
             src="https://cdn.lordicon.com/bduzytli.json"
             colors="primary:#121331,secondary:#6c55f9"

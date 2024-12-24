@@ -17,16 +17,16 @@
                     <ul class="contact-list">
                         <li class="mb-8 d-flex align-center">
                             <i
-                                class="fa-solid fa-location-dot rounded-full pa-4 fa-xl px-4 py-6 marked  mr-4 bg-indigo-100"></i>
+                                class="mdi mdi-map-marker rounded-full mdi-24px px-2 py-1 marked  mr-4 bg-indigo-100"></i>
                             <div class="content"><a href="#"> Ile de france, France</a></div>
                         </li>
                         <li class="mb-8  d-flex align-center">
-                            <i class="fa-solid fa-at rounded-full pa-4 fa-xl px-4 py-6 marked mr-4 bg-indigo-100"></i>
+                            <i class="mdi mdi-email rounded-full pa-4 mdi-24px px-2 py-1 marked mr-4 bg-indigo-100"></i>
                             <div class="content"><a href="#">adelekekismath9@gmail.com</a></div>
                         </li>
                         <li class="mb-8  d-flex align-center">
                             <i
-                                class="fa-brands fa-linkedin rounded-full pa-4 fa-xl px-4 py-6 marked mr-4 bg-indigo-100"></i>
+                                class="mdi mdi-linkedin rounded-full mdi-24px px-2 py-1 marked mr-4 bg-indigo-100"></i>
                             <div class="content"><a href="#">Kismath ADELEKE</a></div>
                         </li>
                     </ul>
@@ -125,4 +125,5 @@ export default {
 .space-on-top {
     top: 60px;
 }
+
 </style>

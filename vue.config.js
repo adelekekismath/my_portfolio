@@ -12,7 +12,7 @@ module.exports = defineConfig({
       .tap(options => {
         options.compilerOptions = {
           ...options.compilerOptions,
-          isCustomElement: tag => tag === 'lottie-player'
+          isCustomElement: tag => tag === 'lottie-player' || tag === 'lord-icon'
         };
         return options;
       });

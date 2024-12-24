@@ -1,7 +1,7 @@
 <template>
      <div class="mb-10 text-md">
         <div class="absolute w-8 h-8 bg-indigo-500 rounded-full -left-4  d-flex justify-center align-center">
-            <i class="fa-solid fa-briefcase white"></i>
+            <i class="mdi mdi-briefcase  white"></i>
         </div>
         <h3 class="text-lg font-semibold">
             {{ career.title }}

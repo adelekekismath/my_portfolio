@@ -53,6 +53,7 @@
 
 <script>
 import { defineAsyncComponent } from 'vue';
+import "@lottiefiles/lottie-player";
 const SocialLink = defineAsyncComponent(() => import('./SocialLink.vue'));
 
 export default {
