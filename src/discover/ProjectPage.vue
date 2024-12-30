@@ -33,7 +33,7 @@
                 </div>
               </div>
               <div class="my-2" >
-              <a
+              <a v-if="project[i].live"
                 :href="project[i].live"
                 target="_blank"
                 class="btn p-2  hover:bg-indigo-100  hover:font-medium">
@@ -41,7 +41,7 @@
                 <span class="mai-chevron-forward text-sm"></span>
               </a>
 
-              <a
+              <a v-if="project[i].code"
                 :href="project[i].code"
                 target="_blank"
                 class="btn p-2 hover:bg-indigo-100 hover:font-medium">

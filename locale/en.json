@@ -206,6 +206,10 @@
             {
                 "title": "Personal Portfolio",
                 "description": "A personal portfolio website that showcases my projects, skills, and experience. The goal was to create a visually appealing, responsive website using HTML, CSS, and JavaScript."
+            },
+            {
+                "title": "Checkers game",
+                "description": "A simple checkers game with another player. The goal was to create a desktop game using Qt and C++."
             }
         ]
     },

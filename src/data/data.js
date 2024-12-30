@@ -14,5 +14,5 @@ export default [{
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png",
         "link": "https://medium.com/@adelekekismath9/ma-bataille-entre-le-frontend-et-le-backend-et-si-on-arr%C3%AAtait-de-choisir-e1311f536862",
         "intro": "blogs.items[1].description"
-    }
+    },
   ];

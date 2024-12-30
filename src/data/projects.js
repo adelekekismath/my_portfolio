@@ -63,4 +63,19 @@ export default [
     code: "https://github.com/adelekekismath/my_portfolio",
   },
 
+    {
+    name: "projectsPage.items[4].title",
+    id: 5,
+    content: "projectsPage.items[4].description",
+    image: require('@/assets/images/chess_preview.jpg'),
+    tech1:
+      "https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white",
+    tech2:
+        "https://img.shields.io/badge/Qt-41CD52?style=flat&logo=Qt&logoColor=white",
+    tech3:
+        "https://img.shields.io/badge/QtCreator-41CD52?style=flat&logo=QtCreator&logoColor=white",
+    code: "https://github.com/adelekekismath/ProjetDeJeuDeDame",
+    },
+
+
 ];

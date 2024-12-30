@@ -202,7 +202,12 @@
         {
             "title": "Portfolio Personnel",
             "description": "Un site web de portfolio personnel qui présente mes projets, compétences et expériences. L'objectif était de créer un site web visuellement attrayant et réactif en utilisant HTML, CSS et JavaScript."
+        },
+        {
+            "title": "Jeu de dames",
+            "description": "Un simple jeu de dames avec un autre joueur. L'objectif était de créer un jeu de bureau en utilisant Qt et C++."
         }
+
         ]
   },
 
