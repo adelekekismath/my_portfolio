@@ -1,6 +1,6 @@
 <template>
    
-<div class="my-[76px]">
+<div class="md:mt-[76px] sm:mt-0 mb-[100px]">
     <About :addSpaceOnTop="true" />
     <Personnality />
 </div>

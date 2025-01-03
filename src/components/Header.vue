@@ -40,7 +40,7 @@
       </v-col>
 
       <v-col cols="12" lg="7" sm="6" class="">
-        <v-sheet>
+        <v-sheet class=" md:mb-0 mb-10">
           <!-- Lottie animation -->
           <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_thiu5nbr.json" background="transparent"
             speed="1" loop autoplay>
