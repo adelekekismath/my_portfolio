@@ -8,7 +8,7 @@
               speed="1" style="max-width: 500px; max-height: 500px" autoplay></lottie-player>
           </div>
         </div>
-        <div class="col-lg-6 p-4">
+        <div class="col-lg-6 px-4 py-2">
           <h2 class="title-section font-bold text-2xl">
             {{ $t('allaboutMe.title[0]') }}
             <span class="marked">
