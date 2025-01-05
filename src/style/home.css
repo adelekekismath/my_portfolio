@@ -1,17 +1,12 @@
 :root {
     --primary: #6C55F9;
     --accent: #FF3D85;
-    --secondary: #645F88;
     --success: #35bb78;
-    --info: #05B4E1;
-    --warning: #FAC14D;
-    --danger: #FF4943;
-    --grey: #B4B2C5;
     --dark: #2D2B3A;
     --light: #F6F5FC;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap');
 body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5;
@@ -64,24 +59,6 @@ a.bg-primary:focus {
     background-color: #5d47eb !important;
 }
 
-.bg-accent {
-    background-color: #FF3D85 !important;
-}
-
-a.bg-accent:hover,
-a.bg-accent:focus {
-    background-color: #e93577 !important;
-}
-
-.bg-secondary {
-    background-color: #645F88 !important;
-}
-
-a.bg-secondary:hover,
-a.bg-secondary:focus {
-    background-color: #59547c !important;
-}
-
 .bg-success {
     background-color: #35bb78 !important;
     color: white;
@@ -92,59 +69,6 @@ a.bg-success:focus {
     background-color: #28a868 !important;
 }
 
-.bg-info {
-    background-color: #05B4E1 !important;
-}
-
-a.bg-info:hover,
-a.bg-info:focus {
-    background-color: #07a2c8 !important;
-}
-
-.bg-warning {
-    background-color: #FAC14D !important;
-}
-
-a.bg-warning:hover,
-a.bg-warning:focus {
-    background-color: #ebb039 !important;
-}
-
-.bg-danger {
-    background-color: #FF4943 !important;
-}
-
-a.bg-danger:hover,
-a.bg-danger:focus {
-    background-color: #e73832 !important;
-}
-
-.bg-grey {
-    background-color: #8e8aad !important;
-}
-
-a.bg-grey:hover,
-a.bg-grey:focus {
-    background-color: #7d7a99 !important;
-}
-
-.bg-light {
-    background-color: #F6F5FC !important;
-}
-
-a.bg-light:hover,
-a.bg-light:focus {
-    background-color: #EDECF5 !important;
-}
-
-.bg-dark {
-    background-color: #2D2B3A !important;
-}
-
-a.bg-dark:hover,
-a.bg-dark:focus {
-    background-color: #1d1b25 !important;
-}
 
 .text-primary {
     color: #6C55F9 !important;
@@ -182,60 +106,6 @@ a.text-success:focus {
     color: #28a868 !important;
 }
 
-.text-info {
-    color: #05B4E1 !important;
-}
-
-a.text-info:hover,
-a.text-info:focus {
-    color: #07a2c8 !important;
-}
-
-.text-warning {
-    color: #FAC14D !important;
-}
-
-a.text-warning:hover,
-a.text-warning:focus {
-    color: #ebb039 !important;
-}
-
-.text-danger {
-    color: #FF4943 !important;
-}
-
-a.text-danger:hover,
-a.text-danger:focus {
-    color: #e73832 !important;
-}
-
-.text-grey {
-    color: #8e8aad !important;
-}
-
-a.text-grey:hover,
-a.text-grey:focus {
-    color: #7d7a99 !important;
-}
-
-.text-light {
-    color: #F6F5FC !important;
-}
-
-a.text-light:hover,
-a.text-light:focus {
-    color: #EDECF5 !important;
-}
-
-.text-dark {
-    color: #2D2B3A !important;
-}
-
-a.text-dark:hover,
-a.text-dark:focus {
-    color: #1d1b25 !important;
-}
-
 .nav-items{
     display: flex;
     margin: 0 auto;
@@ -261,10 +131,6 @@ a.text-dark:focus {
 
 .border {
     border-color: #e9e8f5 !important;
-}
-
-.border-top {
-    border-top-color: #e9e8f5 !important;
 }
 
 .border-right {
