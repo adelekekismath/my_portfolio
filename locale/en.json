@@ -2,7 +2,7 @@
   "welcome": "Welcome to my world",
   "title": [
         "Hi, I'm",
-        "a Full-Stack Developer."
+        "a Software engineer"
     ],
     "quickDescription": "With 2+ years experienced in creating scalable web applications with modern JavaScript/TypeScript frameworks.",
     "home": "Home",
@@ -10,11 +10,12 @@
     "about": "About",
     "contact": "Contact",
     "aboutMe": "Learn more about me",
-    "blog": "Blogs",
+    "blog": "Blog",
     "myResume": "My Resume",
     "allRightsReserved": "All rights reserved",
     "availableForHire": "Open to work",
     "siteName": "Kismath Adeleke",
+    "downloadResume": "Download Resume",
 
 
     "projects": "Projects",

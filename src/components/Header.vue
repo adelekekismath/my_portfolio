@@ -1,6 +1,6 @@
 <template>
   <v-container class="hero-section pt-0">
-    <v-row class="d-flex align-center justify-center header-desc">
+    <v-row class="d-flex align-center justify-center header-desc sm:mt-10 md:mt-[100px] !mb-[100px]">
       <v-col cols="12" lg="5" sm="6" >
         <v-sheet elevation="0" class="pa-5">
           <div class="d-flex align-center ">
@@ -19,20 +19,21 @@
               </p>
 
               <div class="availability-indicator mb-5">
-                <v-chip color="#6C55F9"  variant="elevated" >
-                    <v-icon left class="mr-1">mdi-circle</v-icon>
-                    <div class="text-l max-w-xs]" >
+                    <v-icon left class="mr-1 marked border-blink">mdi-circle</v-icon>
+                    <div class="text-l max-w-xs] marked" >
                         {{ $t("availableForHire") }}
                     </div>
-                </v-chip>
               </div>
 
               <div class="d-flex align-center gap-1 mt-4">
                 <SocialLink url="https://github.com/adelekekismath" icon="mdi-github" />
                 <SocialLink url="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" icon="mdi-linkedin" />
                 <SocialLink url="mailto:adelekekismath9@gmail.com" icon="mdi-email" />
-                <SocialLink url="#" icon="mdi-text-account" @click="downloadResume()" :isLink="false" />
               </div>
+
+              <v-btn class="mt-5 text-none" color="#6C55F9" dark @click="downloadResume()">
+                {{ $t("downloadResume") }}
+                </v-btn>
 
             </div>
           </div>
@@ -73,10 +74,11 @@ export default {
 <style scoped>
 .hero-section {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
+  margin-top: 80px;
 }
 
 .availability-indicator {
@@ -85,7 +87,31 @@ export default {
 }
 
 
-.header-desc {
-  margin-top: -50px;
+
+
+@media screen and (max-width: 600px) {
+  .header-desc {
+    margin-top: -50px;
+  }
+  .hero-section {
+    margin-top: 20px;
+  }
+    
 }
+.border-blink {
+    border-radius: 49%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink { 
+    0% { box-shadow: 0 0 10px 1px #6C55F9; }
+    50% { box-shadow: none; }
+    100% { box-shadow: 0 0 10px 1px #6C55F9; }
+}
+
+
+
+
+
+
 </style>
