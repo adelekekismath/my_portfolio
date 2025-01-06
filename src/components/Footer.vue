@@ -1,12 +1,12 @@
 <template>
-    <footer class="absolute mb-[30px] md:mb-0 md-0 bottom-0 left-0 right-0 bg-gray-900 text-white py-4">
+    <footer class=" hide-on-mobile absolute mb-[30px] md:mb-0 md-0 bottom-0 left-0 right-0 bg-gray-900 text-white py-4">
         <div class="container mx-auto">
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex  flex-col md:flex-row justify-between items-center">
             <div>
             
-            <p class="text-sm text-center pb-3">© 2024-2025 Kismath ADELEKE. {{ $t('allRightsReserved') }}.</p>
+            <p class="text-sm text-center  pb-3">© 2024-2025 Kismath ADELEKE. {{ $t('allRightsReserved') }}.</p>
             </div>
-            <div class="flex space-x-4 m md:mt-0 hide-on-mobile">
+            <div class="flex space-x-4 m md:mt-0 ">
             <a href="https://github.com/adelekekismath" target="_blank" class="px-1">
                 <v-btn size="40px" icon>
                 <v-icon size="20px" class="marked ">mdi-github</v-icon>
