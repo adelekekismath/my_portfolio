@@ -1,7 +1,7 @@
 <template>
     <v-app>
     <Navbar />
-    <main>
+    <main class="h-full">
         <router-view />
     </main>
     <Footer />

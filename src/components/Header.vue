@@ -1,6 +1,6 @@
 <template>
-  <v-container class="hero-section pt-0">
-    <v-row class="d-flex align-center justify-center header-desc sm:mt-10 md:mt-[100px] !mb-[100px]">
+  <v-container class="hero-section h-full pt-0">
+    <v-row class="d-flex align-center justify-center header-desc !mb-[100px]">
       <v-col cols="12" lg="5" sm="6" >
         <v-sheet elevation="0" class="pa-5">
           <div class="d-flex align-center ">
