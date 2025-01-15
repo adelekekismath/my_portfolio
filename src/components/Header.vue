@@ -1,6 +1,6 @@
 <template>
-  <v-container class="hero-section h-full pt-0">
-    <v-row class="d-flex align-center justify-center header-desc !mb-[100px]">
+  <v-container class="hero-section sm:h-full md:h-[90%] pt-0">
+    <v-row class="d-flex align-center justify-center header-desc ">
       <v-col cols="12" lg="5" sm="6" >
         <v-sheet elevation="0" class="pa-5">
           <div class="d-flex align-center ">
@@ -31,7 +31,7 @@
                 <SocialLink url="mailto:adelekekismath9@gmail.com" icon="mdi-email" />
               </div>
 
-              <v-btn class="mt-5 text-none" color="#6C55F9" dark @click="downloadResume()">
+              <v-btn aria-label="Download my resume" class="mt-5 text-none" color="#6C55F9" dark @click="downloadResume()">
                 {{ $t("downloadResume") }}
                 </v-btn>
 
@@ -91,6 +91,7 @@ export default {
 @media screen and (max-width: 600px) {
   .header-desc {
     margin-top: -50px;
+    margin-bottom: 80px !important;
   }
   .hero-section {
     margin-top: 20px;

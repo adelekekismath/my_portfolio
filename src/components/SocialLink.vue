@@ -1,6 +1,6 @@
 <template>
     <a v-if="isLink"  :href="url" target="_blank"  class="ml-3">
-      <v-btn icon>
+      <v-btn aria-label="{{ icon }}" icon>
         <v-icon class="marked">{{ icon }}</v-icon>
       </v-btn>
     </a>

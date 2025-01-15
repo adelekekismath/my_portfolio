@@ -41,21 +41,14 @@
 </template>
 
 <script>
+import { independentSkills , companySkills } from '@/data/data';
 export default {
-  name: "Skills",
-  data() {
-    return {};
-  },
-
-  props: {
-    independentSkills: {
-      type: Array,
-      required: true,
-    },
-    companySkills: {
-      type: Array,
-      required: true,
-    },
-  },
+    name: "Skills",
+    data() {
+        return {
+            independentSkills,
+            companySkills
+        };
+    }
 };
 </script>
