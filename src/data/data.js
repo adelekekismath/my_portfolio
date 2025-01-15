@@ -25,6 +25,8 @@
         "https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white",
         "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=Sass&logoColor=white",
         "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=Tailwind-CSS&logoColor=white",
+        "https://img.shields.io/badge/-C++-blue?logo=cplusplus",
+        "https://img.shields.io/badge/Qt-41CD52?style=flat&logo=Qt&logoColor=white",
       ];
       const  companySkills = [
         "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",

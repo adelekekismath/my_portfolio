@@ -1,9 +1,9 @@
 import { createWebHistory, createRouter } from 'vue-router';
 
 const Home = () => import('../components/Home.vue');
-const About = () => import('../discover/AboutPage.vue');
-const Projects = () => import('../discover/ProjectPage.vue');
-const Blogs = () => import('../discover/BlogsPage.vue');
+const About = () => import('../pages/AboutPage.vue');
+const Projects = () => import('../pages/ProjectPage.vue');
+const Blogs = () => import('../pages/BlogsPage.vue');
 const Contact = () => import('../components/Contact.vue');
 const PageNotFound = () => import("../components/PageNotFound.vue");
 
