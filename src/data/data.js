@@ -13,7 +13,7 @@
         "date": "2024.22.12",
         "title": "blogs.items[1].title",
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png",
-        "link": "https://medium.com/@adelekekismath9/ma-bataille-entre-le-frontend-et-le-backend-et-si-on-arr%C3%AAtait-de-choisir-e1311f536862",
+        "link": "https://medium.com/@adelekekismath9/la-bataille-entre-le-frontend-et-le-backend-et-si-on-arr%C3%AAtait-de-sacharner-a376d969a8d1",
         "intro": "blogs.items[1].description"
     }];
 
