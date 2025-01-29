@@ -156,6 +156,10 @@
         {
             "title": "La bataille entre le frontend et le backend : Et si on arrêtait de s'acharner ?",
             "description": "Découvrez comment j'ai appris à aimer le frontend et le backend, et pourquoi il est temps de mettre fin à la guerre entre les deux."
+        },
+        {
+            "title": "Maîtrise des outils (langages et frameworks) ou des fondamentaux en programmation : Où placer la priorité ?",
+            "description": "Une réflexion sur l'importance de maîtriser les fondamentaux de la programmation avant de plonger dans le monde des langages et des frameworks."
         }
     ],
     "readMore": "Lire plus"

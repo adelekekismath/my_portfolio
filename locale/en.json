@@ -183,6 +183,10 @@
             {
                 "title": "The battle between frontend and backend: How about we stop fighting?",
                 "description": "Find out how I learned to love the frontend and the backend, and why it's time to end the war between the two."
+            },
+            {
+                "title": "Mastering tools (languages and frameworks) or programming fundamentals: where should the priority lie?",
+                "description": "A reflection on the importance of mastering programming fundamentals before diving into the world of languages and frameworks."
             }
 
         ],
