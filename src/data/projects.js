@@ -28,7 +28,7 @@ export default [
     tech3:
       "https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white",
 
-    live: "https://birthday-wishes-by-kis.netlify.app",
+    live: "https://festivo.netlify.app/",
     code: "https://github.com/adelekekismath/birthday_wish",
   },
 
