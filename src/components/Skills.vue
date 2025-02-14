@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 px-3 md:px-8 w-screen">
+  <div class="bg-dirty-white py-12 px-3 md:px-8 w-screen">
     <div class="container">
         <h3 class="text-2xl font-bold mb-10 text-gradient">
       {{ $t("skills.title") }}
@@ -9,7 +9,7 @@
     <!-- Skill Categories -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <!-- Learned Independently -->
-      <div class="bg-white shadow-md rounded-lg p-3">
+      <div class="bg-dirty-white shadow-md rounded-lg p-3">
         <h2 class="text-xl font-bold mb-4">
           {{ $t("skills.learnIndepentlyWithProjects") }}
         </h2>
@@ -24,7 +24,7 @@
       </div>
 
       <!-- Practiced in Companies -->
-      <div class="bg-white shadow-md rounded-lg p-3">
+      <div class="bg-dirty-white shadow-md rounded-lg p-3">
         <h2 class="text-xl font-bold mb-4">
           {{ $t("skills.praticedInCompany") }}
         </h2>

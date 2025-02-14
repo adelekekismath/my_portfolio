@@ -3,9 +3,9 @@
         <div class="container">
             <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
                 <div v-for="(a, i) in project" :key="a"
-                    class="p-3 pb-0 bg-white my-2 border border-gray-200 rounded-lg shadow dark:bg-gray-800">
-                    <div class="flex flex-col space-y-5 h-full bg-white rounded-md cursor-pointer">
-                        <div class="flex items-center justify-center h-3/4 w-full rounded-t-lg bg-white">
+                    class="p-3 pb-0 bg-dirty-white my-2 border border-gray-200 rounded-lg shadow dark:bg-gray-800">
+                    <div class="flex flex-col space-y-5 h-full bg-dirty-white rounded-md cursor-pointer">
+                        <div class="flex items-center justify-center h-3/4 w-full rounded-t-lg bg-dirty-white">
                             <img class="h-full w-full" :src="project[i].image" />
                         </div>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class=" lg:w-screen">
+  <div class="bg-dirty-white lg:w-screen">
     <div class=" container mx-auto lg:w-screen  py-12">
         <div class="max-w-7xl ">
           <h3 class="text-2xl font-bold text-gradient  mb-12">

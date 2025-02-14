@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <div class="nav-contaier ">
+        <div class="nav-contaier bg-dirty-white ">
             <div class="nav-items hidden-on-mobile">
                 <button flat v-for="item in menuItems" :key="item.title" :to="item.path">
                     <router-link :to=item.path class="nav-item" active-class="active-nav-item">
