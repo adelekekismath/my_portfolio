@@ -202,32 +202,32 @@
             {
                 "title": "Clock Manager App",
                 "description": "A simple clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern",
-                "time": "100 hours +",
+                "time": "+100 hours",
                 "learn": "I learned how to use the MVC architectural pattern to create a modular application. Finally, I learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application."
             },
             {
                 "title": "Birthday personnalized wish App",
                 "description": "Birthday personnalized wish App to send birthday wishes to your loved ones. The goal was to create a fun and interactive app using React",
-                "time": "150 hours +",
+                "time": "+150 hours",
                 "learn": "I learned how to use React to create a single-page application. I also learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time."
             },
             {
                 "title": "Password Generator",
                 "description": "A simple password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript.",
-                "time": "20 hours +",
+                "time": "+20 hours",
                 "learn": "I learned how to use JavaScript to create a simple, user-friendly application. I also learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface."
             },
             {
                 "title": "Personal Portfolio",
                 "description": "A personal portfolio website that showcases my projects, skills, and experience. The goal was to create a visually appealing, responsive website using HTML, CSS, and JavaScript.",
-                "time": "250 hours +",
+                "time": "+250 hours",
                 "learn": "I learned how to use Vuejs to create a visually appealing, responsive website. I also learned how to use CSS Grid and Flexbox to create a flexible layout that adapts to different screen sizes and devices. Finally, I learn how to manage SEO and accessibility to improve the website's visibility and usability."
 
             },
             {
                 "title": "Checkers game",
                 "description": "A simple checkers game with another player. The goal was to create a desktop game using Qt and C++.",
-                "time": "70 hours +",
+                "time": "+70 hours",
                 "learn": "I learned how to use Qt and C++ to create a desktop game. I also learned how to work with the Qt framework to create a graphical user interface and handle user input events to create an interactive game experience."
             }
         ]
