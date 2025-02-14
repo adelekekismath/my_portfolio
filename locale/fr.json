@@ -191,26 +191,40 @@
   "projectsPage": {
     "liveDemo": "Démo",
     "sourceCode": "Code source",
+    "time": "Durée",
+    "whatDidILearn": "Ce que j'ai appris",
+    
     "items": [
         {
             "title": "Application de Gestion d'Horloge",
-            "description": "Une application simple de gestion d'horloge qui vous permet d'ajouter, de modifier et de supprimer des horloges pour différents fuseaux horaires. L'objectif était de créer une application modulaire tout en appliquant le modèle architectural MVC (Modèle-Vue-Contrôleur)."
+            "description": "Une application simple de gestion d'horloge qui vous permet d'ajouter, de modifier et de supprimer des horloges pour différents fuseaux horaires. L'objectif était de créer une application modulaire tout en appliquant le modèle architectural MVC (Modèle-Vue-Contrôleur).",
+            "time": "+ 100 heures",
+            "learn": "J'ai appris à utiliser le modèle architectural MVC pour créer une application modulaire. Enfin, j'ai appris à utiliser les principes SOLID (comme le principe ouvert/fermé, le principe de substitution de Listkov, le principe d'inversion de dépendance) et le modèle de publication/abonnement pour créer une application évolutive et facile à maintenir."
         },
         {
             "title": "Application de Vœux Personnalisés d'Anniversaire",
-            "description": "Une application de vœux personnalisés d'anniversaire pour envoyer des vœux d'anniversaire à vos proches. L'objectif était de créer une application amusante et interactive en utilisant React."
+            "description": "Une application de vœux personnalisés d'anniversaire pour envoyer des vœux d'anniversaire à vos proches. L'objectif était de créer une application amusante et interactive en utilisant React.",
+            "time": "+ 150 heures",
+            "learn": "J'ai appris à utiliser React pour créer une application à page unique. J'ai également appris à travailler avec les composants, les accessoires et l'état de React pour créer une interface utilisateur dynamique qui se met à jour en temps réel."
         },
         {
             "title": "Générateur de Mot de Passe",
-            "description": "Un générateur de mot de passe simple qui vous permet de générer un mot de passe aléatoire en fonction de vos préférences. L'objectif était de créer une application simple et conviviale en utilisant JavaScript vanilla."
+            "description": "Un générateur de mot de passe simple qui vous permet de générer un mot de passe aléatoire en fonction de vos préférences. L'objectif était de créer une application simple et conviviale en utilisant JavaScript vanilla.",
+            "time": "+ 20 heures",
+            "learn": "J'ai appris à utiliser JavaScript pour créer une application simple et conviviale. J'ai également appris à travailler avec des récepteurs d'événements, à manipuler le DOM et à utiliser des instructions conditionnelles pour créer une interface utilisateur interactive."
         },
         {
             "title": "Portfolio Personnel",
-            "description": "Un site web de portfolio personnel qui présente mes projets, compétences et expériences. L'objectif était de créer un site web visuellement attrayant et réactif en utilisant HTML, CSS et JavaScript."
+            "description": "Un site web de portfolio personnel qui présente mes projets, compétences et expériences. L'objectif était de créer un site web visuellement attrayant et réactif en utilisant HTML, CSS et JavaScript.",
+            "time": "+ 250 heures",
+            "learn": "J'ai appris à utiliser Vuejs pour créer un site web visuellement attrayant et réactif. J'ai également appris à utiliser CSS Grid et Flexbox pour créer une mise en page flexible qui s'adapte à différentes tailles d'écran et d'appareils. Enfin, j'ai appris à gérer le référencement et l'accessibilité pour améliorer la visibilité et la convivialité du site web."
         },
         {
             "title": "Jeu de dames",
-            "description": "Un simple jeu de dames avec un autre joueur. L'objectif était de créer un jeu de bureau en utilisant Qt et C++."
+            "description": "Un simple jeu de dames avec un autre joueur. L'objectif était de créer un jeu de bureau en utilisant Qt et C++.",
+            "time": "+ 70 heures",
+            "learn": "J'ai appris à utiliser Qt et C++ pour créer un jeu de bureau. J'ai également appris à travailler avec le framework Qt pour créer une interface utilisateur graphique et gérer les événements d'entrée de l'utilisateur afin de créer une expérience de jeu interactive."
+
         }
 
         ]

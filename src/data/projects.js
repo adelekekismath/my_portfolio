@@ -14,6 +14,8 @@ export default [
       "https://img.shields.io/badge/CSS-181717?style=flat&logo=css3&logoColor=white",
     live: "https://timemanager-by-kis.netlify.app/",
     code: "https://github.com/adelekekismath/template-ts",
+    time: "projectsPage.items[0].time",
+    learn: "projectsPage.items[0].learn",
   },
 
   {
@@ -30,6 +32,8 @@ export default [
 
     live: "https://festivo.netlify.app/",
     code: "https://github.com/adelekekismath/birthday_wish",
+    time: "projectsPage.items[1].time",
+    learn: "projectsPage.items[1].learn",
   },
 
   {
@@ -45,6 +49,9 @@ export default [
       "https://img.shields.io/badge/CSS-181717?style=flat&logo=css3&logoColor=white",
     live: "https://passwordgenerator-by-kis.netlify.app/",
     code: "https://github.com/adelekekismath/password_generator",
+    time: "projectsPage.items[2].time",
+    learn: "projectsPage.items[2].learn",
+
   },
 
   {
@@ -61,6 +68,8 @@ export default [
 
     live: "https://kismath-adeleke.netlify.app/",
     code: "https://github.com/adelekekismath/my_portfolio",
+    time: "projectsPage.items[3].time",
+    learn: "projectsPage.items[3].learn",
   },
 
     {
@@ -75,7 +84,10 @@ export default [
     tech3:
         "https://img.shields.io/badge/QtCreator-41CD52?style=flat&logo=QtCreator&logoColor=white",
     code: "https://github.com/adelekekismath/ProjetDeJeuDeDame",
+    time: "projectsPage.items[4].time",
+    learn: "projectsPage.items[4].learn",
     },
+
 
 
 ];
