@@ -64,7 +64,7 @@ export default {
   },
   methods: {
     downloadResume() {
-      const resumeUrl = require("@/assets/resume.pdf");
+      const resumeUrl = "/assets/resume.pdf";
       window.open(resumeUrl.default, "_blank");
     },
   },

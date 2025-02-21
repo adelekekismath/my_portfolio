@@ -14,7 +14,7 @@
           {{ $t("skills.learnIndepentlyWithProjects") }}
         </h2>
         <div class="flex flex-wrap gap-1">
-          <span v-for="(skill, index) in independentSkills" :key="index" class="badge">
+          <span v-for="(skill, index) in skills.independentSkills" :key="index" class="badge">
             <img class="w-20 h-6" :src="skill" alt="" />
           </span>
         </div>
@@ -29,7 +29,7 @@
           {{ $t("skills.praticedInCompany") }}
         </h2>
         <div class="flex flex-wrap gap-1">
-          <span v-for="(skill, index) in companySkills" :key="index" class="badge">
+          <span v-for="(skill, index) in skills.companySkills" :key="index" class="badge">
             <img class="w-20 h-6" :src="skill" alt="" />
           </span>
         </div>
@@ -41,14 +41,18 @@
 </template>
 
 <script>
-import { independentSkills , companySkills } from '@/data/data';
-export default {
-    name: "Skills",
-    data() {
-        return {
-            independentSkills,
-            companySkills
-        };
-    }
-};
+    import { mapState, mapActions } from 'vuex';
+    export default {
+        name: "Skills",
+        computed: {
+            ...mapState("skills",["skills"]),
+        },
+        methods: {
+            ...mapActions("skills",["fetchSkills"]),
+        },
+        created() {
+            this.fetchSkills();
+            console.log(this.skills);
+        },
+    };
 </script>

@@ -201,21 +201,21 @@
         "items": [
             {
                 "title": "Clock Manager App",
-                "description": "A simple clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern",
+                "description": "A clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern",
                 "time": "+100 hours",
-                "learn": "I learned how to use the MVC architectural pattern to create a modular application. Finally, I learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application."
+                "learn": "I learned how to use the MVC architectural pattern to create a modular application. I also learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application."
             },
             {
                 "title": "Birthday personnalized wish App",
                 "description": "Birthday personnalized wish App to send birthday wishes to your loved ones. The goal was to create a fun and interactive app using React",
                 "time": "+150 hours",
-                "learn": "I learned how to use React to create a single-page application. I also learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time."
+                "learn": "I learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time. I also learned how to use React Router to create a multi-page application and manage application state using React Context."
             },
             {
                 "title": "Password Generator",
-                "description": "A simple password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript.",
-                "time": "+20 hours",
-                "learn": "I learned how to use JavaScript to create a simple, user-friendly application. I also learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface."
+                "description": "A  password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript.",
+                "time": "+10 hours",
+                "learn": " I learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface."
             },
             {
                 "title": "Personal Portfolio",
@@ -226,9 +226,15 @@
             },
             {
                 "title": "Checkers game",
-                "description": "A simple checkers game with another player. The goal was to create a desktop game using Qt and C++.",
+                "description": "A checkers game with another player. The goal was to create a desktop game using Qt and C++.",
                 "time": "+70 hours",
                 "learn": "I learned how to use Qt and C++ to create a desktop game. I also learned how to work with the Qt framework to create a graphical user interface and handle user input events to create an interactive game experience."
+            },
+            {
+                "title": "react-tailwind-generator NPM package",
+                "description": "A  NPM package that allows you to generate React components with Tailwind CSS classes. The goal was to create a reusable components that simplifies the process of creating React components with Tailwind CSS.",
+                "time": "+100 hours",
+                "learn": "I learned how to create an NPM package using Node.js and publish it to the NPM registry. I also learned how to work with the React and Tailwind CSS libraries to create reusable components that simplify the process of creating user interfaces."
             }
         ]
     },

@@ -8,7 +8,6 @@ import * as en from '../locale/en.json';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import router from './router/router.js';
-import './data/projects.js';
 import './style/home.css';
 import './style/tailwind.css';
 import '@mdi/font/css/materialdesignicons.css';
@@ -18,6 +17,10 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { MotionPlugin } from '@vueuse/motion'
+import createStore from './store/index.js';
+
+
+const Store = createStore;
 
 
 
@@ -40,7 +43,10 @@ const i18n = createI18n({
   });
 
 
+
+
 const app = createApp(App);
+app.use(Store);
 app.use(i18n);
 app.use(MotionPlugin);
 app.use(router);

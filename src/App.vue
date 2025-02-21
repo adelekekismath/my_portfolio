@@ -16,11 +16,7 @@
 
     export default {
         name: 'App',
-        data() {
-            return {
-                blog: require('./data/data.js').default, 
-            };
-        },
+        
         components: {
             Navbar,
             Footer

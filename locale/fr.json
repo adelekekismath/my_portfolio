@@ -5,7 +5,7 @@
   "myPortfolio": "Mon Portfolio",
   "home": "Accueil",
   "name": "Kismath ADELEKE",
-  "about": "A propos",
+  "about": "À propos",
   "aboutMe": "Qui suis-je ?",
   "blog": "Blog",
   "myResume": "Mon CV",
@@ -21,7 +21,7 @@
     "praticedInCompany": "Utilisés en entreprise",
     "seeProjects": "Voir mes projets"
   },
-  "availableForHire": "Disponible imédiatement pour un CDI",
+  "availableForHire": "Ouvert à l'emploi",
 
   "education": {
     "title": "Education",
@@ -47,15 +47,6 @@
         "year": "2018",
         "description": "Cours principaux  : mathématiques, physique et sciences de la vie et de la terre"
       }
-    ]
-  },
-
-  "skillsAndExperience": {
-    "title": ["Mes", "Compétences & Expériences"],
-    "description": [
-      "Je suis titulaire d'un Master en Ingénierie Informatique de l'Université Sorbonne, obtenu lors d'un apprentissage de deux ans chez Bien'ici en tant que développeuse full-stack. Là-bas, j'ai développé des solutions numériques 3D innovantes pour la promotion immobilière",
-      "Je suis spécialisée dans le développement front-end, créant des sites web modernes et réactifs en utilisant JavaScript, TypeScript, Vue.js, React et HTML/CSS, tout en ayant également de l'expérience dans le développement back-end avec Node.js et Python.",
-      "Compétente en gestion de base de données et en informatique en nuage, je suis une apprenante rapide qui aime relever les défis et s'engage à fournir un code propre, maintenable et des expériences utilisateur exceptionnelles."
     ]
   },
 
@@ -197,21 +188,21 @@
     "items": [
         {
             "title": "Application de Gestion d'Horloge",
-            "description": "Une application simple de gestion d'horloge qui vous permet d'ajouter, de modifier et de supprimer des horloges pour différents fuseaux horaires. L'objectif était de créer une application modulaire tout en appliquant le modèle architectural MVC (Modèle-Vue-Contrôleur).",
+            "description": "Une application de gestion d'horloges qui vous permet d'ajouter, de modifier et de supprimer des horloges pour différents fuseaux horaires. L'objectif était de créer une application modulaire tout en appliquant le modèle architectural MVC (Modèle-Vue-Contrôleur) ",
             "time": "+ 100 heures",
-            "learn": "J'ai appris à utiliser le modèle architectural MVC pour créer une application modulaire. Enfin, j'ai appris à utiliser les principes SOLID (comme le principe ouvert/fermé, le principe de substitution de Listkov, le principe d'inversion de dépendance) et le modèle de publication/abonnement pour créer une application évolutive et facile à maintenir."
+            "learn": "J'ai appris à utiliser le modèle architectural MVC pour créer une application modulaire. J'ai également appris à utiliser les principes SOLID (comme le principe ouvert/fermé, le principe de substitution de Listkov, le principe d'inversion de dépendance) et le modèle de publication/abonnement pour créer une application évolutive et facile à maintenir."
         },
         {
             "title": "Application de Vœux Personnalisés d'Anniversaire",
             "description": "Une application de vœux personnalisés d'anniversaire pour envoyer des vœux d'anniversaire à vos proches. L'objectif était de créer une application amusante et interactive en utilisant React.",
             "time": "+ 150 heures",
-            "learn": "J'ai appris à utiliser React pour créer une application à page unique. J'ai également appris à travailler avec les composants, les accessoires et l'état de React pour créer une interface utilisateur dynamique qui se met à jour en temps réel."
+            "learn": "J'ai appris à travailler avec les composants, les accessoires et l'état de React pour créer une interface utilisateur dynamique qui se met à jour en temps réel. J'ai également appris à utiliser React Router pour créer une application multipage et gérer l'état de l'application à l'aide de React Context."
         },
         {
             "title": "Générateur de Mot de Passe",
             "description": "Un générateur de mot de passe simple qui vous permet de générer un mot de passe aléatoire en fonction de vos préférences. L'objectif était de créer une application simple et conviviale en utilisant JavaScript vanilla.",
-            "time": "+ 20 heures",
-            "learn": "J'ai appris à utiliser JavaScript pour créer une application simple et conviviale. J'ai également appris à travailler avec des récepteurs d'événements, à manipuler le DOM et à utiliser des instructions conditionnelles pour créer une interface utilisateur interactive."
+            "time": "+ 10 heures",
+            "learn": "J'ai appris à travailler avec des récepteurs d'événements, à manipuler le DOM et à utiliser des instructions conditionnelles pour créer une interface utilisateur interactive."
         },
         {
             "title": "Portfolio Personnel",
@@ -221,7 +212,7 @@
         },
         {
             "title": "Jeu de dames",
-            "description": "Un simple jeu de dames avec un autre joueur. L'objectif était de créer un jeu de bureau en utilisant Qt et C++.",
+            "description": "Un jeu de dames avec un autre joueur. L'objectif était de créer un jeu de bureau en utilisant Qt et C++.",
             "time": "+ 70 heures",
             "learn": "J'ai appris à utiliser Qt et C++ pour créer un jeu de bureau. J'ai également appris à travailler avec le framework Qt pour créer une interface utilisateur graphique et gérer les événements d'entrée de l'utilisateur afin de créer une expérience de jeu interactive."
 
