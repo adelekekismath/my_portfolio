@@ -52,7 +52,6 @@
         },
         created() {
             this.fetchSkills();
-            console.log(this.skills);
         },
     };
 </script>

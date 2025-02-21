@@ -52,13 +52,21 @@
                 const tasks = [];
                 const results = [];
                 for (let j = 0; j < 4; j++) {
-                    const task = this.$t(`career.items[${i}].tasks.content[${j}]`);
-                    if (task !== `career.items[${i}].tasks.content[${j}]`) tasks.push(task);
+                    const taskKey = `career.items[${i}].tasks.content[${j}]`;
+                    if (this.$te(taskKey)) {
+                        const task = this.$t(taskKey);
+                        tasks.push(task);
+                    }
                 }
                 for (let j = 0; j < 4; j++) {
-                    const result = this.$t(`career.items[${i}].results.content[${j}]`);
-                    if (result !== `career.items[${i}].results.content[${j}]`) results.push(result);
+                    const resultKey = `career.items[${i}].results.content[${j}]`;
+                    if (this.$te(resultKey)) {
+                        const result = this.$t(resultKey);
+                        results.push(result);
+                    }
                 }
+
+
                 items.push({
                     title: this.$t(`career.items[${i}].title`),
                     company: this.$t(`career.items[${i}].company`),
