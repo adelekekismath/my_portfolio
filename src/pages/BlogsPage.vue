@@ -3,7 +3,7 @@
         <div class="container">
             <div class="my-2 grid sm:grid-cols-2 md:grid-cols-2 gap-4">
 
-                <div v-for="(blog, i) in blogs" :key="a"
+                <div v-for="(blog, i) in blogs" :key="i"
                     class="relative my-2 p-4 pb-0 bg-dirty-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" :src="blog.image" alt="" />

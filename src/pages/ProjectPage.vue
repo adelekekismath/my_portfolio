@@ -2,7 +2,7 @@
     <div class="page-section md:pt-12 md:my-[76px] mb-[130px] md:mb-[72px]">
         <div class="container">
             <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-                <div v-for="(project, i) in projects" :key="a"
+                <div v-for="(project, i) in projects" :key="i"
                     class="p-3 pb-0 bg-dirty-white my-2 border border-gray-200 rounded-lg shadow dark:bg-gray-800">
                     <div class="flex flex-col space-y-5 h-full bg-dirty-white rounded-md cursor-pointer">
                         <div class="flex items-center justify-center h-3/4 w-full rounded-t-lg bg-dirty-white">

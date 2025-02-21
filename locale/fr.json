@@ -21,7 +21,7 @@
     "praticedInCompany": "Utilisés en entreprise",
     "seeProjects": "Voir mes projets"
   },
-  "availableForHire": "Ouvert à l'emploi",
+  "availableForHire": "Ouverte à l'emploi",
 
   "education": {
     "title": "Education",
@@ -216,8 +216,14 @@
             "time": "+ 70 heures",
             "learn": "J'ai appris à utiliser Qt et C++ pour créer un jeu de bureau. J'ai également appris à travailler avec le framework Qt pour créer une interface utilisateur graphique et gérer les événements d'entrée de l'utilisateur afin de créer une expérience de jeu interactive."
 
-        }
+        },
 
+        {
+            "title": "react-tailwind-generator NPM package",
+            "description": "Un package NPM qui vous permet de générer des composants React avec des classes CSS Tailwind. L'objectif était de créer un composant réutilisable qui simplifie le processus de création de composants React avec Tailwind CSS.",
+            "time": "+ 100 heures",
+            "learn": "J'ai appris à créer un paquet NPM à l'aide de Node.js et à le publier dans le registre NPM. J'ai également appris à travailler avec les bibliothèques React et Tailwind CSS pour créer des composants réutilisables qui simplifient le processus de création d'interfaces utilisateur. Enfin, j'ai appris à gérer inquirer.js pour créer une interface de ligne de commande et inviter l'utilisateur à entrer des données."
+        }
         ]
   },
 
