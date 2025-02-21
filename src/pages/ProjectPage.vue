@@ -25,9 +25,7 @@
                             </div>
 
                             <div class="flex flex-row items-start mt-8 mb-2 space-x-3 ml-2">
-                                <img :src="project.tech1" />
-                                <img :src="project.tech2" />
-                                <img :src="project.tech3" />
+                                <img v-for="(tech, index) in project.technologies" :key="index" :src="tech" />
                             </div>
                         </div>
                         <div class="my-2">
