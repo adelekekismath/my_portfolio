@@ -24,7 +24,7 @@
                                 <strong>{{ $t('projectsPage.whatDidILearn') }} :</strong> {{ $t(`${project.learn}`) }}
                             </div>
 
-                            <div class="flex flex-row items-start mt-8 mb-2 space-x-3 ml-2">
+                            <div class="flex flex-row items-start mt-8 mb-2 flex-wrap gap-3 ml-2">
                                 <img v-for="(tech, index) in project.technologies" :key="index" :src="tech" />
                             </div>
                         </div>
