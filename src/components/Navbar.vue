@@ -59,7 +59,7 @@ export default {
                 { title: this.$t('home'), path: '/', icon: 'mdi-home' },
                 { title: this.$t('projects'), path: '/projects', icon: 'mdi-view-grid-plus' },
                 { title: this.$t('about'), path: '/about', icon: 'mdi-account-circle' },
-                { title: this.$t('blog'), path: '/blogs', icon: 'mdi-newspaper' },
+                { title: this.$t('blog'), path: '/blog', icon: 'mdi-newspaper' },
                 { title: this.$t('contact'), path: '/contact', icon: 'mdi-email' },
             ];
         }

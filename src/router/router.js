@@ -24,7 +24,7 @@ const routes = [{
         meta: {title: 'Projects | Kismath ADELEKE'}
     },
     {
-        path: "/blogs",
+        path: "/blog",
         component: Blogs,
         meta: {title: 'Blog | Kismath ADELEKE'}
     },
