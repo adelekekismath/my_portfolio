@@ -4,7 +4,7 @@
             <div class="my-2 grid sm:grid-cols-2 md:grid-cols-2 gap-4">
 
                 <div v-for="(blog, i) in blogs" :key="i"
-                    class="relative my-2 p-4 pb-0 bg-dirty-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    class="relative card  my-2 p-4 pb-0 bg-dirty-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform hover:translate-y-1 fade-in">
                     <a href="#">
                         <img class="rounded-t-lg" :src="blog.image" alt="" />
                     </a>
@@ -48,5 +48,27 @@ export default {
 <style scoped>
 .space-on-top {
     top: 60px;
+}
+
+.card {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(108, 85, 249, 0.2);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
