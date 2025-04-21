@@ -81,8 +81,8 @@
         },
         methods: {
             downloadResume() {
-            const resumeUrl = "/assets/resume.pdf";
-            window.open(resumeUrl.default, "_blank");
+            const resumeUrl = "/assets/pdf/resume.pdf";
+            window.open(resumeUrl, "_blank");
             },
         },
     };
