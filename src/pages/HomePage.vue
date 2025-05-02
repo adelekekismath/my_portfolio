@@ -83,8 +83,10 @@
         },
         methods: {
             downloadResume() {
-            const resumeUrl = "/assets/pdf/resume.pdf";
-            window.open(resumeUrl, "_blank");
+                const resume_lang = this.$i18n.locale = this.$i18n.locale === 'en' ? 'resume_en' : 'resume_fr';
+                console.log(resume_lang);
+                const resumeUrl = "/assets/pdf/"+ resume_lang+".pdf";
+                window.open(resumeUrl, "_blank");
             },
         },
     };
