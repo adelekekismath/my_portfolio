@@ -56,6 +56,7 @@
                             <span class="font-medium">{{ $t('contactPage.form.success[0]') }}</span> {{
                                 $t('contactPage.form.success[1]') }}
                         </v-alert>
+
                     </form>
                 </div>
             </div>
@@ -92,25 +93,21 @@ export default {
     methods: {
 
         sendEmail() {
-            const SERVICE_ID = process.env.VUE_APP_SERVICE_ID;
-            const TEMPLATE_ID = process.env.VUE_APP_TEMPLATE_ID;
-            const PUBLIC_KEY = process.env.VUE_APP_PUBLIC_KEY;
-
-            if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
-                console.error('EmailJS credentials are not set in the environment variables.');
-                return;
-            }
-            this.messageSent = false;
-            emailjs.send(SERVICE_ID, TEMPLATE_ID, this.form, {
-                publicKey: PUBLIC_KEY
+            fetch("/.netlify/functions/send-email", {
+                method: "POST",
+                body: JSON.stringify({
+                name: this.form.from_name,
+                email: this.form.from_email,
+                message: this.form.message
+            })})
+            .then((res)=>res.json())
+            .then((data)=>{
+                this.messageSent = true;
             })
-                .then((response) => {
-                    console.log('SUCCESS!', response.status, response.text);
-                    this.resetForm();
-                    this.messageSent = true;
-                }, (error) => {
-                    console.log('FAILED...', error);
-                });
+            .catch((error)=>{
+                console.log("Nous avons rencontrés cette erreur", error)
+            })
+            
         },
 
         resetForm() {
