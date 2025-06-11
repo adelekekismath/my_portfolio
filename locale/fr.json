@@ -223,6 +223,12 @@
             "description": "Un package NPM qui vous permet de générer des composants React avec des classes CSS Tailwind. L'objectif était de créer un composant réutilisable qui simplifie le processus de création de composants React avec Tailwind CSS.",
             "time": "+ 300 heures",
             "learn": "J'ai appris à créer un paquet NPM à l'aide de Node.js et à le publier dans le registre NPM. J'ai également appris à travailler avec les bibliothèques React et Tailwind CSS pour créer des composants réutilisables qui simplifient le processus de création d'interfaces utilisateur. Enfin, j'ai appris à gérer inquirer.js pour créer une interface de ligne de commande et inviter l'utilisateur à entrer des données."
+        },
+        {
+            "title": "Application de quiz",
+            "description": "Une application de quiz qui vous permet de créer et de répondre à des quiz. L'objectif était de créer une application amusante et interactive en utilisant Vue 3 et TypeScript et de maîtriser le concept de l'API de composition.",
+            "time": "+ 20 heures",
+            "learn": "J'ai appris à travailler avec les composants Vue, les accessoires et l'état pour créer une interface utilisateur dynamique avec l'API de composition de Vue 3. J'ai également appris à tester les composants Vue à l'aide de Vitest."
         }
         ]
   },

@@ -16,6 +16,21 @@
         "time": "projectsPage.items[5].time",
         "learn": "projectsPage.items[5].learn"
     },
+    {
+        "name": "projectsPage.items[6].title",
+        "id": 7,
+        "content": "projectsPage.items[6].description",
+        "image": "/assets/images/quiz_preview.png",
+        "technologies": [
+            "https://img.shields.io/badge/VueJS3-439A97?style=flat&logo=Vue.js&logoColor=white",
+            "https://img.shields.io/badge/Tailwind_CSS-181717?style=flat&logo=tailwind-css&logoColor=white",
+            "https://img.shields.io/badge/Typescript-439A97?style=flat&logo=Typescript&logoColor=white"
+        ],
+        "live": "https://quizzzztime.netlify.app/",
+        "code": "https://github.com/adelekekismath/quiz",
+        "time": "projectsPage.items[6].time",
+        "learn": "projectsPage.items[6].learn"
+    },
 
     {
         "name": "projectsPage.items[1].title",

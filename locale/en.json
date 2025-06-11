@@ -235,6 +235,12 @@
                 "description": "A  NPM package that allows you to generate React components with Tailwind CSS classes. The goal was to create a reusable components that simplifies the process of creating React components with Tailwind CSS.",
                 "time": "+300 hours",
                 "learn": "I learned how to create an NPM package using Node.js and publish it to the NPM registry. I also learned how to work with the React and Tailwind CSS libraries to create reusable components that simplify the process of creating user interfaces. Finally, I learn how to manage inquirer.js to create a command-line interface and prompt the user for input."
+            },
+            {
+                "title": "Quiz App",
+                "description": "A quiz app that allows you to create and take quizzes. The goal was to create a fun and interactive app using Vue 3 and TypeScript and to master the composition API concept.",
+                "time": "+20 hours",
+                "learn": "I learned how to work with Vue components, props, and state to create a dynamic user interface with Vue 3's composition API. I also learn how test Vue components using Vitest."
             }
         ]
     },

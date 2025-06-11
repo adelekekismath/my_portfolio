@@ -1,4 +1,4 @@
-his is my personnal portfolio, make with love and passion.
+This is my personnal portfolio, make with love and passion.
 
 ## How to install
 
