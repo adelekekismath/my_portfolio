@@ -14,7 +14,9 @@
         "live": "https://www.npmjs.com/package/react-tailwind-generator?activeTab=readme",
         "code": "https://github.com/adelekekismath/react-tailwind-generator",
         "time": "projectsPage.items[5].time",
-        "learn": "projectsPage.items[5].learn"
+        "learn": "projectsPage.items[5].learn",
+        "status": "projectsPage.items[5].status",
+        "category": "npm package"
     },
     {
         "name": "projectsPage.items[6].title",
@@ -29,7 +31,9 @@
         "live": "https://quizzzztime.netlify.app/",
         "code": "https://github.com/adelekekismath/quiz",
         "time": "projectsPage.items[6].time",
-        "learn": "projectsPage.items[6].learn"
+        "learn": "projectsPage.items[6].learn",
+        "status": "projectsPage.items[6].status",
+        "category": "Frontend"
     },
 
     {
@@ -48,7 +52,9 @@
         "live": "https://festivo.netlify.app/",
         "code": "https://github.com/adelekekismath/birthday_wish",
         "time": "projectsPage.items[1].time",
-        "learn": "projectsPage.items[1].learn"
+        "learn": "projectsPage.items[1].learn",
+        "status": "projectsPage.items[1].status",
+        "category": "Fullstack"
       },
   
 
@@ -66,12 +72,10 @@
     "live": "https://timemanager-by-kis.netlify.app/",
     "code": "https://github.com/adelekekismath/template-ts",
     "time": "projectsPage.items[0].time",
-    "learn": "projectsPage.items[0].learn"
+    "learn": "projectsPage.items[0].learn",
+    "status": "projectsPage.items[0].status",
+    "category": "TS Vanilla"
   },
-
-  
-
-
 
   {
     "name": "projectsPage.items[2].title",
@@ -87,7 +91,9 @@
     "live": "https://passwordgenerator-by-kis.netlify.app/",
     "code": "https://github.com/adelekekismath/password_generator",
     "time": "projectsPage.items[2].time",
-    "learn": "projectsPage.items[2].learn"
+    "learn": "projectsPage.items[2].learn",
+    "status": "projectsPage.items[2].status",
+    "category": "JS Vanilla"
 
   },
 
@@ -106,7 +112,9 @@
     "live": "https://kismath-adeleke.netlify.app/",
     "code": "https://github.com/adelekekismath/my_portfolio",
     "time": "projectsPage.items[3].time",
-    "learn": "projectsPage.items[3].learn"
+    "learn": "projectsPage.items[3].learn",
+    "status": "projectsPage.items[3].status",
+    "category": "Frontend"
   },
 
     {
@@ -122,7 +130,10 @@
     ],
     "code": "https://github.com/adelekekismath/ProjetDeJeuDeDame",
     "time": "projectsPage.items[4].time",
-    "learn": "projectsPage.items[4].learn"
+    "learn": "projectsPage.items[4].learn",
+    "status": "projectsPage.items[4].status",
+    "category": "Desktop"
+
     }
 
    

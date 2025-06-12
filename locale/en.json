@@ -60,7 +60,7 @@
             "items": [
               {
                 "title": "Full-Stack Developer",
-                "company": "Bien'ici, 2 years (2022 - 2024)",
+                "company": "Bien'ici, 2 years (2022 - 2025)",
                 "location": "Paris, France",
                 "context": "Development of innovative 3D digital solutions (3D plans, virtual tours, and configurable visits) to promote new real estate programs tailored to the needs of property developers.",
                 "team": {
@@ -187,6 +187,18 @@
             {
                 "title": "Mastering tools (languages and frameworks) or programming fundamentals: where should the priority lie?",
                 "description": "A reflection on the importance of mastering programming fundamentals before diving into the world of languages and frameworks."
+            },
+            {
+                "title": "Reading legacy code: a necessary skill for developers",
+                "description": "Discover the importance of reading legacy code and how it can help you become a better developer."
+            },
+            {
+                "title": "My checklist before asking for help",
+                "description": "Before asking for help, here's my checklist to make sure I'm well prepared and asking the right questions."
+            },
+            {
+                "title": "Adding a feature to legacy code: a challenge for developers",
+                "description": "Discover how I added a new feature to legacy code and the challenges I faced along the way."
             }
 
         ],
@@ -195,52 +207,63 @@
 
     "projectsPage": {
         "liveDemo": "Live Demo",
+        "technologies": "Technologies",
         "sourceCode": "Source Code",
+        "intro": "Here are some of my projects that I have worked on. Each project is a reflection of my skills and passion for software development. I have applied various technologies and methodologies to create scalable and maintainable applications.",
         "time": "Time",
         "whatDidILearn": "What did I learn ?",
+        "defaultStatus": "Still in development",
         "items": [
             {
                 "title": "Clock Manager App",
                 "description": "A clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern",
                 "time": "+100 hours",
-                "learn": "I learned how to use the MVC architectural pattern to create a modular application. I also learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application."
+                "learn": "I learned how to use the MVC architectural pattern to create a modular application. I also learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application.",
+                "status": "Completed"
             },
             {
                 "title": "Birthday personnalized wish App",
                 "description": "Birthday personnalized wish App to send birthday wishes to your loved ones. The goal was to create a fun and interactive app using React",
                 "time": "+150 hours",
-                "learn": "I learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time. I also learned how to use React Router to create a multi-page application and manage application state using React Context."
+                "learn": "I learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time. I also learned how to use React Router to create a multi-page application and manage application state using React Context.",
+                "status": "Completed"
+
             },
             {
                 "title": "Password Generator",
                 "description": "A  password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript.",
                 "time": "+10 hours",
-                "learn": " I learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface."
+                "learn": " I learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface.",
+                "status": "Completed"
             },
             {
                 "title": "Personal Portfolio",
                 "description": "A personal portfolio website that showcases my projects, skills, and experience. The goal was to create a visually appealing, responsive website using HTML, CSS, and JavaScript.",
                 "time": "+250 hours",
-                "learn": "I learned how to use Vuejs to create a visually appealing, responsive website. I also learned how to use CSS Grid and Flexbox to create a flexible layout that adapts to different screen sizes and devices. Finally, I learn how to manage SEO and accessibility to improve the website's visibility and usability."
+                "learn": "I learned how to use Vuejs to create a visually appealing, responsive website. I also learned how to use CSS Grid and Flexbox to create a flexible layout that adapts to different screen sizes and devices. Finally, I learn how to manage SEO and accessibility to improve the website's visibility and usability.",
+                "status": "Completed"
 
             },
             {
                 "title": "Checkers game",
                 "description": "A checkers game with another player. The goal was to create a desktop game using Qt and C++.",
                 "time": "+70 hours",
-                "learn": "I learned how to use Qt and C++ to create a desktop game. I also learned how to work with the Qt framework to create a graphical user interface and handle user input events to create an interactive game experience."
+                "learn": "I learned how to use Qt and C++ to create a desktop game. I also learned how to work with the Qt framework to create a graphical user interface and handle user input events to create an interactive game experience.",
+                "status": "Completed"
             },
             {
                 "title": "react-tailwind-generator NPM package",
                 "description": "A  NPM package that allows you to generate React components with Tailwind CSS classes. The goal was to create a reusable components that simplifies the process of creating React components with Tailwind CSS.",
                 "time": "+300 hours",
-                "learn": "I learned how to create an NPM package using Node.js and publish it to the NPM registry. I also learned how to work with the React and Tailwind CSS libraries to create reusable components that simplify the process of creating user interfaces. Finally, I learn how to manage inquirer.js to create a command-line interface and prompt the user for input."
+                "learn": "I learned how to create an NPM package using Node.js and publish it to the NPM registry. I also learned how to work with the React and Tailwind CSS libraries to create reusable components that simplify the process of creating user interfaces. Finally, I learn how to manage inquirer.js to create a command-line interface and prompt the user for input.",
+                "status": "Completed but still in development"
             },
             {
                 "title": "Quiz App",
                 "description": "A quiz app that allows you to create and take quizzes. The goal was to create a fun and interactive app using Vue 3 and TypeScript and to master the composition API concept.",
                 "time": "+20 hours",
-                "learn": "I learned how to work with Vue components, props, and state to create a dynamic user interface with Vue 3's composition API. I also learn how test Vue components using Vitest."
+                "learn": "I learned how to work with Vue components, props, and state to create a dynamic user interface with Vue 3's composition API. I also learn how test Vue components using Vitest.",
+                "status": "Completed"
             }
         ]
     },

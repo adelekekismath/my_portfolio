@@ -1,27 +1,58 @@
 [
     {
-        "username": "Kismath ADELEKE",
         "date": "2024.20.12",
         "title": "blogs.items[0].title",
         "image": "https://miro.medium.com/v2/resize:fit:1400/0*aVG0mK8Xf5iIJqmI.jpeg",
         "link": "https://medium.com/@adelekekismath9/derri%C3%A8re-l%C3%A9cran-mes-%C3%A9checs-mes-le%C3%A7ons-et-ma-passion-du-code-47b4597b34d5",
-        "intro": "blogs.items[0].description"
+        "intro": "blogs.items[0].description",
+        "category": "Personal Journey",
+        "readingTime": "5 min read"
     },
 
     {
-        "username": "Kismath ADELEKE",
         "date": "2024.22.12",
         "title": "blogs.items[1].title",
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190712131938/front-end-vs-back-end.png",
         "link": "https://medium.com/@adelekekismath9/la-bataille-entre-le-frontend-et-le-backend-et-si-on-arr%C3%AAtait-de-sacharner-a376d969a8d1",
-        "intro": "blogs.items[1].description"
+        "intro": "blogs.items[1].description",
+        "category": "Web Development",
+        "readingTime": "4 min read"
     },
     {
-        "username": "Kismath ADELEKE",
         "date": "2024.24.12",
         "title": "blogs.items[2].title",
         "image": "https://miro.medium.com/v2/resize:fit:1400/1*ny6cbIuKd8hOhLwqIpsodw.jpeg",
         "link": "https://medium.com/@adelekekismath9/ma%C3%AEtrise-des-outils-langages-et-frameworks-ou-des-fondamentaux-en-programmation-o%C3%B9-placer-la-20447435f145",
-        "intro": "blogs.items[2].description"
+        "intro": "blogs.items[2].description",
+        "category": "Programming Fundamentals",
+        "readingTime": "4 min read"
+    },
+    {
+        "date": "2025.04.12",
+        "title": "blogs.items[3].title",
+        "image": "/assets/images/read_leagcy_code.png",
+        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_lecture-de-code-activity-7315252230255751169-oXyM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
+        "intro": "blogs.items[3].description",
+        "category": "Legacy Code",
+        "readingTime": "3 min read"
+
+    },
+    {
+        "date": "2025.05.12",
+        "title": "blogs.items[4].title",
+        "image": "/assets/images/checklist_before_asking_for_help.png",
+        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_checklist-activity-7318158764140883970-MA3s?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
+        "intro": "blogs.items[4].description",
+        "category": "Problem Solving",
+        "readingTime": "2 min read"
+    },
+    {
+        "date": "2025.05.19",
+        "title": "blogs.items[5].title",
+        "image": "/assets/images/add_feature_to_leagacy.png",
+        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_legacycode-activity-7330174135450439680-Egua?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
+        "intro": "blogs.items[5].description",
+        "category": "Legacy Code",
+        "readingTime": "3 min read"
     }
 ]
