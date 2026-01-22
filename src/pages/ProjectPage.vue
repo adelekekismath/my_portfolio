@@ -19,36 +19,33 @@
       <div class="relative h-60 w-full overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-700 dark:to-gray-800">
         <img
           :src="project.image || '/project-placeholder.jpg'"
-          :alt="project.name"
+          :alt="`projectsPage.projects.${project.slug}.title`"
           class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
         />
         <span class="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 text-xs font-medium px-3 py-1 rounded-full shadow">
-           {{ $t(project.status) }}
+           {{ $t(`projectsPage.projects.${project.slug}.status`) }}
         </span>
       </div>
 
       <div class="p-6">
         <div class="flex items-center justify-between mb-3">
-          <span class="text-sm text-indigo-600 dark:text-indigo-400 font-medium">
-            {{ project.category || $t("projectsPage.defaultCategory") }}
-          </span>
           <span class="text-sm text-gray-500 dark:text-gray-400 flex items-center">
             <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
-            {{ $t(project.time) }}
+            {{ $t(`projectsPage.projects.${project.slug}.time`) }}
           </span>
         </div>
 
         <!-- Project Title -->
         <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">
-          {{ $t(project.name) }}
+          {{ $t(`projectsPage.projects.${project.slug}.title`) }}
         </h3>
 
         <!-- Project Description -->
         <p class="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
-          {{ $t(project.content) }}
+          {{ $t(`projectsPage.projects.${project.slug}.description`) }}
         </p>
 
         <!-- What I Learned -->
@@ -57,7 +54,7 @@
             {{ $t("projectsPage.whatDidILearn") }}:
           </h4>
           <p class="text-gray-600 dark:text-gray-400 text-sm">
-            {{ $t(project.learn) }}
+            {{ $t(`projectsPage.projects.${project.slug}.learn`) }}
           </p>
         </div>
 

@@ -213,59 +213,50 @@
         "time": "Time",
         "whatDidILearn": "What did I learn ?",
         "defaultStatus": "Still in development",
-        "items": [
-            {
-                "title": "Clock Manager App",
-                "description": "A clock manager app that allows you to add, edit, and delete clocks for different time zones. The goal was to create a modular application while applying the MVC (Model-View-Controller) architectural pattern",
-                "time": "+100 hours",
-                "learn": "I learned how to use the MVC architectural pattern to create a modular application. I also learn how to use SOLID principles (like Open/Closed Principle, Listkov Substitution Principle, Dependency Inversion Principle) and publish/subscribe pattern to create a scalable and maintainable application.",
-                "status": "Completed"
-            },
-            {
-                "title": "Birthday personnalized wish App",
-                "description": "Birthday personnalized wish App to send birthday wishes to your loved ones. The goal was to create a fun and interactive app using React",
-                "time": "+150 hours",
-                "learn": "I learned how to work with React components, props, and state to create a dynamic user interface that updates in real-time. I also learned how to use React Router to create a multi-page application and manage application state using React Context.",
-                "status": "Completed"
-
-            },
-            {
-                "title": "Password Generator",
-                "description": "A  password generator that allows you to generate a random password based on your preferences. The goal was to create a simple, user-friendly application using vanilla JavaScript.",
-                "time": "+10 hours",
-                "learn": " I learned how to work with event listeners, DOM manipulation, and conditional statements to create an interactive user interface.",
-                "status": "Completed"
-            },
-            {
-                "title": "Personal Portfolio",
-                "description": "A personal portfolio website that showcases my projects, skills, and experience. The goal was to create a visually appealing, responsive website using HTML, CSS, and JavaScript.",
-                "time": "+250 hours",
-                "learn": "I learned how to use Vuejs to create a visually appealing, responsive website. I also learned how to use CSS Grid and Flexbox to create a flexible layout that adapts to different screen sizes and devices. Finally, I learn how to manage SEO and accessibility to improve the website's visibility and usability.",
-                "status": "Completed"
-
-            },
-            {
-                "title": "Checkers game",
-                "description": "A checkers game with another player. The goal was to create a desktop game using Qt and C++.",
-                "time": "+70 hours",
-                "learn": "I learned how to use Qt and C++ to create a desktop game. I also learned how to work with the Qt framework to create a graphical user interface and handle user input events to create an interactive game experience.",
-                "status": "Completed"
-            },
-            {
-                "title": "react-tailwind-generator NPM package",
-                "description": "A  NPM package that allows you to generate React components with Tailwind CSS classes. The goal was to create a reusable components that simplifies the process of creating React components with Tailwind CSS.",
+        
+        "projects": {
+            "react-tailwind-generator": {
+                "title": "React Tailwind Generator (NPM)",
+                "description": "A powerful CLI tool designed to automate the creation of React components pre-configured with Tailwind CSS. It streamlines the development workflow by generating consistent boilerplates, folder structures, and styling configurations in seconds.",
                 "time": "+300 hours",
-                "learn": "I learned how to create an NPM package using Node.js and publish it to the NPM registry. I also learned how to work with the React and Tailwind CSS libraries to create reusable components that simplify the process of creating user interfaces. Finally, I learn how to manage inquirer.js to create a command-line interface and prompt the user for input.",
-                "status": "Completed but still in development"
+                "learn": "I mastered the Node.js CLI ecosystem, specifically working with Inquirer.js for interactive prompts and File System (FS) modules for automated scaffolding. I also implemented a robust publishing pipeline on the NPM registry and managed versioning and dependencies for public consumption.",
+                "status": "In development",
+                "category": "NPM Package / CLI"
             },
-            {
-                "title": "Quiz App",
-                "description": "A quiz app that allows you to create and take quizzes. The goal was to create a fun and interactive app using Vue 3 and TypeScript and to master the composition API concept.",
+            "quiz-app": {
+                "title": "Quiz App Mastery",
+                "description": "A dynamic and interactive quiz platform featuring real-time score tracking, category selection, and progress animations. The application focuses on providing a seamless user experience with high-performance state transitions.",
                 "time": "+20 hours",
-                "learn": "I learned how to work with Vue components, props, and state to create a dynamic user interface with Vue 3's composition API. I also learn how test Vue components using Vitest.",
-                "status": "Completed"
+                "learn": "Deep dive into Vue 3 Composition API and reactive state management. I implemented automated unit testing using Vitest to ensure component reliability and focused on TypeScript's strict typing to eliminate runtime errors during complex data handling.",
+                "status": "Completed",
+                "category": "Frontend Development"
+            },
+            "password-generator": {
+                "title": "Secure Password Generator",
+                "description": "A high-security tool that generates customizable, cryptographically strong passwords. Users can adjust length and character sets (symbols, numbers, uppercase) with an instant 'copy to clipboard' feature.",
+                "time": "+10 hours",
+                "learn": "I deepened my understanding of Vanilla JavaScript by implementing complex algorithms for randomization. I focused on DOM manipulation without frameworks and handled browser Clipboard APIs while ensuring a responsive UI with CSS Variables.",
+                "status": "Completed",
+                "category": "JavaScript Tool"
+            },
+            "portfolio": {
+                "title": "Professional Tech Portfolio",
+                "description": "A high-performance, responsive showcase of my engineering journey. It features multi-language support (i18n), dark mode, and dynamic project filtering, serving as a living resume of my technical evolution.",
+                "time": "+250 hours",
+                "learn": "Mastered the art of SEO optimization and accessibility (A11y) standards. I implemented a clean architecture for internationalization (i18n) and used advanced CSS techniques like Grid and Flexbox to ensure pixel-perfect rendering across all device sizes.",
+                "status": "Completed",
+                "category": "Web Architecture"
+            },
+            "checkers-game": {
+                "title": "Desktop Checkers Strategy",
+                "description": "A fully functional desktop implementation of the classic Checkers game. It includes move validation logic, a graphical board interface, and local multiplayer capabilities with a focus on low-level performance.",
+                "time": "+70 hours",
+                "learn": "I applied Object-Oriented Programming (OOP) principles in C++ and mastered the Qt Framework for GUI development. I learned to manage memory efficiently and handle complex event-driven logic for game state synchronization and move detection.",
+                "status": "Completed",
+                "category": "Desktop Software"
             }
-        ]
+        }
+
     },
 
     "contactPage": {

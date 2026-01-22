@@ -22,10 +22,7 @@
                             <i class="mdi mdi-email rounded-full pa-4 mdi-24px px-2 py-1 marked mr-4 bg-indigo-100"></i>
                             <div class="content"><a href="#">adelekekismath9@gmail.com</a></div>
                         </li>
-                        <li class="mb-8 d-flex align-center">
-                            <i class="mdi mdi-linkedin rounded-full mdi-24px px-2 py-1 marked mr-4 bg-indigo-100"></i>
-                            <div class="content"><a href="#">Kismath ADELEKE</a></div>
-                        </li>
+                    
                     </ul>
                 </div>
                 <div class="col-lg-6 py-3 wow fadeInUp fade-in delay-4">

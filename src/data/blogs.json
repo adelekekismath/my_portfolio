@@ -8,7 +8,6 @@
         "category": "Personal Journey",
         "readingTime": "5 min read"
     },
-
     {
         "date": "2024.22.12",
         "title": "blogs.items[1].title",
@@ -26,33 +25,5 @@
         "intro": "blogs.items[2].description",
         "category": "Programming Fundamentals",
         "readingTime": "4 min read"
-    },
-    {
-        "date": "2025.04.12",
-        "title": "blogs.items[3].title",
-        "image": "/assets/images/read_leagcy_code.png",
-        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_lecture-de-code-activity-7315252230255751169-oXyM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
-        "intro": "blogs.items[3].description",
-        "category": "Legacy Code",
-        "readingTime": "3 min read"
-
-    },
-    {
-        "date": "2025.05.12",
-        "title": "blogs.items[4].title",
-        "image": "/assets/images/checklist_before_asking_for_help.png",
-        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_checklist-activity-7318158764140883970-MA3s?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
-        "intro": "blogs.items[4].description",
-        "category": "Problem Solving",
-        "readingTime": "2 min read"
-    },
-    {
-        "date": "2025.05.19",
-        "title": "blogs.items[5].title",
-        "image": "/assets/images/add_feature_to_leagacy.png",
-        "link": "https://www.linkedin.com/posts/kismath-adeleke-a014a81bb_legacycode-activity-7330174135450439680-Egua?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMnBaEBX1IgpJeIxFGauhsTu__sEKiRh3w",
-        "intro": "blogs.items[5].description",
-        "category": "Legacy Code",
-        "readingTime": "3 min read"
     }
 ]

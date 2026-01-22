@@ -12,11 +12,6 @@
                 <v-icon size="20px" class="marked ">mdi-github</v-icon>
                 </v-btn>
             </a>
-            <a href="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/" target="_blank" class="px-1">
-                <v-btn size="40px" icon>
-                <v-icon size="20px" class="marked">mdi-linkedin</v-icon>
-                </v-btn>
-            </a>
             <a href="mailto:adelekekismath9@gmail.com" target="_blank" class="px-1">
                 <v-btn size="40px" icon>
                 <v-icon size="20px" class="marked">mdi-email</v-icon>

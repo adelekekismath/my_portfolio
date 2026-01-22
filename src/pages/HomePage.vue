@@ -31,10 +31,6 @@
                                     icon="mdi-github"
                                 />
                                 <SocialLink
-                                    url="https://www.linkedin.com/in/kismath-adeleke-a014a81bb/"
-                                    icon="mdi-linkedin"
-                                />
-                                <SocialLink
                                     url="mailto:adelekekismath9@gmail.com"
                                     icon="mdi-email"
                                 />
